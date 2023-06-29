@@ -1,0 +1,292 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+    <judgement>
+        <meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši sud u Podgorici
+					</FRBRauthor>
+					<FRBRdate date="2018-04-04">
+						2018-04-04
+					</FRBRdate>
+					<FRBRtitle>
+						K 37/2018
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vsp" href="/ontology/organization/VisiSud.Podgorica" showAs="Visi sud u Podgorici" />
+                <TLCPerson eId="tabas" href="/ontology/person/tabas" showAs="Predrag Tabas" />
+                <TLCPerson eId="novicic" href="/ontology/person/novicic" showAs="Slobodanka Novicic" />
+                <TLCPerson eId="va" href="/ontology/person/va" showAs="V.A." />
+                <TLCPerson eId="mb" href="/ontology/person/mb" showAs="M.B." />
+                <TLCPerson eId="sm" href="/ontology/person/sm" showAs="S.M." />
+				<TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="defense" href="/ontology/role/defense" showAs="Defense" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+                <TLCPlace eId="podgorica" href="/ontology/place/podgorica" />
+			</references>
+		</meta>
+    </judgement>
+    <judgementBody>
+        <p>U IME CRNE GORE</p>
+        <introduction>
+            <organization id="vsp" refersTo="#vsp">
+                VISI SUD U PODGORICI
+            </organization>
+            , kao prvostepeni krivicni, po sudiji 
+            <party id="tabas" refersTo="#tabas" as="#judge">
+                Tabas Predragu
+            </party>, uz ucesce
+            <party id="novicic" refersTo="#novicic" as="#clerk">
+                Novicic Slobodnake
+            </party>
+            , kao zapisnicara, u krivicnom predmetu protiv optuzenog
+            <party id="va" refersTo="#va" as="#defendant">
+                V.A.
+            </party>
+            , zbog krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz 
+            <ref href="/krivicni#art_300_para_1">
+                cl. 300 st. 1. Krivicnog zakonika Crne Gore
+            </ref>
+            , koga brani
+            <party id="mb" refersTo="#mb" as="#defense">
+                M.B.
+            </party>
+            , advokat iz Podgorice po sluzbenoj duznosti, odlucujuci po optuznici
+            <organization id="vdt" refersTo="#vdt">
+                Viseg drzavnog tuzilastva u Podgorici
+            </organization>
+            <ref href="/cg/verdict/k/2018-04-04/10/2018">
+                  Kt.br. 10/2018 od 04.04.2018.
+            </ref>
+			godine,koju je na glavnom pretresu zastupala
+            <party id="sm" refersTo="#sm" as="#prosecutor">
+               S.M.
+            </party>
+            - zamjenik 
+            <organization id="vdt" refersTo="#vdt">
+                Višeg državnog tužilaštva u Podgorici
+            </organization>
+             nakon održanog glavnog i javnog pretresa, dana 03.06.2013. 
+			 godine u prisustvu zastupnika optužbe, optuženog i njegovog branioca,
+			 istog dana je donio, a dana 07.06.2013. godine, javno objavio
+        </introduction>
+        <p>
+            P R E S U D U
+        </p>
+        <background>
+            Prema optuženom 
+            <party id="va" refersTo="#va" as ="#defendant">
+               V.A.
+            </party>
+			JMBG ..., od oca V. i majke S., rodjene V., rodjen .... godine u P..., 
+			sa prebivalištem u P...-ul. J... broj ..., državljanin Crne Gore,
+			oženjen, otac dvoje maloljetne djece, završio zanatsku autolimarsku školu, 
+			zaposlen kao mašinista u Firmi "V..." iz P..., vlasništvo V. V., 
+			lošeg imovnog stanja, neosudjivan.
+            
+        <decision>
+			<p> KRIV JE </p>
+            <p>Zato sto je:</p>
+            <p>
+				Dana 12.01.2018. godine, od pravca Tuzi ka Podgorici,
+				neovlašćeno radi prodaje prenosio 15.865,34
+				grama marihuane-supstancu proglašenu za opojnu drogu Pravilnikom o utvrdjivanju spiska droga, 
+				psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga 
+				<ref href="cg/act/sl_glasnik_cg/2012-09-11/56/12">
+					(Sl. list CG br. 56/12 od 09.11.2012. godine)
+				</ref>
+				, iako je bio svjestan da se radi o opojnoj drogi 
+				i da prenošenjem iste u svrhu prodaje postupa neovlašćeno i protivpravno,
+				pa je to i htio, tako što je, po prethodnom dogovoru sa NN licem iz Albanije,
+				kojeg je sreo u jednom lokalu u Tuzima, dogovorio da u ime i za račun tog lica, 
+				za iznos od 500,00 eura izvrši prenošenje marihuane od Tuzi do Podgorice,
+				do prodavnice "Tehnomax" na Starom Aerodromu, gdje je trabao tom istom licu da je preda,
+				a ovaj njemu dogovoreni iznos novca, pa je ovu opojnu drogu, 
+				upakovanu u 15 većih PVC pakovanja smještenih u jednom plavom koferu i 
+				količinu u rifuznom stanju smještenu u jednoj bijeloj PVC kesi, 
+				preuzeo od tog lica u Tuzima i utovario u svoje putničko motorno vozilo marke "Renault megan",
+				reg. oznaka PG ..., a zatim se uputio prema Pogorici, 
+				neovlašćeno prenoseći ovu drogu radi prodaje, u kojim radnjama je 
+				otkriven istog dana od strane ovlašćenih policijskih službenika Ministarstva 
+				unutrašnjih poslova, kada je bježeći odbacio iz vozila
+				i od sebe kofer i kesu sa ovom drogomla namijenjena daljoj neovlašćenoj prodaji,
+
+            </p>
+            <p>
+                čime je izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300_para_1">
+                    cl. 300 st. 1. Krivicnog zakonika Crne Gore
+                </ref>
+            </p>
+            <p>
+                Pa ga sud primjenom, citirane zakonske odredbe, te odredbe 
+				čl. 
+				<ref href="/krivicni_postupak#art_4">
+                    čl. 4
+                </ref>,
+				<ref href="/krivicni_postupak#art_5">
+                    čl. 5
+                </ref>,,
+				<ref href="/krivicni_postupak#art_6">
+                    čl. 6
+                </ref>,
+				<ref href="/krivicni_postupak#art_7">
+                    čl. 7
+                </ref>,
+				<ref href="/krivicni_postupak#art_8">
+                    čl. 8
+                </ref>,
+				<ref href="/krivicni_postupak#art_14">
+                    čl. 14
+                </ref>,
+				<ref href="/krivicni_postupak#art_15">
+                    čl. 15
+                </ref>,
+				<ref href="/krivicni_postupak#art_32">
+                    čl. 32
+                </ref>,
+				<ref href="/krivicni_postupak#art_36">
+                    čl. 36
+                </ref>,
+				<ref href="/krivicni_postupak#art_42">
+                    čl. 42
+                </ref>, 
+				<ref href="/krivicni_postupak#art_45">
+                    čl. 45
+                </ref>, 
+				i 
+				<ref href="/krivicni_postupak#art_46">
+                    čl. 46
+                </ref>,
+				Krivičnog zakonika, 
+				te odredbi 
+				<ref href="/krivicni_postupak#art_226">
+                    čl. 226
+                </ref>,
+				<ref href="/krivicni_postupak#art_">
+                    čl. 229
+                </ref>,
+				i 
+				<ref href="/krivicni_postupak#art_374">
+                    čl. 374
+                </ref>,
+				Zakonika o krivičnom postupku
+            </p>
+			<p> OSUDJUJE</p>
+			<p> 
+				Na kaznu zatvora u trajanju od 1 (jedne) godine. 
+			</p>
+			<p>
+			Dužan je optuženi da na ime troškova krivičnog postupka-sudskog paušala 
+			plate ovom sudu novčani iznos od 150,00 eura,
+			u roku od 15 dana po pravosnažnosti presude pod prijetnjom prinudne naplate, 
+			dok će o ostalim troškovima postupka 
+			sud odlučiti naknadno posebnim rješenjem po pribavljanju podataka o njihovoj visini.
+			</p>
+			<p> II. Na osnovu 
+				<ref href="/krivicni#art_75">
+					cl. 75
+				</ref>
+				 <ref href="/krivicni#art_300_para_7">
+					čl. 300. st. 7.
+				</ref> i 
+				Krivičnog zakonika,
+				sud optuženom i z r i č e :
+			</p>
+			<p>MJERA BEZBJEDNOSTI</p>
+			<p>ODUZIMANJE PREDMETA</p>
+			</p> I to: od optuženog 
+				 <party id="va" refersTo="#va" as ="#defendant">
+					V.A.
+				</party> 
+				I to: 15.865,34 grama opojne droge marihuane,
+				kao predmeta izvršenja krivičnog djela,
+				a koja opojna droga se ima uništiti po pravosnažnosti presude.
+			</p>
+        </decision>
+		<arguments> 
+		<p>
+			Optužnicom Višeg državnog tužilaštva u Podgorici Kt. br. 10/18 od 04.04.2018. godine, optuženom V. A. stavljeno je na teret izvršenje krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz čl. 300 st. 1 Krivičnog zakonika Crne Gore, pri kojoj optužnici je njen zastupnik u cjelosti ostao do završetka glavnog pretresa, predlažući sudu u završnoj riječi da optuženog oglasi krivim i osudi po zakonu.
+
+Optuženi V. A. priznaje izvršenje krivičnog djela stavljenog mu na teret i u svojoj odbrani kako u prethodnom postupku tako i na glavnom pretresu navodi da mu je jedan čovjek iz Albanije, čije ime i prezime nije znao, ponudio da plavi kofer u kojem se nalazilo 15 kilograma opojne droge marihuane preveze od Tuzi do Podgorice, tačnije prodavnice ''Tehnomaks'' na Starom aerodromu za iznos od 500,00 eura, što je prihvatio i za te potrebe od supruge uzeo vozilo marke ''R... m...'' reg. oznaka PG ..., sa kojim vozilom se odvezao u Tuze, gdje mu je taj nepoznati čovjek u gepek stavio kofer sa marihuanom koji je trebalo da preveze do prodavnice ''Tehnomaks'' na Starom aerodromu, gdje bi ga ovaj čovjek čekao, preuzeo kofer i platio mu dogovoreni iznos. Na putu ka Podgorici, primijetio je da iza njega ide policijski auto iz kojeg su mu blicali da stane, zbog čega se zaustavio ali se potom prepao, kada je vidio da su dva inspektora izašla iz vozila i krenula prema njemu, zbog čega je dao gas i vozeći ušao na parking prostor hotela ''Ilirija'', gdje je zaustavio vozilo, uzeo kofer iz gepeka i počeo da bježi, ali kako je kofer bio težak nije mogao da ga nosi sa sobom pa ga je odbacio od sebe i pobjegao. Objasnio je da je bio pod velikim stresom, te da je to razlog zašto je pobjegao policiji, da je jedini hranilac porodice, da ima dvoje maloljetne djece koju izdržava, dok mu supruga ne radi. Prihvatio je krivicu za izvršenje krivičnog djela i izrazio iskreno kajanje.
+
+Branilac optuženog je u završnoj riječi zamolio sud da prilikom odmjeravanja kazne posebno cijeni olakšavajuću okolnost da optuženi nije ranije osuđivan, da je otac dvoje djece, u stalnom radnom odnosu, da je izrazio iskreno kajanje i u potpunosti priznao izvršenje krivičnog djela i istog što blaže kazni.
+
+Sud je u dokaznom postupku pročitao službenu zabilješku Uprave policije CB Podgorica - Stanica policije za JRM, Jedinica policije Tuzi, Ku. br. 40/18 od 12.01.2018. godine, Zapisnik o uviđaju MUP Crne Gore Uprava policije CB Podgorica Ku. br. 40/18 od 18.01.2018. godine, Izvještaj Uprave policije CB Podgorica o kriminalističko tehničkom pregledu lica mjesta Ku. br. 40/18, broj knjige uvidjaja 85/2018, Potvrdu MUP-a Crne Gore, Uprava policije CB Podgorica o privremeno oduzetim predmetima od V. A. Ku. br. 40/18 od 18.01.2018. godine, izvršio uvid u fotodokumentaciju MUP-a Crne Gore Uprave policije CB Podgorica br. 61-10-244-73/85 od 12.01.2018. godine, Ku. br. 40/18 od 18.01.2018. godine, pročitao Izvještaj o hemijskom vještačenju Forenzičkog centra u Danilovgradu - Grupa za hemijska ispitivanja, broj 1202/18 od 27.03.2018. godine i izvršio uvid u fotodokumentaciju koja je sastavni dio izvještaja, pročitao izvod iz KE za optuženog V. A. Ministarstva pravde Crne Gore od 14.06.2018. godine.
+
+Iz sadržine službene zabilješke Uprave policije CB Podgorica - Stanica policije za JRM, Jedinica policije Tuzi, Ku. br. 40/18 od 12.01.2018. godine, proizilazi da su ovlašćeni policijski službenici te jedinice vršeći redovnu patrolnu djelatnost u reonu Tuzi navedenog dana oko 20 časova i 25 minuta zapazili putničko motorno vozilo ''R... m...'' reg. oznaka PG ... koje se kretalo iz pravca pijace u pravcu Katoličke crkve, uputili se za njim i svjetlosnom i zvučnom signalizacijom ga upozorili da se zaustavi, što je isti i učinio, a po izlasku dva policijska službenika iz službenog vozila, to vozilo se dalo u bjekstvo u pravcu centra Tuzi, skrenuo u sporednu ulicu između ugostiteljskog objekta ''Džekdonals'' i hotela ''Ilirija'', i zaustavilo na parking prostoru tog hotela, nakon čega je iz vozila izašlo jedno lice, otvorilo prtljažnik iz kojeg je uzelo plavi kofer i bijelu PVC kesu i krenulo da bježi, da bi na izlasku sa parkinga od sebe na zemljanom dijelu odbacilo kofer i bijelu PVC kesu, a zatim nastavilo da bježi prema prodavnici ''Muminović'' gdje mu se gubi svaki trag.
+
+Iz sadržine Zapisnika o uviđaju MUP Crne Gore Uprava policije CB Podgorica Ku. br. 40/18 od 18.01.2018. godine proizilazi da je isti sačinjen dana 12.01.2018. godine u 21,00 čas, na parking prostoru hotela ''Ilirija'' u centru Tuzi, gdje je zatečeno parkirano i otključano vozilo ''Renault megane'' reg. oznaka PG ..., do pola spuštenog prozora, dok je na prilaznom dijelu parkinga zatečen veći putnički kofer svijetlo plave boje sa raskopčanim patentom u kojem se nalazilo 15 pakovanja obmotanih providnom PVC folijom u kojima se nalazila biljna materija nalik na opojnu drogu marihuanu i pored kofera jedna bijela PVC kesa sa dužim bijelim kanapom u kojoj je pronađena ista materija. U vozilu je na sjedištu vozača pronađena saobraćajna dozvola od istog vozila na ime S. M. i lična karta na ime V. A., na instrument tabli vozačka dozvola na ime V. A., na suvozačevom mjestu u crnoj futroli mobilni telefon marke ''Samsung'' bijele boje, ispod futrole SIM kartica operatera M-tel IMSI broja 89382030000021534458, dok su se u telefonu nalazile dvije SIM kartice i to jedna nepoznatog operatera IMSI br. 89382011160708226829 i druga operatera T-mobile IMSI br. 89382000130007955868. U polici tapacirunga vozačevih vrata je zatečen mobilni telefon marke ''Sony xperia'' crne boje bez kartice i u polici ispred suvozača pasoš na ime V. A.. Izgled zatečenog vozila, njegove unutrašnjosti kao i pronađenih predmeta sud je utvrdio iz fotodokumentacije MUP-a Crne Gore Uprave policije CB Podgorica br. 61-10-244-73/85 od 12.01.2018. godine, Ku. br. 40/18 od 18.01.2018. godine.
+
+Iz izvještaja Uprave policije CB Podgorica o kriminalističko tehničkom pregledu lica mjesta Ku. br. 40/18, broj knjige uvidjaja 85/2018, sud je utvrdio da su pregledom lica mjesta tj. pronađenih predmeta izuzeti sledeći tragovi: putnička torba u kojoj se nalazi 15 PVC pakovanja sa NN biljnom materijom, PVC kesa sa NN biljnom materijom, bris izuzet sa jednog PVC pakovanja oblijepljen braon selotejp trakom iz putničke torbe, bris izuzet sa crne plastične ručke na torbi, putničko motorno vozilo ''R... m...'' reg. oznaka PG ..., bris izuzet sa upravljača vozila, bris izuzet sa ručice mjenjača, bris izuzet sa umutrašnje ručice prednjih lijevih vrata, mobilni telefon marke ''Samsung'' bijele boje sa futrolom na preklop, mobilni telefon marke ''Sony'', lična karta na ime V. A., vozačka dozvola na ime V. A., saobraćajna dozvola na ime S. M., pasoš na ime V. A..
+
+Iz sadržine potvrde MUP-a Crne Gore, Uprava policije CB Podgorica o privremeno oduzetim predmetima od V. A. Ku. br. 40/18 od 18.01.2018. godine utvrđuje se da je od optuženog V. A. privremeno oduzeto putničko motorno vozilo ''R... m...'' reg. oznaka PG ..., saobraćajna dozvola od istog vozila na ime S. M. broj 520094304 izdata od PJ Podgorica i ključ-kartica od vozila.
+
+Iz Izvještaja o hemijskom vještačenju Forenzičkog centra u Danilovgradu - Grupa za hemijska ispitivanja, broj 1202/18 od 27.03.2018. godine proizilazi da je da je ovom centru na vještačenje dostavljen jedan kofer plave boje i jedna braon papirna kesa u kojima se nalazi petnaest pakovanja u obliku kvadra od plastičnih kesa i folije sa sadržajem sasušene biljne materije zelene boje karakterističnog opojnog mirisa neto masa: m1=1013,06g, m2=1008,75 g, m3=996,32 g, m4=1004,05g, m5=999,28 g, m6= 972,89 g, m7= 988,08 g, m8= 985,48 g, m9= 999,17 g, m10= 998,43 g, m11= 1002,53 g, m12= 978,64 g, m13= 983,59 g, m14= 993,60 g, m15= 1012,82 g i jedna plastična kesa bijele boje sa sadržajem sasušene biljne materije zelene boje karakterističnog opojnog mirisa neto mase m=908,65g. Makroskopskim i mikroskopskim pregledom dostavljenog biljnog materijala utvrđeno je isti potiče od biljke botaničkog naziva Cannabis sativa, poznatije kao marihuana, dok je hemijskom analizom utvrđeno da ista u sebi sadrži tetrahidrokanabinol (THC) u koncentraciji iznad 0,2 %, a koja supstanca se nalazi u Pravilniku o utvrđivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga (Službeni list CG br. 56/2012). Bliži izgled dostavljenog kofera, braon papirne kese i plastične kese bijele boje sa sadržajem marihuane, a koji su bili predmet vještačenja, prikazan je i u fotodokumentaciji koja je sastavni dio ovog izvještaja, u koji je sud izvršio uvid na glavnom pretresu.
+
+Sud je izvještaj cijenio kao stručan, jasan, objektivan, zasnovan na pravilima struke i nauke, pa je isti u cjelosti prihvatio.
+
+ 
+
+Iz izvoda iz KE za optuženog V. A. Ministarstva pravde Crne Gore od 14.06.2018. godine, utvrđuje se da nije ranije osuđivan.
+
+Cijeneći navode optužbe, odbrane, te sve provedene dokaze kako pojedinačno, tako i u njihovoj međusobnoj vezi, ovaj sud nalazi, da je optuženi V. A. izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz čl. 300. st. 1 Krivičnog zakonika Crne Gore, na način, u vrijeme i na mjestu kako je to predstavljeno u izreci presude.
+
+ 
+
+Naime, u postupku je nesumnjivo utvrđeno da je optuženi V. A. dana 12.01.2018. godine, na relaciji Tuzi-naselje Stari aerodrom, Opština Podgorica, u vozilu marke ''R... M...'', reg. oznaka PG ..., kojim je upravljao, prenosio 15.865,34 grama opojne droge marihuane upakovane u 15 većih PVC pakovanja smještenih u jednom plavom koferu i bijeloj PVC kesi, a u čemu je otkriven istog dana od strane ovlašćenih policijskih službenika Ministarstva unutrašnjih poslova, kada je bježeći od policije na parking prostoru hotela ''Ilirija'' odbacio od sebe kofer i kesu sa ovom opojnom drogom.
+
+ 
+
+Prednje činjenično stanje je sud nesumnjivo utvrdio iz odbrane optuženog V. A., koji je u cjelosti priznao izvršenje krivičnog djela koje mu je stavljeno na teret, navodeći da se sa N.N. licem iz Albanije dogovorio da za iznos od 500,00 eura prenese opojnu drogu marihuanu od Tuzi do Podgorice, do prodavnice ''Tehnomax'' na Starom aerodromu, gdje je trebalo da je preda tom istom licu, na šta je pristao i za te potrebe uzeo vozilo marke ''R... m...'', vlasništvo njegove supruge, sa kojim se odvezao do Tuzi gdje ga je to lice iz Albanije koje ga je prethodno angažovalo predalo predmetnu opojnu drogu nakon čega je krenuo u pravcu Podgorice, kada je iza sebe primijetio policijsko vozilo iz kojeg su mu signalizirali da se zaustavi, što je on i učinio, ali se nakon što su dva policijska inspektora izašla iz vozila dao u bjekstvo i potom zaustavio na parking prostoru hotela ''Ilirija'', izašao iz vozila, uzeo kofer sa marihuanom, koje je potom odbacio od sebe i pobjegao.
+
+ 
+
+Odbrana optuženog V. A. nije dovedena u sumnju nijednim dokazom provedenim u postupku, naprotiv, potvrđena je materijalnim dokazima i to sadržinom službene zabilješke Uprave policije CB Podgorica - Stanica policije za JRM, Jedinica policije Tuzi, Ku. br. 40/18 od 12.01.2018. godine, iz koje nesumnjivo proizilazi da su ovlašćeni policijski službenici te jedinice vršeći redovnu patrolnu djelatnost u reonu Tuzi istog dana oko 20 časova i 25 minuta pokušali da radi kontrole zaustave putničko motorno vozilo marke ''R... m...'' reg. oznaka PG ... kojim je upravljao optuženi, da se isti zaustavio, ali se dao u bjekstvo, potom se zaustavio na parking prostoru hotela ''Ilirija'', iz prtljažnika uzeo plavi kofer i bijelu PVC kesu, da bi na izlasku sa parkinga odbacio od sebe pomenuti kofer i bijelu PVC kesu i nastavio da bježi, kada mu se gubi svaki trag, te da su u odbačenom poluotvorenom koferu uočili biljnu materiju nalik na opojnu drogu marihuanu. Nadalje, odbrana optuženog potvrđena je i sadržinom zapisnika o uviđaju MUP Crne Gore Uprava policije CB Podgorica Ku. br. 40/18 od 18.01.2018. godine iz kojeg nesumnjivo proizilazi da je na parking prostoru hotela ''Ilirija'' u centru Tuzi, zatečeno parkirano i otključano vozilo ''R... m...'' reg. oznaka PG ..., do pola spuštenog prozora, dok je na prilaznom dijelu parkinga zatečen veći putnički kofer svijetlo plave boje sa raskopčanim patentom u kojem se nalazilo 15 pakovanja obmotanih providnom PVC folijom u kojima se nalazila biljna materija za koju se pretpostavljalo da je opojna droga marihuana dok je pored kofera zatečena jedna bijela PVC kesa sa dužim bijelim kanapom u kojoj je pronađena ista materija, a što se potvrđuje i sadržinom izvještaja Uprave policije CB Podgorica o kriminalističko tehničkom pregledu lica mjesta Ku. br. 40/18, broj knjige uvidjaja 85/2018 i sadržine fotodokumentacije MUP-a Crne Gore Uprave policije CB Podgorica br. 61-10-244-73/85 od 12.01.2018. godine, Ku. br. 40/18 od 18.01.2018. godine.
+
+Vrstu i količinu opojne droge, koja je kritičnom prilikom pronadjena na prilaznom dijelu parking prostora hotela ''Ilirija'' u centru Tuzi, a koju je optuženi V. A. odbacio od sebe prilikom bjekstva, sud je utvrdio iz sadržine izvještaja o hemijskom vještačenju Forenzičkog centra u Danilovgradu - Grupa za hemijska ispitivanja, broj 1202/18 od 27.03.2018. godine, iz kojeg se nesumnjivo utvrđuje da dostavljeni biljni materijal ukupne neto mase 15.865,34 grama potiče od biljke čiji je botanički naziv Canabis sativa - poznatija kao marihuana, dok je hemijskom analizom iste utvrđeno da u sebi sadrži tetrahidrokanabiol (THC) u koncentraciji iznad 0,2 %, koja supstanca može da izazove promjenu ili poremećaj fizičkog i mentalnog zdravlja čovjeka i koja se nalazi u Pravilniku o utvrđivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga (Službeni list CG br. 56/2012).
+
+ 
+
+Činjenica da je opojna droga marihuana koja je kritičnom prilikom pronađena bila namijenjena daljoj prodaji, nesumnjivo upućuje količina opojne droge od 15.865,34 grama, kao i način njenog pakovanja u petnaest većih PVC pakovanja smještenih u jednom plavom koferu i braon papirnoj kesi i u plastičnoj kesi bijele boje.
+
+ 
+
+Cijeneći naprijed utvrđeno činjenično stanje, ovaj Sud nalazi, da su se u radnjama optuženog V. A., stekli svi bitni elementi bića krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga čl. 300. st.1. Krivičnog zakonika Crne Gore, obzirom da je u postupku nesumnjivo utvrđeno, a imajući u vidu priznanje optuženog, te sadržinu materijalnih dokaza, da je optuženi V. A., dana 12.01.2018. godine, neovlašćeno radi dalje prodaje prenosio 15.865,34 grama opojne droge marihuane supstance proglašene za opojnu drogu Pravilnikom o utvrđivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga (Službeni list CG br. 56/2012). Sve činjenice utvrđene u postupku, okolnosti konkretnog slučaja doveli su ovaj sud do zaključka, da je optuženi V. A. predmetno krivično djelo izvršio sa direktnim umišljajem. Optuženi je bio u potpunosti svjestan da radi prodaje prenosi opojnu drogu marihuanu, što je optuženi u svojoj odbrani i priznao, te da za to nema potrebna ovlašćenja, a što predstavlja bitno obilježje ovog krivičnog djela, a koja okolnost je optuženom bila poznata, što znači da je kod optuženog postojala svijest o svim obilježjima predmetnog krivičnog djela i htjenje njegovog izvršenja.
+
+ 
+
+Krivično djelo za koje je optuženi V. A. oglašen krivim je krivično djelo sa blanketnom dispozicijom, pa je kod ovih krivičnih djela, pored navodjenja činjenica i okolnosti koje čine bitna obilježja ovog krivičnog djela, a u kojima se sud već izjasnio, bilo nužno navesti i materijalno pravni propis, od kojeg zavisi postojanje ovog djela. Naime, Pravilnikom o utvrdjivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga (Sl. list CG br. 56/12 od 09.11.2012. godine) marihuana je proglašena opojnom drogom i nalazi se na spisku opojnih droga.
+
+ 
+
+Sud je cijenio i ostale provedene dokaze, pa je našao da isti nijesu od uticaja za drugačije presudjenje u krivičnoj stvari.
+
+ 
+
+Odlučujući o kazni za optuženog, sud je najprije, u smislu čl. 42. Krivičnog zakonika Crne Gore, cijenio sve okolnosti od kojih zavisi da kazna bude manja ili veća (olakšavajuće i otežavajuće okolnosti), pa je od olakšavajućih okolnosti na strani optuženog V. A. cijenio njegove lične prilike, da je oženjen, otac dvoje maloljetne djece, priznanje izvršenja krivičnog djela, koje je doprinijelo brzom i efikasnom razjašnjenju ove krivične stvari, te prihvatanje krivice za izvršenje istog i izraženo iskreno kajanje, kao i njegov raniji život tj. neosuđivanost, a što je sud utvrdio iz izvoda iz KE za optuženog, dok otežavajućih okolnosti nije bilo, pa je sud u odsustvu otežavajućih okolnosti, naprijed navedene olakšavajuće okolnosti cijenio kao naročito olakšavajuće i optuženom shodno čl. 45. i 46. Krivičnog zakonika Crne Gore, ublažio kaznu ispod zakonom propisanog minimuma za predmetno krivično djelo, osudivši ga na kaznu zatvora u trajanju od 1 (jedne) godine.
+
+Sud je našao da je ovako odmjerena kazna adekvatna stepenu krivice optuženog za izvršeno krivično djelo i težini krivičnog djela i da predstavlja onu mjeru koja je neophodno potrebna za postizanje svrhe kažnjavanja iz čl. 32. Krivičnog zakonika Crne Gore, da optuženi ubuduće ne vrši krivična djela, u okviru opšte svrhe izricanja krivičnih sankcija iz čl. 4. st. 2. Krivičnog zakonika Crne Gore.
+
+Sud je optuženom V. A. shodno čl. 300. st. 7. u vezi čl. 75. Krivičnog zakonika Crne Gore, izrekao mjeru bezbjednosti oduzimanje predmeta i to 15.865,34 grama opojne droge marihuane, kao predmeta izvršenja krivičnog djela, koja se ima uništiti nakon pravosnažnosti presude, a za koje predmete zakon predvidja obavezno oduzimanje.
+
+ 
+
+Kako je optuženi oglašen krivim, sud ga je shodno čl. 226. i 229. Zakonika o krivičnom postupku, obavezao na plaćanje troškova krivičnog postupka-sudskog paušala u iznosu od 150 eura, koji paušal je odredjen shodno dužini trajanja postupka, njegovoj složenosti i imovinskim prilikama optuženog, dok će o osatlim troškovima postupka sud odlučiti naknadno posebnim rješenjem o pribavljanju podataka o njihovoj visini.
+
+ 
+
+Na osnovu izloženog, odlučeno je kao u izreci presude.
+		</p>
+		</arguments>
+    </judgementBody>
+</akomaNtoso>

@@ -1,0 +1,265 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <judgement>
+        <meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši sud u Podgorici
+					</FRBRauthor>
+					<FRBRdate date="2019-04-25">
+						2017-03-09
+					</FRBRdate>
+					<FRBRtitle>
+						K 2/2017
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vsp" href="/ontology/organization/VisiSud.Podgorica" showAs="Visi sud u Podgorici" />
+				<TLCOrganization eId="vdt" href="/ontology/organization/ViseDrzavnoTuzilastvo.Podgorica" showAs="Vise drzavno tuzilastvo" />
+                <TLCOrganization eId="ost" href="/ontology/organization/OsnovniSud.Cetinje" showAs="Osnovni sud u Cetinju" />
+                <TLCOrganization eId="osn" href="/ontology/organization/OsnovniSud.Niksic" showAs="Osnovni sud u Niksicu" />
+                <TLCOrganization eId="osk" href="/ontology/organization/OsnovniSud.Kotor" showAs="Osnovni sud u Kotoru" />
+                <TLCOrganization eId="ascg" href="/ontology/organization/ApelacioniSud.CG" showAs="Apelacioni sud Crne Gore" />
+                <TLCPerson eId="mostrokol" href="/ontology/person/mostrokol" showAs="Vesna Mostrokol" />
+                <TLCPerson eId="radosavovic" href="/ontology/person/radosavovic" showAs="Sanja Radosavovic" />
+                <TLCPerson eId="em" href="/ontology/person/em" showAs="E.M." />
+                <TLCPerson eId="vucinic" href="/ontology/person/vucininc" showAs="Zoran Vucinic" />
+                <TLCPerson eId="zb" href="/ontology/person/zb" showAs="Z.B." />
+				<TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="defense" href="/ontology/role/defense" showAs="Defense" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+                <TLCPlace eId="podgorica" href="/ontology/place/podgorica" />
+			</references>
+		</meta>
+    </judgement>
+    <judgmentBody>
+        <introduction>
+            <organization id="vsp" refersTo="#vsp">
+                VISI SUD U PODGORICI
+            </organization>
+            , kao prvostepeni krivicni, po sudiji 
+            <party id="mostrokol" refersTo="#mostrokol" as="#judge">
+                Vesni Mostrokol
+            </party>
+            , kao pojedincu, uz ucesce namjestenika
+            <party id="radosavovic" refersTo="#radosavovic" as="#clerk">
+                Sanje Radosavovic
+            </party>
+            , kao zapisnicara, u krivicnom predmetu protiv optuzenog
+            <party id="em" refersTo="#em" as="#defendant">
+                E.M.
+            </party>
+            iz Kotora, kojeg brani
+            <party id="zb" refersTo="#zb" as="#defense">
+                Z.B.
+            </party>
+            , advokat iz Podgorice, zbog krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz
+            <ref href="/krivicni#art_300_para_1">
+                cl. 300 st. 1. Krivicnog zakonika Crne Gore
+            </ref>
+            , po optuznici
+            <organization id="vdt" refersTo="#vdt">
+                Viseg drzavnog tuzilastva u Podgorici
+            </organization>
+            Kt.br. 167/16 od 10.01.2017. godine, koju je na rocistu povodom odlucivanja o sporazumu o priznanju krivice zastupao
+            <party id="jovanovic" refersTo="#jovanovic" as="#prosecutor">
+                Zoran Vucinic
+            </party>
+            , Drzavni tuzilac u
+            <organization id="vdt" refersTo="#vdt">
+                Visem drzavnom tuzilastvu u Podgorici
+            </organization>
+            , nakon donesenog rjesenja o usvajanju sporazuma o priznanju krivice
+            , donio je dana 18.10.2021. godine,
+        </introduction>
+        <p>
+            P R E S U D U
+        </p>
+        <background>
+            <p>Optuzeni: </p>
+            <party id="es" refersTo="#es" as="#defendant">
+                E.S.
+            </party>
+            , od oca S... i majke S...
+            , rodjen ... godine u Kotoru
+            , sa prebivalistem u ... bb
+            , drzavljanin Crne gore, ... 
+            , sezonski zaposlen
+            , ozenjen, otac mldb. dvoje djece
+            , pismen, zavrsio srednu skolu
+            , loseg imovnog stanja
+            , neosudjivan
+        </background>
+        <decision>
+            <p>K R I V  J E</p>
+            <p>Zato sto je:</p>
+            <p> 
+                Dana 23.11.2016. godine u Podgorici, svjestan svog djela čije je izvršenje htio, neovlašćeno posredovao u kupovini opojne droge heroin-supstance proglašene za opojnu drogu Pravilnikom o utvrđivanju spiska opojnih droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga 
+                <ref href="cg/act/sl_glasnik_cg/2012-11-09/12">
+                    (Sl. list CG br. 56/12 od 09.11.2012. godine)
+                </ref> 
+                , na način što je za S.T., od za sada nn lica, na Zabjelu, za 50 eura kupio dvije kesice heroina, ukupne neto mase 3,661 gram, a koju opojnu drogu je predao ovlaćenim službenicima Ministarstva unutrašnjih poslova Uprave policije, koji su ga zaustavili u ulici 27.Marta radi legitimisanja,
+            </p>
+            <p>
+                čime je izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz 
+                <ref href="/krivicni#art_300_para_1">
+                    cl. 300 st. 1. KZ Crne Gore
+                </ref>
+            </p>
+            <p>
+                Pa ga
+                <organization id="vsp" refersTo="#vsp">
+                    sud
+                </organization>
+                primjenom citiranih zakonskih odredbi
+                , te odredbi
+                <ref href="/krivicni#art_4_para_2">
+                    cl. 4. st. 2,
+                </ref>
+                <ref href="/krivicni#art_4_para_5">
+                    5
+                </ref>
+                <ref href="/krivicni#art_4_para_13">
+                    13
+                </ref>
+                <ref href="/krivicni#art_4_para_5">
+                    15
+                </ref>
+                <ref href="/krivicni#art_4_para_13">
+                    32
+                </ref>
+                <ref href="/krivicni#art_4_para_36">
+                    36
+                </ref>
+                <ref href="/krivicni#art_4_para_42">
+                    42
+                </ref>
+                i
+                <ref href="/krivicni#art_4_para_51">
+                    51 krivicnog zakonika Crne Gore
+                </ref>
+                , te odredbi
+                <ref href="/krivicni#art_226">
+                    cl. 226,
+                </ref>
+                <ref href="/krivicni#art_229">
+                    229,
+                </ref>
+                <ref href="/krivicni#art_303">
+                    303
+                </ref>
+                i
+                <ref href="/krivicni#art_374">
+                    374 Zakonika o krivicnom postupku
+                </ref>
+            </p>
+            <p>
+                O S U D J U J E
+            </p>
+            <p>
+                na kaznu zatvora u trajanju od 6 (sest) mjeseci
+            </p>
+            <p>
+                Na osnovu 
+                <ref href="/krivicni#art_77_para_1">
+                    čl. 75 st. 1
+                </ref>
+                u vezi
+                <ref href="/krivicni#art_300_para_7">
+                    čl. 300 st. 7 Krivičnog zakonika Crne Gore
+                </ref>
+                , optuzenom se i z r i c e
+            </p>
+            <p>MJERA BEZBJEDNOSTI</p>
+            <p>ODUZIMANJE PREDMETA</p>
+            <p>
+                ODUZIMA SE 
+                : opojna droga heroin u količini od 5,766 grama
+                , koja se ima unistiti po pravosnaznosti presude.
+            </p>  
+            <p>
+                Obavezuje se optuženi da na ime troškova krivičnog postupka, uplati novčani iznos od 181.50€ i iznos od 100 (sto) eura na ime sudskog pausala, u roku od 15 dana po pravosnaznosti presude.
+            </p> 
+        </decision>
+
+        <arguments>
+            <p>
+                Optužnicom Višeg Državnog tužilaštva u Podgorici Kt.br. 79/16od 05.08.2016. godine, optuženom K.I.u stavljeno je na teret izvršenje krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz 
+                <ref href="/krivicni#art_303_para_1">
+                    cl. 303 st. 1. Zakonika o krivičnom postupku
+                </ref>
+                u vezi <ref href="/krivicni#art_25">
+                    cl. 25. Krivicnog zakonika Crne Gore
+                </ref>
+            </p>
+            <p>
+                Dana 27.01.2017. godine, zastupnik optužbe je dostavio sudu sporazum o priznanju krivice, zapisnik o pregovaranju I zapisnik o priznanju krivice optuženog.
+
+
+            </p>
+            <p>
+                Na ročištu za razmatranje sporazuma, održanom dana 09.03.2017. godine, zastupnik optužbe je izjavio da su branilac i optuženi predložili da se zaključi sporazum o priznanju krivice, što je od strane VDT-a prihvaćeno, nakon čega se pristupilo pregovaranju, o čemu je sačinjen zapisnik o pregovaranju, zapisnik o saslušanju optuženog i njegovo priznanje krivice, kao i sporazum o priznanju krivice, a što je dostavljeno sudu, iz čije sadržine proizilazi da su zastupnik optužbe i optuženi saglasni da Viši sud u Podgorici optuženog E.M., za krivično djelo neovlašćena proizvodnja, držanje I stavljanje u promet opojnih droga iz čl. 300. st. 1. Krivičnog zakonika Crne Gore, stavljenog mu na teret optužnicom VDT u Podgorici Kt.br. 167/16 od 10.01.2017. godine, izrekne kaznu zatvora u trajanju od 6 mjeseci i da optuženi, na ime troškova krivičnog postupka, VDT-u Podgorici, na ime paušala uplati iznos od 100,00 eura, u roku od 15 dana po pravosnažnosti presude,pod prijetnjom prinudnog izvršenja.
+
+            </p>
+            <p>
+                Optuženi i njegov branilac su izjavili da pomenuti sporazum jeste njihov sporazum i da od istog nijesu odustali.
+
+
+            </p>
+            <p>
+                Iz sadržine dokaza koji se nalaze u spisima predmeta i koji su predloženi optužnicom: iskaza svjedoka T.S., službena zabilješka službenika MUP-a UP Sektora granične policije ------------, Ku.br. 774/16 od 23.11.2016. godine, dvije potvrde o privremeno oduzetim predmetima Uprave policije MUP-a UP CB Podgorica, Ku.br. 774/16 od 23.11.2016. godine na ime E.M., fotodokumentacije Uprave policije CB Podgorica broj 59.28-244-2933/2507 od 23.11.2016. godine, izvještaja Forenzičkog centra Danilovgrad o hemijskom vještačenju broj 4644/16 od 20.12.2016. godine,kao i izvoda iz kaznene evidencije na ime optuženog Ministarstva pravde 02/2-8535/17 od 01.02.2017. godine, potvrdjeno je priznanje optuženog, odnosno da je izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz čl. 300. st. 1. Krivičnog zakonika Crne Gore, na način, u vrijeme i na mjestu kako je to opisano izrekom ove presude, a nakon što je u svemu prihvatio sporazum o priznanju krivice.
+
+
+            </p>
+            <p>
+                Odlučujući o visini kazne za optuženog iz sporazuma o priznanju krivice, zaključenog između stranaka, sud je našao da je predlog stranaka u vezi sa kaznom prihvatljiv. Ovo iz razloga što je po ocjeni suda kazna zatvora u trajanju od 6 (šest) mjeseci srazmjerna stepenu krivice optuženog i težini počinjenog krivičnog djela, te da će sa istom postići svrha kažnjavanja iz čl. 32 Krivičnog zakonika Crne Gore, da optuženi ubuduće ne vrši krivična djela, u okviru opšte svrhe izricanja krivičnih sankcija iz čl. 4. st. 2. Krivičnog zakonika Crne Gore (KZ CG).
+
+
+            </p>
+            <p>
+                Shodno članu 300 stav 7 u vezi člana 75 KZCG sud je od optuženog oduzeo 5,776 grama opojne droge heroina, jer je to ukupna neto masa koja je oduzeta od optuženog kako to proizilazi iz izvještaja o hemijskom vještačenju, a koji se ima uništiti nakon pravosnažnosti presude, imajući u vidu da za ove predmete zakon predvidja obavezno oduzimanje, a što nije bilo predmet pregovaranja i sporazuma o priznanju krivice, koji je nakon toga zaključen.
+
+
+            </p>
+            <p>
+                Kako je optuženi oglašen krivim, sud ga shodno čl. 226. i 229. Zakonika o krivičnom postupku, obavezuje i na plaćanje troškova krivičnog postupka-paušala u iznosu od 100,00 eura, koje je dužan uplatiti na račun Vrhovnog državnog tužilaštva Crne Gore, na broj žiro računa .........-31, koji se vodi kod Societe Generale Group AD Podgorica, sve u roku od 15 dana po pravosnažnosti presude pod prijetnjom prinudnog izvršenja, a sve u skladu sa sporazumom o priznanju krivice koji je zaključen između stranaka.
+
+
+            </p>
+            <p>
+                Sa izloženog, a shodno odredbi 
+                <ref href="/krivicni#art_303_para_1">
+                    cl. 303 st. 1. Zakonika o krivičnom postupku
+                </ref> 
+                i 
+                <ref href="/krivicni#art_303_para_2">
+                    2
+                </ref> 
+                i
+                <ref href="/krivicni_postupak#art374">
+                    cl. 374 Zakonika o krivičnom postupku
+                </ref> 374 Zakonika o krivičnom postupku, odlučeno je kao u izreci presude.
+            </p>
+        </arguments>
+    </judgmentBody>
+    <conclusions>
+        <p>PRAVNA POUKA:</p>
+        <p>
+            Protiv ove presude dozvoljena je zalba u roku od 15 dana od dana prijema pisanog otpravka iste,
+            <organization id="ascg" refersTo="ascg">
+                Apelacionom sudu crne gore
+            </organization>
+            , a preko
+            <organization id="vsp" refersTo="#vsp">
+                ovog suda
+            </organization>
+        </p>
+    </conclusions>
+</akomaNtoso>

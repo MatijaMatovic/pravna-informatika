@@ -1,0 +1,300 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+    <judgement>
+        <meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši sud u Podgorici
+					</FRBRauthor>
+					<FRBRdate date="2016-09-05">
+						2016-09-05
+					</FRBRdate>
+					<FRBRtitle>
+						K 82/2016
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vsp" href="/ontology/organization/VisiSud.Podgorica" showAs="Visi sud u Podgorici" />
+                <TLCPerson eId="tabas" href="/ontology/person/tabas" showAs="Predrag Tabas" />
+                <TLCPerson eId="novicic" href="/ontology/person/novicic" showAs="Slobodanka Novicic" />
+                <TLCPerson eId="nm" href="/ontology/person/nm" showAs="N.M." />
+                <TLCPerson eId="ra" href="/ontology/person/ra" showAs="R.A." />
+                <TLCPerson eId="lm" href="/ontology/person/lm" showAs="L.M." />
+				<TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="defense" href="/ontology/role/defense" showAs="Defense" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+                <TLCPlace eId="podgorica" href="/ontology/place/podgorica" />
+			</references>
+		</meta>
+    </judgement>
+    <judgementBody>
+        <p>U IME CRNE GORE</p>
+        <introduction>
+            <organization id="vsp" refersTo="#vsp">
+                VISI SUD U PODGORICI
+            </organization>
+            , kao prvostepeni krivicni, po sudiji 
+            <party id="tabas" refersTo="#tabas" as="#judge">
+                Tabas Predragu
+            </party>, uz ucesce
+            <party id="novicic" refersTo="#novicic" as="#clerk">
+                Novicic Slobodnake
+            </party>
+            , kao zapisnicara, u krivicnom predmetu protiv optuzenog
+            <party id="nm" refersTo="#nm" as="#defendant">
+                N.M.
+            </party>
+            , zbog krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz 
+            <ref href="/krivicni#art_300_para_1">
+                cl. 300 st. 1. Krivicnog zakonika Crne Gore
+            </ref>
+            , koga brani
+            <party id="ra" refersTo="#ra" as="#defense">
+                R.A.
+            </party>
+            , advokat iz Podgorice po sluzbenoj duznosti, odlucujuci po optuznici
+            <organization id="vdt" refersTo="#vdt">
+                Viseg drzavnog tuzilastva u Podgorici
+            </organization>
+            <ref href="/cg/verdict/k/2016-09-05/84/16">
+                  Kt.br. 84/16 od 05.09.2016.
+            </ref>
+			godine,koju je na glavnom pretresu zastupala
+            <party id="lm" refersTo="#lm" as="#prosecutor">
+               L.M.
+            </party>
+            - zamjenik 
+            <organization id="vdt" refersTo="#vdt">
+                Višeg državnog tužilaštva u Podgorici
+            </organization>
+             nakon održanog glavnog i javnog pretresa, dana 03.06.2013. 
+			 godine u prisustvu zastupnika optužbe, optuženog i njegovog branioca,
+			 istog dana je donio, a dana 07.06.2013. godine, javno objavio
+        </introduction>
+        <p>
+            P R E S U D U
+        </p>
+        <background>
+            Prema optuženom 
+            <party id="nm" refersTo="#nm" as ="#defendant">
+               N.M.
+            </party>
+            zvani "N.", JMBG ..., od oca M. i majke S., rodjene Š., 
+			rodjen .... godine u K..., sa prebivalištem u B...-ul. S... Š... bb,
+			državljanin Crne Gore, neoženjen, završio srednju trgovinsku školu,
+			trgovac, zaposlen kao magacioner u marketu "M...",  neosudjivan.
+            
+        <decision>
+			<p> KRIV JE </p>
+            <p>Zato sto je:</p>
+            <p>
+			Dana 15.07.2016. godine, oko 23,00 časa, na plaći Jaz u Budvi, na festivalu "Sea dance", 
+			neovlašćeno radi prodaje držao opojnu drogu MDMA - ekstazi i marihuanu - 
+			supstance proglašene za opojnu drogu Pravilnikom o utvrdjivanju spiska droga, 
+			psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga 
+			<ref href="cg/act/sl_glasnik_cg/2012-11-09/56/12">
+				("Sl. list CG" br. 56/12 od 09.11.2012. godine)
+			</ref>
+			,iako je bio svjestan da postupa neovlašćeno i protivpravno,
+			pa je to i htio, na način što je u vešu držao sakriveno 11 
+			ručno pravljenih zamotuljaka od plastične kese u kojima se nalazilo ukupno
+			8,70 grama opojne droge marihuane i jedan veći pvc zamotuljak sa opojnom drogom 
+			marihuanom neto mase 13,00 grama, kao i jednu pvc kesu u kojoj se nalazilo ukupno 
+			50 tableta MDMA - ekstazi, ukupne neto mase 14,46 grama, koja opojna droga je od
+			strane ovlašćenih policijskih službenika kod istog pronadjena i oduzeta,
+			a koja je bila namijenjena daljoj neovlašćenoj prodaji,
+
+			
+            </p>
+            <p>
+                čime je izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300_para_1">
+                    cl. 300 st. 1. Krivicnog zakonika Crne Gore
+                </ref>
+            </p>
+            <p>
+                Pa ga sud primjenom, citirane zakonske odredbe, te odredbe 
+				čl. 
+				<ref href="/krivicni_postupak#art_4">
+                    čl. 4
+                </ref>,
+				<ref href="/krivicni_postupak#art_5">
+                    čl. 5
+                </ref>,,
+				<ref href="/krivicni_postupak#art_6">
+                    čl. 6
+                </ref>,
+				<ref href="/krivicni_postupak#art_7">
+                    čl. 7
+                </ref>,
+				<ref href="/krivicni_postupak#art_8">
+                    čl. 8
+                </ref>,
+				<ref href="/krivicni_postupak#art_14">
+                    čl. 14
+                </ref>,
+				<ref href="/krivicni_postupak#art_15">
+                    čl. 15
+                </ref>,
+				<ref href="/krivicni_postupak#art_32">
+                    čl. 32
+                </ref>,
+				<ref href="/krivicni_postupak#art_36">
+                    čl. 36
+                </ref>,
+				<ref href="/krivicni_postupak#art_42">
+                    čl. 42
+                </ref>, 
+				<ref href="/krivicni_postupak#art_45">
+                    čl. 45
+                </ref>, 
+				i 
+				<ref href="/krivicni_postupak#art_46">
+                    čl. 46
+                </ref>,
+				Krivičnog zakonika, 
+				te odredbi 
+				<ref href="/krivicni_postupak#art_226">
+                    čl. 226
+                </ref>,
+				<ref href="/krivicni_postupak#art_">
+                    čl. 229
+                </ref>,
+				i 
+				<ref href="/krivicni_postupak#art_374">
+                    čl. 374
+                </ref>,
+				Zakonika o krivičnom postupku
+            </p>
+			<p> OSUDJUJE</p>
+			<p> 
+				Na kaznu zatvora u trajanju od 2 (dvije) godine, 
+				u koju kaznu mu se uračunava vrijeme provedeno u pritvoru počev od 16.07.2016. 
+				godine od 02,30 časova, pa nadalje dok pritvor bude trajao. 
+			</p>
+			<p>
+			Dužan je optuženi da na ime troškova krivičnog postupka-sudskog paušala plati ovom sudu novčani iznos od 150,00 eura,
+			sve u roku od 15 dana po pravosnažnosti presude, pod prijetnjom prinudne naplate,
+			dok će o ostalim troškovima krivičnog postupka,
+			Sud odlučiti naknadno, posebnim rješenjem, 
+			po pribavljanju podataka o njihovoj visini..
+			</p>
+			<p> II. Na osnovu 
+				<ref href="/krivicni#art_75">
+					cl. 75
+				</ref>
+				 <ref href="/krivicni#art_300_para_7">
+					čl. 300. st. 7.
+				</ref> i 
+				Krivičnog zakonika,
+				sud optuženom i z r i č e :
+			</p>
+			<p>MJERA BEZBJEDNOSTI</p>
+			<p>ODUZIMANJE PREDMETA</p>
+			</p> I to: od optuženog 
+				 <party id="nm" refersTo="#nm" as ="#defendant">
+					N.M.
+				</party> 
+				 I to: 21,70 grama opojne droge marihuane i 50 tableta MDMA - 
+				 ekstazi ukupne nego mase 14,46 grama, koja droga se ima uništiti nakon pravosnažnosti presude.
+			</p>
+        </decision>
+		<arguments> 
+		<p>
+			Optužnicom Višeg državnog tužilaštva u Podgorici Kt.br. 84/16 od 05.09.2016. godine, optuženom N. M., stavljeno je na teret izvršenje krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz čl. 300. st.1. Krivičnog zakonika Crne Gore, pri kojoj optužnici je njen zastupnik u cjelosti ostao do završetka glavnog pretresa, predlažući sudu u završnoj riječi da optuženog oglasi krivim i osudi po zakonu.
+
+ 
+
+Optuženi N. M. je u svojoj odbrani, kako u prethodnom postupku tako i na glavnom pretresu naveo, da je opojnu drogu marihuanu i ekstazi, koju je policija pronašla kod njega na plaži Jaz kupio ispred ulaza na festival od njemu nepoznatog lica za iznos novca od 250 eura, s tim što je za tablete platio 200 eura, a za marihuanu 50 eura, te da su i tablete i marihuana bile zapakovane onako kako ih je policija pronašla kod njega. Dalje je naveo, da marihuanu koristi češće, dok tablete ekstazi veoma rijetko godišnje jedanput, dok marihuanu koristi češće, otprilike svaki dan ispuši po jedan džoint u koji stane od 0,5-0,6 grama marihuane, obzirom da je vrlo nervozan. Objasnio je, da je u veoma lošoj materijalnoj situaciji, da obavlja povremeno posao magacionera u jednom marketu, za šta prima platu od 400 eura, da su mu otac i majka bolesni i da primaju penziju, majka 150 eura, a otac 100 eura. Dalje je naveo, da je opojnu drogu koja je pronadjena kod njega kupio od novca koji je poznajmio od jednog druga, čije ime nije želio da saopšti, jer se radi o starijem čovjeku, te da je 50 tableta opojne droge ekstazi imao namjeru da konzumira, u dvije noći festivala. Pri ovakvoj odbrani optuženi je ostao do završetka glavnog pretresa.
+
+ 
+
+Branilac optuženog je u završnoj riječi navela, da provedenim dokazima u postupku nije utvrdjeno, da je optuženi izvršio krivično djelo za koje se tereti, pa je predložila sudu da ga u nedostatku dokaza oslobodi od optužbe.
+
+ 
+
+Optuženi je u cjelosti prihvatio završnu riječ branioca.
+
+ 
+
+Sud je u dokaznom postupku, pročitao Službenu zabilješku Uprave policije-Grupa V 47/4 broj 240/16-4-423 od 15.07.2016. godine, sačinjene od strane ovlašćenih policijskih službenika K. G., M. Z., K. D. i K. V., potvrdu o privremeno oduzetim predmetima Uprave policije-CB Budva br.47/4 broj 240/16-41-424 od 15.07.2016.godine, na ime optuženog N. M., Izvještaj o hemijskom vještačenju Forenzičkog centra Danilovgrad broj 2893/16 od 09.08.2016. godine i izvršio uvid u fotodokumentaciju koja je sastavni dio izvještaja i pročitao Izvod iz kaznene evidencije Ministarstva pravde Crne Gore od 25.10.2016.godine, na ime optuženog.
+
+ 
+
+Iz sadržine Službene zabilješke Uprave policije- Grupa V 47/4 broj 240/16-4/423 od 15.07.2016. godine, proizilazi da je ista sačinjena dana 15.07.2016.godine, od strane ovlašćenih policijskih službenika K. G., M. Z., K. D. i K. V., u vezi izvršene kontrole nad licem N. M. i pronalaska opojne droge u vešu i to: 11 pvc manjih kesica sa sadržajem biljne materije zelene boje, jednu pvc kesicu biljne materije zelene boje nalik na opojnu drogu marihuanu kao i pvc kesicu sa 50 zelenih i sivih tableta, nalik na opojnu drogu ekstazi, a sve u toku održavanja muzičkog festivala Sea Dance 2016, u mjestu Jaz u Budvi.
+
+ 
+
+Iz sadržine potvrde o privremeno oduzetim predmetima Uprave policije – CB Budva br.47/4 broj 240/16-41-424 od 15.07.2016. godine, na ime optuženog N. M. proizilazi, da je ovlašćeni policijski službenik od optuženog privremeno oduzeo 11 pcv kesica sa sadržajem biljne materije zelene boje, jednu (veću) pvc kesicu sa sadržajem biljne materije zelene boje, nalik na marihuanu i jednu PVC kesicu sa 50 zelenih i sivih tableta, nalik na opojnu drogu ekstazi.
+
+ 
+
+Iz sadržine Izvještaja o hemijskom vještačenju Forezničkog centra u Danilovgradu broj 2893/16 od 09.08.2016. godine, utvrđuje se da je tom centru na vještačenje dostavljeno: 1. jedan ručno pravljeni zamotuljak od plastične kese, sa sadržajem biljne materije, tamno zelene boje, karakterističnog opojnog mirisa, neto mase m=13,00g; 2. jedanaest (11) ručno pravljenih zamotuljaka od plastične kese, sa sadržajem biljne materije, tamno zelene boje, karakterističnog opojnog mirisa, neto masa: m1=0,88g, m2=0,71g, m3=0,70g, m4=0,72, m5=0,82g, m6=0,70g, m7=0,83g, m8=1,13g, m9=0,63g, m10=0,82g, m11=0,76g; 3. jedan ručno pravljeni zamotuljak, od plastične kesice u kom se nalazilo: trinaest (13) tableta, okruglog oblika, sive boje, ukupne mase m=3,54g - prosječni prečnik dostavljenih tableta iznosi r=8,2mm, dok je debljina d=4,5mm, i trideset sedam (37) tableta, nepravilnog oblika, svijetlo zelene boje, ukupne neto mase m=10,92g, prosječna dužina dostavljenih tableta iznosi l=9,7mm, dok je debljina d=5,1mm. Primjenom metoda spot testova trankoslojnom hromatograffijom (TLC),mikroskopskim pregledom i LCMS metodom, u dostavljenom biljnom materijalu utvrđeno je, da biljna materija potiče od biljke botaničkog naziva Cannabis sativa-marihuana, dok je hemijskom analizom istog utvrđeno da u sebi sadrži tetrahidrokanabinol (THC) u koncentraciji iznad 0,2%. Hemijskom analizom dostavljenih tabelta utvrđeno je prisustvo MDMA. MDMA i Konoplja (marihuana) su supstance koje mogu da izazovu promjene ili poremećaj fizičkog i mentalnog zdravlja čovjeka i naleze se u Pravilniku o utvrđivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju dorga (Službeni list CG br. 56/2012). Bliži izgled dostavljenog materijala za vještačenje prikazan je u fotodokumentaciji koja je sastavni dio izvještaja, a u koju je sud izvršio uvid na glavnom pretresu.
+
+ 
+
+Iz Izvoda iz kaznene edivencije za optuženog Ministarstva pravde br. 02/2-5720/16/1 od 25.10.2016. godine, utvrđuje se da je optuženi N. M. osuđivan i to: presudom Višeg suda u Podgorici K.br.223/09 od 21.04.2010. godine, zbog krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz čl. 300 st.1 Krivičnog zakonika Crne Gore i osuđen na kaznu zatvora u trajanju od 1 (jedne) godine, presudom Osnovnog suda u Kotoru K.br. 156/12/10 od 08.03.2013. godine, zbog izvršenja krivičnog djela nasilničko ponašanje iz čl.399 Krivičnog zakonika Crne Gore i osuđen na kaznu zatvora u trajanju od 4 (četiri) mjeseca.
+
+ 
+
+Cijeneći navode optužbe, odbranu optuženog, te sve provedene dokaze kako pojedinačno, tako i u njihovoj međusobnoj vezi, ovaj sud nalazi da je optuženi N. M. izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz čl.300. st. 1. Krivičnog zakonika Crne Gore, na način, u vrijeme i na mjesto, kako je to predtavljeno u izreci presude.
+
+ 
+
+Naime, u toku postupka nesumnjivo je utvrđeno, da je optuženi N. M., dana 15.07.2016. godine, na plaži Jaz u Budvi, na fesitvalu “Sea dance” kod sebe u vešu, radi prodaje držao sakriveno 11 ručno pravljenih zamotuljaka od plastične kese u kojima se nalazilo ukupno 8,70 grama opojne droge marihuane, jednu pvc kesu, u kojoj se nalazilo 50 tableta MDMA-ekstazi ukupne neto mase 14,46 grama, koja opojna droga je pronađena kod optuženog od strane ovlašćenih policijskih službenika CB Budva, prilikom njegovog ličnog pretresa.
+
+ 
+
+Naprijed utvrdjeno činjenično stanje nesumnjivo proizilazi iz sprovedenih dokaza na glavnom pretresu i to: sadržine službene zabilješke Uprave policije Grupa V od 15.07.2016. godine, sadržine potvrde o privremeno oduzetim predmetima Uprave policije CB Budva od 15.07.2016. godine i stručnog i objektivnog izvještaja o hemijskom vještačenju Forenzičkog centra u Danilovgradu broj 2893/16 od 09.08.2016. godine.
+
+ 
+
+Naime, iz sadržine službene zabilješke Uprave policije Grupa V broj 240/16-4-423 od 15.07.2016. godine, proizilazi, da su ovlašćeni policijski službenici K. G., M. Z., K. D. i K. V., dana 15.07.2016. godine, oko 23,10 časova, na glavnom ulazu festivala "Sea dance" koji se održavao u mjestu Jaz u Budvi, kontrolisali optuženog N. M. i prilikom pregleda imenovanog napipali, a zatim detaljim pregledom u donjem vešu pronašli 11 manjih pvc kesica sa sadržajem biljne materije zelene boje, jednu veću pvc kesicu sa sadržajem biljne materije zelene boje, za koju su pretpostavili da je opojna droga marihuana, kao i pvc kesicu sa 50 zelenih i sivih tableta, za koje su pretpostavili da je opojna droga "ekstazi", a koju biljnu materiju i tablete su privremeno oduzeli od optuženog, a kako to nesumnjivo proizilazi, iz sadržine potvrde o privremeno oduzetim predmetima Uprave policije CB Budva br. 240/16-4-424 od 15.07.2016. godine. Ni optuženi u navodima svoje odbranije nije sporio činjenice, da je kritičnom prilikom njegovim pretresom, od strane policijskih službenika pronadjena opojna droga marihunana, koja je bila zapakovana u više pvc kesica i 50 tableta opojne droge "ekstazi".
+
+ 
+
+Da se u konkretnom slučaju radi o opojnoj drogi marihuani u ukupnoj količini od 21,70 grama, koja je bila zapakovana u 11 manjih ručno pravljenih zamotuljaka od plastične kese i jednom većem zamotuljku, odnosno da 50 tableta koje su pronadjene kod optuženog sadrže opojnu drogu MDMA-ekstazi, ukupno neto mase 14,46 grama, sud je nesumnjivo utvdio iz stručnog i objetkvinog izvještaja o vještačenju Forenzičkog centra u Danilovgradu, iz kojeg nesumnjivo proizilazi, da dostavljeni biljni materijal koji je bio predmet vještačenja potiče od biljke čiji je botanički naziv Cannabis sativa- poznatija kao marihuana, čijom hemijskom analizom je utvrdjeno prisustvo psihoaktivne supstance Tetrahidrocanabiola (THC) u koncentraciji iznad 0,2%, dok je hemijskom analizom 50 tableta utvrdjeno prisustvo MDMA supstance koje mogu da izazovu promjene ili poremećaj fizičkog i mentalnog zdravlja čovjeka i naleze se u Pravilniku o utvrđivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju dorga (Službeni list CG br. 56/2012).
+
+ 
+
+Da su opojna droga marihuana i tablete opojne droge MDMA-ekstazi, koje su pronadjene u donjem vešu optuženog bile namijenjene daljoj neovlašćenoj prodaji, nesumnjivo upućuje način pakovanja opojne droge marihuane koja je bila zapakovana u 11 manjih ručno pravljenih zamotuljaka od pvc kese, približno iste gramaže, a kako je to sud nesumnjivo utvrdio iz izvještaja o hemijskom vještačenju, upravo na način kako se ova opojna droga pakuje radi dalje ulične prodaje i jednom većem pakovanju, te sama količina od 50 tableta opojne droge MDMA. Na ovakav zaključak suda upućuju i nelogični i neuvjerljivi navodi odbrane optuženog, koji je naveo, da je opojnu drogu marihuanu i tablete "ekstazi", kupio neposredno prije ulaska na festival od njemu nepoznatog čovjeka, te da su te opojne droge bile upakovane upravo onako kako ih je i policija pronašla kod njega, želeći da na taj način opravda činjenicu, da je prvenstveno opojna droga marihuana bila zapakovana u manja pvc pakovanja, približno iste gramaže, upravo onako kako se ta opojna droga priprema za uličnu prodaju, što je optuženom očigledno bilo poznato, jer je isti i ranije osudjivan za istovrsno krivično djelo, a kako je to sud utvrdio iz izvoda iz KE za optuženog. Na neuvjerljivost odbrane optuženog, da je opojna droga bila namijenjena za njegovu ličnu upotrebu upućuju i navodi odbrane, u kojima je optuženi ustvrdio, da tablete opojne droge ekstazi koristi jedanput godišnje na festivalu, kada konzumira maksimalno do 10 tableta, pa se postavlja logično pitanje, zašto bi optuženi kritičnom prilikom kod sebe imao 50 tableta, ukoliko iste nijesu namijenjene za dalju neovlašćenu prodaju. Na zaključak suda da je predmetna opojna droga bila namijenjena daljoj neovlašćenoj prodaji, a ne za ličnu upotrebu, a kako to optuženi pokušava da predstvi u svojoj odbrani, nesumnjivu upućuju činjenice koje proizilaze iz samog kazivanja optuženog, da je isti lošeg imovnog stanja, da se nalazi u teškoj finansijskoj situaciji, a da je za predmetnu opojnu drogu platio 250 eura, kako bi se malo opustio za vrijeme trajanja festivala, te da je novac pozajmio od jednog čovjeka, pritom ne želeći da kaže od koga, pravdajući to činjenicom, da se radi o starijem čovjeku, što je za ovaj sud krajnje neuvjerljivo i nelogično. Stoga je sud odbranu optuženog, u kojoj je naveo, da je predmetnu opojnu drogu nabavio za lične potrebe i konzumiranje, cijenio kao neosnovanu i sračunatu na izbjegavanje krivice.
+
+ 
+
+Cijeneći naprijed utvrđeno činjenično stanje, ovaj Sud nalazi, da su se u radnjama optuženog N. M., stekli svi bitni elementi bića krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga čl.300. st.1. Krivičnog zakonika Crne Gore, obzirom da je u postupku nesumnjivo utvrđeno, da je optuženi N. M. dana 15.07.2016. godine oko 23,00 časova, na plaži Jaz u Budvi, na festivalu "Sea dance", neovlašćeno radi prodaje držao 50 tableta MDMA-ekstazi, i 21,70 grama opojne droge marihuane-supstance proglašene za opojnu drogu Pravilnikom o utvrdjivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizovdnju droga (Sl.list CG br.56/12). Sve činjenice utvrđene u postupku, okolnosti konkretnog slučaja doveli su ovaj sud do zaključka, da je optuženi predmetno krivično djelo izvršio sa direktnim umišljajem. Optuženi je bio u potpunosti svjestan da radi prodaje drži opojnu drogu marihuanu i MDMA-ekstazi, te da za to nema potrebna ovlašćenja, a što predstavlja bitno obilježje ovog krivičnog djela, a koja okolnost je optuženom morala biti poznata, obzirom da se radi o odrasloj i zreloj osobi, koja je i ranije osuđivana za isto krivično djelo, što sve znači da je kod optuženog postojala svijest o svim obilježjima predmetnog krivičnog djela i htjenje njegovog izvršenja.
+
+ 
+
+Krivično djelo za koje je optuženi oglašen krivim je krivično djelo sa blanketnom dispozicijom, pa je kod ovih krivičnih djela, pored navođenja činjenica i okolnosti koje čine bitna obilježja ovog krivičnog djela, a o kojima se Sud već izjasnio, bilo nužno navesti i materijalno pravni propis, od kojeg zavisi postojanje ovog krivičnog djela. Naime, Pravilnikom o utvrđivanju spiska droga, psihotropnih supstanci i bilja, koji se mogu koristiti za utvrdjivanje droga (Sl.list CG br.56/12) marihuana i MDMA-ekstazi su proglašeni za opojne droge.
+
+ 
+
+Odlučujući o kazni za optuženog, Sud je najprije, u smislu čl.42. Krivičnog zakonika Crne Gore, cijenio sve okolnosti od kojih zavisi da kazna bude manja ili veća (olakšavajuće i otežavajuće okolnosti), pa je sud u odsustvu olakšavajućih okolnosti kao otežavajuću okolnost cijenio njegov raniji život, tj. osudjivanost za isto krivično djelo presudom Višeg suda u Podgorici K.br.223/09 od 21.04.2010. godine, a što je utvrdjeno iz izvoda iz KE za optuženog, pa je cijeneći napride navedenu otežavajuću okolnost, stepen krivice optuženog za izvršeno krivično djelo i težinu krivičnog djela, istog osudio na kaznu zatvora u trajanju od 2 (dvije) godine, nalazeći da tako odmjerena kazna predstavlja mjeru koja je neophodno potrebna za postizanje svrhe kažnjavanja iz čl. 32. Krivičnog zakonika Crne Gore, da optuženi ubuduće ne vrši krivična djela, u okviru opšte svrhe izricanja krivičnih sankcija iz čl. 4 st.2 Krivičnog zakonika Crne Gore.
+
+ 
+
+Shodno čl. 51. Krivičnog zakonika Crne Gore, Sud je optuženom u kaznu zatvora uračunao vrijeme provedeno u pritvoru, počev od 16.07.2016. godine od 02,30 časova, pa nadalje dok pritvor bude trajao.
+
+ 
+
+Shodno čl. 300 st. 7. u vezi čl.75. Krivičnog zakonika Crne Gore, Sud je optuženom izrekao mjeru bezbjednosti oduzimanja 21,70 grama opojne droge marihunane i 50 tableta opojne droge MDMA-ekstazi, kao predmeta izvršenja krivičnog djela, koja se ima uništiti nakon pravosnažnosti presude i za koje predmete Zakon predviđa obavezno oduzimanje.
+
+ 
+
+Kako je optuženi oglašen krivim, to ga je sud shodno čl. 226. i 229. Zakonika o krivičnom postupku, obavezao na plaćanje troškova krivičnog postupka-sudskog paušala u iznosu od od 150,00 eura, koji iznos je određen shodno složenosti krivičnog postupka, dužini njegovog trajanja i imovinskim prilikama optuženog, u roku od 15 dana po pravosnažnosti presude, dok će o ostalim troškovima krivičnog postupka Sud odlučiti naknadno, posebnim rješenjem, po pribavljanju podataka o njihovoj visini, a shodno čl.227. st.2. Zakonika o krivičnom postupku.
+
+ 
+
+Sa izloženog, odlučeno je kao u izreci.
+		</p>
+		</arguments>
+    </judgementBody>
+</akomaNtoso>

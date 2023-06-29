@@ -1,0 +1,270 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+    <judgement>
+        <meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši sud u Podgorici
+					</FRBRauthor>
+					<FRBRdate date="2012-10-01">
+						2012-10-01
+					</FRBRdate>
+					<FRBRtitle>
+						K 132/2012
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vsp" href="/ontology/organization/VisiSud.Podgorica" showAs="Visi sud u Podgorici" />
+                <TLCPerson eId="tabas" href="/ontology/person/tabas" showAs="Predrag Tabas" />
+                <TLCPerson eId="novicic" href="/ontology/person/novicic" showAs="Slobodanka Novicic" />
+                <TLCPerson eId="pn" href="/ontology/person/pn" showAs="P.N." />
+                <TLCPerson eId="td" href="/ontology/person/td" showAs="T.D." />
+                <TLCPerson eId="lm" href="/ontology/person/lm" showAs="L.M." />
+				<TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="defense" href="/ontology/role/defense" showAs="Defense" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+                <TLCPlace eId="podgorica" href="/ontology/place/podgorica" />
+			</references>
+		</meta>
+    </judgement>
+    <judgementBody>
+        <p>U IME CRNE GORE</p>
+        <introduction>
+            <organization id="vsp" refersTo="#vsp">
+                VISI SUD U PODGORICI
+            </organization>
+            , kao prvostepeni krivicni, po sudiji 
+            <party id="tabas" refersTo="#tabas" as="#judge">
+                Tabas Predragu
+            </party>, uz ucesce
+            <party id="novicic" refersTo="#novicic" as="#clerk">
+                Novicic Slobodnake
+            </party>
+            , kao zapisnicara, u krivicnom predmetu protiv optuzenog
+            <party id="pn" refersTo="#pn" as="#defendant">
+                P.N.
+            </party>
+            , zbog krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz 
+            <ref href="/krivicni#art_300_para_1">
+                cl. 300 st. 1. Krivicnog zakonika Crne Gore
+            </ref>
+            , koga brani
+            <party id="td" refersTo="#td" as="#defense">
+                T.D.
+            </party>
+            , advokat iz Podgorice po sluzbenoj duznosti, odlucujuci po optuznici
+            <organization id="vdt" refersTo="#vdt">
+                Viseg drzavnog tuzilastva u Podgorici
+            </organization>
+            <ref href="/cg/verdict/k/2012-20-01/87/12">
+                 Kt.br. 87/12 od 01.10.2012.
+            </ref>
+			godine,koju je na glavnom pretresu zastupala
+            <party id="lm" refersTo="#lm" as="#prosecutor">
+                L.M.
+            </party>
+            - zamjenik 
+            <organization id="vdt" refersTo="#vdt">
+                Višeg državnog tužilaštva u Podgorici
+            </organization>
+             nakon održanog glavnog i javnog pretresa, dana 03.06.2013. 
+			 godine u prisustvu zastupnika optužbe, optuženog i njegovog branioca,
+			 istog dana je donio, a dana 07.06.2013. godine, javno objavio
+        </introduction>
+        <p>
+            P R E S U D U
+        </p>
+        <background>
+            Prema optuženom 
+            <party id="pn" refersTo="#pn" as ="#defendant">
+                P.N.
+            </party>
+            JMBG ..., od oca M. i majke M., rodjene B., rodjen ... godine u P.,
+			sa prebivalištem u D.-Ć. ..., državljanin Crne Gore,
+			završio osnovnu školu, vanredno pohadja mašinsku školu, 
+			srednjeg imovnog stanja, srednjeg imovnog stanja, neoženjen, pismen, neosudjivan.
+            
+        <decision>
+			<p> KRIV JE </p>
+            <p>Zato sto je:</p>
+            <p>
+			
+			Od početka avgusta 2012. godine, do 06.09.2012. godine u Danilovgtradu, neovlašćeno prodao i radi prodaje držao opojnu drogu marihuanu,
+			supstancu proglašenu za opojnu drogu Rješenjem o utvrdjivanju opojnih droga 
+			<ref href="cg/act/sl_glasnik_cg/44/02">
+				("Sl. list SRJ br. 44/02"),
+			</ref>, 
+			iako je bio svjestan da postupa neovlašćeno i protivpravno, pa je to i htio, na način što je u prvoj polovini avgusta 2012. godine,
+			V. V. prodao jedan paketić marihuane za iznos od 5 eura, od koje droge su preostali dio 
+			od 0,10 grama, dana 14.08.2012. godine,
+			ovlašćena službena lica Ispostave Danilovgrad pronašli prilikom pretresa kuće V. V.,
+			dok je dana 06.09.2012. godine, u svojoj kući držao tri ručno pravljena zamotuljka, 
+			sa sadržajem opojne droge-marihuane i to jedan zamotuljak napravljen od plastične kese u
+			količini od 3,96 grama i 
+			dva papirna zamotuljka u količini od 0,30 grama i 0,05 grama, koju opojnu drogu su ovlašćeni
+			službenici Ispostave Danilovgrad,
+			prilikom pretresa pronašli i oduzeli, a koja droga je bila namijenjena daljoj prodaji,
+			
+            </p>
+            <p>
+                čime je izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300_para_1">
+                    cl. 300 st. 1. Krivicnog zakonika Crne Gore
+                </ref>
+            </p>
+            <p>
+                Pa ga sud primjenom, citirane zakonske odredbe, te odredbe 
+				čl. 
+				<ref href="/krivicni_postupak#art_4">
+                    čl. 4
+                </ref>,
+				<ref href="/krivicni_postupak#art_5">
+                    čl. 5
+                </ref>,,
+				<ref href="/krivicni_postupak#art_6">
+                    čl. 6
+                </ref>,
+				<ref href="/krivicni_postupak#art_7">
+                    čl. 7
+                </ref>,
+				<ref href="/krivicni_postupak#art_8">
+                    čl. 8
+                </ref>,
+				<ref href="/krivicni_postupak#art_14">
+                    čl. 14
+                </ref>,
+				<ref href="/krivicni_postupak#art_15">
+                    čl. 15
+                </ref>,
+				<ref href="/krivicni_postupak#art_32">
+                    čl. 32
+                </ref>,
+				<ref href="/krivicni_postupak#art_36">
+                    čl. 36
+                </ref>,
+				<ref href="/krivicni_postupak#art_42">
+                    čl. 42
+                </ref>, 
+				<ref href="/krivicni_postupak#art_45">
+                    čl. 45
+                </ref>, 
+				i 
+				<ref href="/krivicni_postupak#art_46">
+                    čl. 46
+                </ref>,
+				Krivičnog zakonika, 
+				te odredbi 
+				<ref href="/krivicni_postupak#art_226">
+                    čl. 226
+                </ref>,
+				<ref href="/krivicni_postupak#art_">
+                    čl. 229
+                </ref>,
+				i 
+				<ref href="/krivicni_postupak#art_374">
+                    čl. 374
+                </ref>,
+				Zakonika o krivičnom postupku
+            </p>
+			<p> OSUDJUJE</p>
+			<p> Na kaznu zatvora u trajanju od 6 (šest) mjeseci. </p>
+			<p> Dužan je optuženi da na ime troškova krivičnog postupka-sudskog paušala plati ovom sudu novčani iznos od 50,00 eura, 
+				sve u roku od 15 dana po pravosnažnosti presude, pod prijetnjom prinudne naplate, 
+				dok će o ostalim troškovima krivičnog postupka, 
+				Sud odlučiti naknadno, posebnim rješenjem, 
+				po pribavljanju podataka o njihovoj visini. 
+			</p>
+			<p> II. Na osnovu 
+				<ref href="/krivicni#art_75">
+					cl. 75
+				</ref>
+				 <ref href="/krivicni#art_300_para_7">
+					čl. 300. st. 7.
+				</ref> i 
+				Krivičnog zakonika,
+				sud optuženom i z r i č e :
+			</p>
+			<p>MJERA BEZBJEDNOSTI</p>
+			<p>ODUZIMANJE PREDMETA</p>
+			</p> I to: od optuženog 
+				 <party id="pn" refersTo="#pn" as ="#defendant">
+					P.N.
+				</party> 
+				 4,41 grama opojne droge marihuane,
+				 a od svjedoka V. V. u količini od 0,10 grama opojne droge marihuane,
+				 koja droga se ima uništiti nakon pravosnažnosti presude..
+			</p>
+        </decision>
+		<arguments> 
+		<p>
+			Optužnicom Višeg državnog tužilaštva u Podgorici Kt.br. 87/12 od 01.10.2012. godine, optuženom P. N. stavljeno je na teret izvršenje krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz čl. 300. st.1. Krivičnog zakonika. Zastupnik optužbe je na glavnom pretresu u završnoj riječi precizirao činjenične navode optužnice, na način kako je to bliže predstavljeno u izreci presude i pri tako preciziranoj optužnici u cjelosti ostao do završetka glavnog pretresa, predlažući sudu u završnoj riječi, da optuženog oglasi krivim i osudi po zakonu.
+
+Optuženi je u svojoj odbrani kako u prethodnom postupku tako i na glavnom pretresu negirao izvršenje krivičnog djela stavljenog mu na teret navodeći, da nema bilo kakve veze sa drogom, koju nikada u životu nije prodavao, pa ni licu V. V., kojeg je upoznao na izdržavanju kazne. Dalje je naveo, da je bio prisutan prilikom pretresa kuće u kojoj živi, i da tom prilikom nije vidio da su policajci pronašli bilo kakvu drogu, ali da je droga pronađena u prostoriji u kojoj je spavao njegov brat. Optuženi je dalje naveo, da se sa V. V. nikada nije družio na slobodi, niti se sa istim srijetao, da nije imao njegov broj telefona, a da je po izlasku sa izdržavanja kazne posjedovao broj ..., te da je povremeno zaposlen kod slvog komšije, sa kojim vrši ugradnju parketa,laminata i brodskih podova.
+
+Branilac optuženog je u završnoj riječi naveo, da tokom postupka, provedenim dokazima nije utvrdjeno da je optuženi počinio krivično djelo za koje je optužen, pa je predložio sudu da istog oslobodi od optužbe.
+
+Optuženi je u prihvatio završnu riječ svog po službenoj dužnosti.
+
+Sud je na glavnom pretresu, u dokaznom postupku: saslušao svjedoka V. V., pročitao službenu zabilješku Uprave policije PJ-Podgorica-Ispostava Danilovgrad Ku.br. 106/12 od 06.09.2012. godine, pročitao Zapisnik o pretresanju stana i drugih prostorija Uprave policije PJ Podgorica-Ispostava Danilovgrad Ku.br. 106/12 od 06.09.2012. godine, na ime P. M., pročitao Potvrdu o privremeno oduzetim predmetima Uprave policije PJ Podgorica-Ispostava Danilovgrad Ku.br. 106/12 od 06.09.2012. godine, pročitao Zapisnik o pretresanju stana i drugih prostorija koje je koristio svjedok V. V. Uprave policije PJ Podgorica-Ispostava Danilovgrad od 14.08.2012. godine i fotodokumentaciju br. 21-03-240/12-336 sačinjena povodom pretresanja navedenog stana, pročitao Potvrdu o privremeno oduzetim predmetima Uprave policije Podgorica – od 14.08.2012. godine, na ime svjedoka V. V., pročitao izvještaj o hemijskom vještačenju Forenzičkog centra Danilovgrad br. 3411/12 i 3733/12 od 18.09.2012. godine i vrši uvid u fotodokumentaciju koja je sastavni dio zapisnika, pročitao izvod iz kaznene evidencije za optuženog Uprave policije PJ Podgorica od 18.09.2012. godine.
+
+Svjedok V. V. je u svom iskazu datom u prethodnom postupku pred Višim državnim tužilaštvom u Podgorici, Ktr.br. 724/12 od 06.09.2012. godine naveo, da je negdje u mjesecu maju 2011. godine, upoznao P. N. na turnirima u mjestu Lazine, nakon čega mu je P. ponudio da kupi marihuanu kod njega, ukoliko je zainteresovan. Dalje je naveo, da je nekih 3-4 dana prije pretresa kuće poslednji put kupio od optuženog P. marihuanu za iznos novca od 5 eura, koja količina je dovoljna za dva "džointa", i koja je bila upakovana u jedan papirni zamotuljak, da je u periodu od 11. maja, pa do polovine avgusta 2012. godine, oko desetak puta kupovao marihuanu od optuženog za iznos novca od po 5 eura, koju marihuanu je lično konzumirao. Svjedok je oblasnio, da je marihuanu kupovao tako, što bi sa svog broja telefona ..., pozivao optuženog P. na njegov broj mobilnog telefona, kojeg se nije mogao sjetiti, ali koji je pripadao mreži "069" i na taj način se dogovarao oko kupovine marihuane. Dalje je objasnio, da se sa optuženim dogovarao da marihuanu kupi ili kod igraonice ili kod Gimnazije u večernjim časovima, obično oko ponoći, gdje se na dogovoreno mjesto dovozio biciklom, da optuženi P. nikada nije bio sam, već u društvu njemu nepoznatog lica, kome zna samo nadimak "bokser", a koji je stajao sa strane i posmatrao da li je stigao sam. Svjedok je dalje naveo i pojasnio, da mu je optuženi nekoliko puta predlagao, da može da mu nabavi i proda heroin, pa je stoga zaključio da se P. bavio prodajom i heroina, najvjerovatnije na turnirima gdje je dolazio da gleda fudbal.
+
+Na glavnom pretresu ovaj svjedok je naveo, da ne zna odakle mu opojna droga marihuana, koja je od strane policije pronadjena pretresom njegove kuće u dukserici koja je bila okačena na vratima, a koja je tu stajala duže vremena, kao ni oružje koje je pronadjeno pretresom, odnosno bomba koja je stajala na televizoru i koja nije imala eksplozivno punjenje, dok je šipka koja je stajala iza vrata, koristila za odbranu od pasa.
+
+Upitan da objasni razlike u svojim iskazima u prethodnom postupku i na glavnom pretresu, a nakon što mu je pročitan iskaz iz prethodnog postupka, svjedok je naveo, da nijesu tačni navodi njegovog iskaza iz prethodnog postupka, da on to nije navodio u svom iskazu, odnosno da jeste jedan dio, ali pod pritiscima, da je prije saslušanja kod tužioca bio zatvoren u jednoj prostopriji sam, gdje je policija vršila pritisak na njega, uporno tražeći način da ga povežu sa optuženim P., kojeg on ne poznaje, zahtijevajući od njega da kaže, da je bio u kontaktu sa optuženim, što nije istina. Dalje je naveo, da prilikom davanja iskaza, tužilac nije vršio pritisak na njega, da se ne sjeća da je rekao ono što piše u njegovom iskazu, već da mu je tužilac postavljao neka pitanja, na koje je on odgovarao i to na osnovu nekog papira koje je tužilac dobio iz policije, navodno njegove izjave koju je prethodno dao policiji, pod pritiskom. Dalje je objasnio, da je u ranijem periodu koristio drogu, ali rijetko, da mu je policija prijetila da će ići u zatvor zbog droge koja je pronadjena kod njega, da su ga stalno pritiskali i tražili da napiše izjavu, ali se nije mogao sjetiti imena tih policajaca. Svjedok je dalje naveo, da se sa optuženim Pavićevićem upoznao na izdržavanje kazne u ZIKS-u,. ali da se nakon toga nikad nijesu vidjeli, da optuženi P. nije osoba koju je on srijetao na turnirima, da drogu koju je koristio u prethodnom periodu nikada nije kupovao, već je istu uzimao kod drugova isključivo na zabavama, te da dukserica u kojoj je pronadjena droga nije njegova i da ne zna odakle marihuana u njoj, odnosno da u istoj nije ni bilo marihuane, već samo neke mrvice koje su bile pomiješane s duvanom.
+
+Iz sadržine službene zabilješke Uprave policije PJ Podgorica-Ispostava Danilovgrad Ku. br.106/12 od 06.09.2012. godine proizilazi, da je ista sačinjena od strane ovlašćenog policijskog službenika te ispostave, povodom lišenja slobode P. N., JMB ..., od oca M., rođenog ... godine u P., sa prebivalištem u D., ulica Ć. ... Iz sadržine se dalje utvrdjuje, da je P. N. lišen slobode dana 06.09.2012. godine u 14,00 časova, u prostorijama Ispostave u Danilovgradu, zbog osnovane sumnje da je izvršio krivično djelo neovlašćena proizvodnja džanje i stavljanje u promet opojnih droga iz čl. 300. st. 1. KZ.
+
+Iz sadržine zapisnike o pretresanju stana i drugih prostorija Uprave policije PJ Podgorica-Ispostava Danilovgrad Ku.br. 106/12 od 06.09.2012. godine proizilazi, da su ovlašćeni policijski službenici te ispostave, postupajući po naredbi sudije za istragu Višeg suda u Podgorici, Kri. br. 246/12 od 05.09.2012. godine, izvršili pretres kuće u kojoj živi optuženi P. N. u mjestu Grlić bb, kao i vozilo marke "M. ..." reg. oznake ... i tom prilikom pronašli i privremeno oduzeli sledeće predmete: jedan papirni zamotuljak žute boje u kom se nalazila zelena biljna materija koja je pronađena u sobi, crni laptop marke “Acer”, mobilni telefon “Samsung GT-E1050” koji je pronadjen u spavaćoj sobi, mobilni telefon “Samsung GT-E1080” sa sim karticom Telenora, dvije sim kartice T-mobile i Vip koje su pronadjene u spavaćoj sobi, nož crne boje na preklapanje marke “Mil-tel”, nož sive boje marke “Mih-shenk” koji je pronadjen u sobi, modem za internet marke “Huawei” ser.br “ce0682” koji je pronadjen u sobi, drvena bejzbol palica pronadjena ispod stepeništa, 25 komada puščane municije raznog kalibra koja je pronadjena u metalnom ormaru ispod stepeništa, više komada nailonskih kesa sa tragovima zelene boje biljnog porijekla pronadjenih u garaži u donjem dijelu kuće, jedan papirni zamotuljak sive boje u kom se nalazi zelena biljna materija pronadjena u sobi, jedna metak kalibra 6,35 mm koji je pronadjen u sobi, u fotelji sa lijeve strane ulaznih vrata dijela kuće koji koriste P., na spratu pronadjena jedna veća providna Pvc kesa u kojoj se nalazi tamno zelena biljna materija za koju se predpostavlja da je opojna droga marihuana u istoj prostoriju u starom namjestaju pronadjena je jedna veca Pvc kesa sa vecom kolicinom nepoznate svijetlo braon materije. Takodje u ovoj prostoriji pronadjen je veći broj isječaka providnih Pvc kesa za koje se osnovano sumnja da su služile za pakovanje droge.
+
+Iz sadržine potvrde o privremeno oduzetim predmetima Uprava policija PJ Podgorica- Ispostava Danilovgrad Ku.br. 106/12 od 06.09.2012. godine, utvrđuje se, da je od optuženog P. N. privremeno oduzeti prethodno sledeći predmeti i to: jedan papirni zamotuljak žute boje u kom se nalazila zelena biljna materija, crni laptop marke “Acer”, mobilni telefon “Samsung GT-E1050”, mobilni telefon “Samsung GT-E1080” sa sim karticom Telenora, dvije sim kartice T-mobile i Vip, nož crne boje na preklapanje marke “Mil-tel”, nož sive boje marke “Mih-shenk”, modem za internet marke “Huawei” ser.br “ce0682”, drvena bejzbol, 25 komada puščane municije raznog kalibra, više komada nailonskih kesa sa tragovima zelene boje biljnog porijekla, jedan papirni zamotuljak sive boje u kom se nalazi zelena biljna materija, jedna metak kalibra 6,35 mm, jedna veća providna Pvc kesa u kojoj se nalazi tamno zelena biljna materija za koju se predpostavljalo da je opojna droga marihuana i jedna veca Pvc kesa sa vecom kolicinom nepoznate svijetlo braon materije, a koju potvrdu je optuženi uredno potpisao.
+
+Iz zapisnika o pretresanju stana i drugih prostorija, koje je koristio svjedok V. V., Uprave policije PJ Podgorica-Ispostava Danilovgrad od 14.08.2012. godine, te sadržine fotodokumentacije br. 21-03-240/12-336, koja je sačinjena povodom pretresa proizilazi, da su ovlašćeni policijski službenici navedene ispostave postupajući po naredbi sudije za istragu Višeg suda u Podgorici, Kri.br. 223/12 od 14.08.2012. godine, izvršili pretres kuće, koja se nalazi u mjestu Kosići i tom prilikom u hodniku kuće pronašli ručnu-improvizovanu palicu obmotana crnom trakom, papirne zamotuljke (rizle) i pamučnu jaknu sivo-crne boje u čijem su se gornjem lijevom džepu nalazili opiljci biljne materije zelene boje nepoznatog porijekla, dok je u dnevnom boravku na televizoru pronadjena ručna bomba "M-75", ser br. “ubrv 0305” crne boje, a što je sve prikazano i u fotodokumentaciji u koju je sud izvršio uvid na glavnom pretresu.
+
+Iz sadržine potvrde o privremeno oduzetim predmetima Uprave policije PJ Podgorica-Ispostava Danilovgrad od 14.08.2012. godine, proizilazi, da su ovlašćeni policijski službenici Ispotave Danilovgrad od svjedoka V. V. privremeno oduzeli ručnu bombu M-75 ser. br. “ubrv 0305” crne boje, ručnu-imrpvizovanu palicu obmotanu crnom trakom, papirne zamotuljke bijele boje (rizle) i pamučnu jaknu sivo-crne boje u čijem su se gornjem lijevom džepu nalazili opiljci biljne materije zelene boje nepoznatog porijekla, a koja potvrda je uredno potpisana.
+
+Iz Izvještaja o hemijskom vještačenju Forenzičkog centra u Danilovgradu br. 3411/12 i 3733/12 od 18.09.2012. godine, proizilazi, da su Forenzičkom centru na hemijsku analizu dostavljeni uzorci: jedan ručno pravljeni zamotuljak od papir, oblijepljen s providnom selotep trakom, sa sadrzajem sasušene biljne materije tamno zelene boje, karakterističnog opojnog mirisa, neto mase m=0,10g; jedan ručno pravljeni zamotuljak od plastične kese, sa sadrzajem biljne materije tamno zelene boje, karakterističnog opojnog mirisa neto mase m=3,96g; dva ručno pravljena zamotuljaka od Al folije, sa sadrzajem biljne materije tamno zelene boje, karakterističnog opojnog mirisa neto mase m1=0,3g i m2=0,05g, kao i jedna bijela plastična kesa u kojoj se nalazi roza plastična kesa, a u istoj rasuta praškasta materija svijetlo braon boje, neto mase m=1,315g. Detaljnim mikrospopskim pregledom dostavljenog biljnog materijala utvrdjeno je da isti potiče od biljke čiji je botanički naziv ,,Cannabis sativa L,, iz familije ,,Cannabaceae,, poznatije kao konoplja ili marihuana, dok je hemijskom analizom dostavljenih uzoraka biljne materije utvđeno, ista sadrži tetrahidrokanabinol THC u koncentraciji iznad 0,3%, a koja supstanca utiče na centralni nervni sistem, izaziva stanje zavisnosti i nalazi se na listi opojnih droga (Sl.list CG br.44/2002), dok analizom praškaste materije svjetlo braon boje nego mase 1.315 grama utvrdjeno, da ista ne sadrži tragove opojnih droga. Izgled dostavljenih uzoraka koji su bili predmet vještačenja prikazani su i u fotodokumentaciji koja je sastavni dio izvještaja u kojoj je sud izvršio uvid na glavnom pretresu.
+
+Sud je nalaz i mišljenje cijenio kao stručan, jasan, objaktivan i zasnovan na pravilima struke i nauke, pa je isti u cjelosti prihvatio.
+
+Iz izvoda iz kaznene evidencije Uprave policije PJ Podgorica br. 29-245/12-24313/2-3757 od dana 18.09.2012. godine, utvrđuje se da optuženi P. N. nije evidentiran u kaznenoj evidenci kao osudjivano lice.
+
+Cijeneći rezultate cjelokupnog dokaznog postupka, navode optužbe, odbranu optuženog P. N., te sve provedene dokaze, kako pojedinačni tako i u njihovoj medjusobnoj povezanosti, ovaj Sud nalazi, da je optuženi P. N. izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga čl. 300. st.1. Krivičnog zakonika, na način, mjesto i u vrijeme, kako je to predstavljeno u izreci presude.
+
+Naime, u postupku je nesumnjivo utvrđeno, da je optuženi P. N. od početka avgusta 2012. godine, do 06.09.2012. godine u Danilovgradu, neovlašćeno prodao i radi prodaje držao opojnu drogu marihuanu, supstancu proglašenu za opojnu drogu, na način što je u prvoj polovini avgusta 2012. godine, svjedoku V. V. prodao jedan paketić opojne droge marihuane za iznos od 5 eura, od koje droge su preostali dio od 0,10 grama, dana 14.08.2012. godine, ovlašćena službena lica Ispostave Danilovgrad, pronašli prilikom pretresa kuće u kojoj živi svjedok V. V., odnosno, optuženi je u kući u kojoj je živio u mjestu G. u D., držao opojnu drogu marihuanu namijenjenu daljoj prodaji u količini od 3,96 grama, koja je bila zapakovana u jedan zamotuljak napravljen od prastične kese i dva papirna zamotuljka u količini od 0,30 grama i 0,05 grama, a koja opojna droga je pronadjena prilikom pretresa kuće u kojoj živi optuženi u mjestu G. Opština D., od strane ovlašćenih policijskih službenika Ispostava policije Danilovgrad, dana 06.09.2012.godine .
+
+Naprijed utvrđeno činjenično stanje, Sud je nesumnjivo utvrdio, kako iz iskaza svjedoka V. V., datog u prethodnom postupku, na zapisniku o saslušanju svjedoka pred Višim državnim tužilaštvom u Podgorici, Ktr. br. 724/12 od 06.09.2012. godine, tako i pisanim dokazima koje je sud proveo na glavnom pretresu.
+
+Naime, svjedok V. V. je u svom iskazu u prethodnom postupku na jasan, detalja i odredjen način posvjedočio, da je u maju mjesecu 2011. godine, upoznao optuženog P. N. na turniru u mjestu Lazine, koji mu je tom prilikom ponudio na prodaju opojnu drogu marihuanu, da je 3-4 dana prije pretresa kuće u kojoj živi, marihuanu kupio od optuženog P. N. za iznos novca od 5 eura, u količini koja je bila dovoljna za dva džointa, od koje marihuane je preostali dio policija pronašla pretresom, pritom detaljno opisujući način na koji je od optuženog P. kupovao marihuanu. Iskaz svjedoka V. iz prethodnog postupka, sud je u cjelosti prihvatio, obzirom da je takav njegov iskaz potvrdjen i materijalnim dokazima provedenim u postupku, prije svega sadržinom zapisnika o pretresanju stana i drugih prostorija koje je koristio ovaj svjedok, iz kojeg nesumnjivo proizilazi, da su ovlašćeni policijski službenici Ispostave policije Danilovgrad, dana 14.08.2012. godine, postupajući po naredbi sudije za istragu Višeg suda u Podgorici, izvršili pretres kuće u kojoj živi svjedok V. u mjestu K. i tom prilikom u gornjem džepu jakne sivo-crne boje vlasništvo svjedoka, pronašli opiljke biljne materije zelene boje, koju su privremeno oduzeli od svjedoka, kako to nesumnjivo proizilazi iz sadržine potvrde o privremenom oduzimanju od 14.08.2012. godine, a za koju je vještačenjem od strane Forenzičkog centra u Danilovgradu nesumnjivo utvrdjeno, da predstavlja opojnu drogu marihuanu u količini od 0,10 grama.
+
+Činjenicu da je optuženi P. N. u svojoj kući u mjestu K., držao opojnu drogu marihuanu namijenjenu daljoj prodaji, nesumnjivo je utvrdjeno iz sadržine zapisnika o pretresanju stana i drugih prostorija Uprave policije Ispostava Danilovgrad Ku.br. 106/12 od 06.09.2012. godine, iz kojeg zapisnika proizilazi, da su ovlašćeni policijski službenici navedene ispostave, pretresom kuće u kojoj živi optuženi pronašli, dva papirna zamotuljka u kojem se nalazila zelena biljna materija, jednu providnu pvc kesu u kojoj se takodje nalazila tamno zelena biljna materija, za koju se takodje pretpostavilo da je opojna droga marihuana, kao i više isječaka od providnih pvc kesa, a koji predmeti su privremeno oduzeto od optuženog, a kako to nesumnjivo proizilazi iz sadržine potvrde o privremeno oduzetim predmetima Uprave policije-Ispostava Danilovgrad od 06.09.2012. godine, za koju biljnu materiju je vještačenjm nesumnjivo utvrdjeno da predstavlja opojnu drogu marihuanu ukoličini od 3,96 grama, 0,3 grama i 0,05 grama. Nadalje, da je optuženi navedenu količinu opojne droge marihuane u svojoj kući držao radi dalje prodaje nesumnjivo upućuje način pakovanja iste u manjim ručno pravljenim zamotuljcima, te činjenica da je prilikom pretresa kuće u kojoj optuženi živi pronadjen i veći broj isječaka od providne pvc kese, a što je karakteristično kod počinilaca predmetnih krivičnih djela, koji na taj način vrše pakovanje opojne droge namijenjene za dalju prodaju.
+
+Imajući u vidu ovakvo utvrdjeno činjenično stanje, sud je odbranu optuženog da nikada nije prodavao opojnu drogu marihuanu, pa ni svjedoku V. V. cijenio kao neosnovanu i sračunatu na izbjegavanje krivice.
+
+Sud je cijenio i iskaz svjedoka V. V. dat na glavnom pretresu, da optuženi P. nije lice od kojeg je navodno kupovao marihuanu, te da je svoj iskaz u prethodnom postupku dao pod pritiskom policije, pa je takvo kazivanje svjedoka na glavnom pretresu cijenio kao sračunatu na pomoć optuženom za izbjegavanje krivice, obzirom, da je taj iskaz u suprotnosti sa njegovim iskazom iz prethodnog postupka u kojem je na jasan, detaljan i odredjen način svjedočio o odlučnim činjnicama vezanim za predmetno krivično djelo, a koji iskaz je u svemu saglasan i sa materijalnim dokazima provedenim u postupku.
+
+Cijeneći naprijed utvrđeno činjenično stanje, ovaj Sud nalazi, da su se u radnjama optuženog P. N., stekli svi bitni elementi bića krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga čl. 300. st.1. Krivičnog zakonika, obzirom da je u postupku nesumnjivo utvrđeno, kako je to prethodno navedeno, da je optuženi P. N. od početka avgusta 2011. godine, do 06.09.2012. godine u Danilovgradu, neovlašćeno prodao i radi prodaje držao opojnu drogu marihuana, supstancu proglašenu za opojnu drogu Rješenjem o utvrdjivanju opojnih droga (Sl.list SRJ br. 44/2002). Sve činjenice utvrđene u postupku, okolnosti konkretnog slučaja doveli su ovaj Sud do zaključka, da je optuženi P. N. predmetno krivično djelo izvršio sa direktnim umišljajem. Optuženi je bio u potpunosti svjestan da prodaje, odnosno da radi dalje prodaje drži opojnu drogu marihuanu, te da za to nema potrebna ovlašćenja, a što predstavlja bitno obilježje ovog krivičnog djela, a koja okolnost optuženom je morala biti poznata, obzirom da se radi o punoljetnoj osobi, što sve znači da je kod optuženog postojala svijest o svim obilježjima predmetnog krivičnog djela i htjenje njegovog izvršenja.
+
+Krivično djelo za koje je optuženi oglašen krivim je krivično djelo sa blanketnom dispozicijom, pa je kod ovih krivičnih djela, pored navođenja činjenica i okolnosti koje čine bitna obilježja ovog krivičnog djela, a o kojima se Sud već izjasnio, bilo nužno navesti i materijalno pravni propis, od kojeg zavisi postojanje ovog krivičnog djela. Naime, Rješenjem o utvrdjivanju opojnih droga (Sl.list SRJ br. 44/2002), marihuana je proglašena za opojnu drogu i nalazi se na spisku opojnih droga.
+
+Sud je precizirao činjenične navode iz optužnice u pogledu vremena izvršenja krivičnog djela i načina pakovanja opojne droge marihuane, koju je optuženi P. držao radi dalje prodaje u kući u kojoj živi, na način kako je to predstavljeno u izreci presude, obzirom, da je provedenim dokazima na glavnom pretresu, odnosno iskazom svjedoka V. V. iz prethodnog postupka utvrdjeno, da je opojnu drogu marihuanu kupio 3-4 dana prije pretresa njegove kuće, koji je izvršen dana 14.08.2012. godine, dakle, u prvoj polovini te godine, a ne 2011. godine, kako je to bilo naznačeno u optužnici, odnosno optuženi P. N. je u kući u kojoj je živio držao opojnu drogu marihuanu zapakovanu u jednoj pvc kesi i dva papirna zamotuljka, a kako je to nesumnjivo utvrdjeno iz sadržine zapisnika o pretresanju i potvrde o privremeno oduzetim predmetima, nasuprot činjeničnim navodima iz optužnice, da je marihuana bila zapakovana u aluminijsku foliju, nalazeći da na taj način nije povrijedjen objektivni identitet optužnice.
+
+Odlučujući o kazni za optuženog, Sud je najprije, u smislu čl.42 Krivičnog zakonika, cijenio sve okolnosti od kojih zavisi da kazna bude manja ili veća (olakšavajuće ili otežavajuće okolnosti), pa je od olakšavajućih okolnosti na strani optuženog cijenio njegove lične prilike, da se radi o mladoj osobi, koja je u vrijeme izvršenja krivičnog djela imala navršenih 20 godina života, što znači da je bio mladje punoljetno lice, njegov raniji život tj. neosuđivanost, a što je sud utvrdio iz izvoda iz KE, pa je sud u odsustvu otežavajućih okolnosti, naprijed navedene olakšavajuće okolnosti na strani optuženog cijenio kao naročito olakšavajuće i shodno članu 45. i 46. Krivičnog zakonika, optuženom ublažio kaznu ispod zakonom propisanog minimuma za predmetno krivično djelo i istog osudio na kaznu zatvora u trajanju od 6 (šest) mjeseci, nalazeći da je tako odmjerena kazna, ispod zakonom propisanog minimuma, srazmjerna stepenu krivice optuženog i težini počinjenog djela i da predstavlja onu mjeru koja je neophodno potrebna za postizanje svrhe kažnjavanja iz čl. 32. Krivičnog zakonika, da optuženi ubuduće ne vrši krivična djela, u okviru opšte svrhe izricanja krivičnih sankcija iz čl. 4 st.2. Krivičnog zakonika.
+
+Shodno čl. 300. st.7. u vezi čl. 75, Krivičnog zakonika, Sud je izrekao i mjeru bezbjednosti oduzimanja predmeta-opojne droge marihuane i to od optuženog P. N. u ukupnoj količini od 4,41 grama, a od svjedoka V. V. u količini od 0,10 grama opojne droge marihuane, kao predmeta izvršenja krivičnog djela, koja se ima uništiti nakon pravosnažnosti presude i za koje predmete Zakon predviđa obavezno oduzimanje.
+
+Kako je optuženi oglašen krivim, to ga je sud shodno čl.226. i 229. Zakonika o krivičnom postupku obavezao na plaćanje troškova krivičnog postupka-sudskog paušala u iznosu od 50,oo eura, koji iznos je određen shodno složenosti krivičnog postupka, dužini njegovog trajanja i imovinskim prilikama optuženog, u roku od 15 dana po pravosnažnosti presude, pod prijetnjom prinudnog izvršenja, dok će o ostalim troškovima krivičnog postupka Sud odlučiti naknadno, posebnim rješenjem, po pribavljanju podataka o njihovoj visini.
+
+Sa izloženog, odlučeno je kao u izreci presude.
+		</p>
+		</arguments>
+    </judgementBody>
+</akomaNtoso>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:lc="http://informatika.ftn.uns.ac.rs/legal-case.rdf#">
+    <lc:case rdf:about="http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01">
+        <lc:name>case 01</lc:name>
+        <lc:prodaje>no</lc:prodaje>
+        <lc:proizvodi>no</lc:proizvodi>
+        <lc:posreduje>no</lc:posreduje>
+        <lc:poseduje>no</lc:poseduje>
+        <lc:usao_u_zemlju>no</lc:usao_u_zemlju>
+        <lc:organizuje_mrezu>no</lc:organizuje_mrezu>
+        <lc:prodaje_ugrozenim>no</lc:prodaje_ugrozenim>
+        <lc:is_sluzbeno_lice>no</lc:is_sluzbeno_lice>
+        <lc:drukao>no</lc:drukao>
+        <lc:obezbedjuje_materijal>no</lc:obezbedjuje_materijal>
+        <lc:obezbedjuje_supstancu>no</lc:obezbedjuje_supstancu>
+        <lc:prisustvo_supstanci>no</lc:prisustvo_supstanci>
+    </lc:case>
+</rdf:RDF>

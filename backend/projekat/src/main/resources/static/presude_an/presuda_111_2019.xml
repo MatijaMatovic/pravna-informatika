@@ -1,0 +1,268 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <judgement>
+        <meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši sud u Podgorici
+					</FRBRauthor>
+					<FRBRdate date="2020-04-07">
+						2020-04-07
+					</FRBRdate>
+					<FRBRtitle>
+						K 111/2019
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vsp" href="/ontology/organization/VisiSud.Podgorica" showAs="Visi sud u Podgorici" />
+				<TLCOrganization eId="vdt" href="/ontology/organization/ViseDrzavnoTuzilastvo.Podgorica" showAs="Vise drzavno tuzilastvo" />
+                <TLCOrganization eId="ost" href="/ontology/organization/OsnovniSud.Cetinje" showAs="Osnovni sud u Cetinju" />
+                <TLCOrganization eId="osn" href="/ontology/organization/OsnovniSud.Niksic" showAs="Osnovni sud u Niksicu" />
+                <TLCOrganization eId="osk" href="/ontology/organization/OsnovniSud.Kotor" showAs="Osnovni sud u Kotoru" />
+                <TLCOrganization eId="ascg" href="/ontology/organization/ApelacioniSud.CG" showAs="Apelacioni sud Crne Gore" />
+                <TLCPerson eId="tabas" href="/ontology/person/tabas" showAs="Predrag Tabas" />
+                <TLCPerson eId="novcic" href="/ontology/person/novici" showAs="Slobodanka Novcic" />
+                <TLCPerson eId="kr" href="/ontology/person/kr" showAs="K.R." />
+                <TLCPerson eId="rm" href="/ontology/person/rm" showAs="R.M." />
+                <TLCPerson eId="milic" href="/ontology/person/milic" showAs="Suzana Milic" />
+				<TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="defense" href="/ontology/role/defense" showAs="Defense" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+                <TLCPlace eId="podgorica" href="/ontology/place/podgorica" />
+			</references>
+		</meta>
+    </judgement>
+    <judgmentBody>
+        <p>U IME CRNE GORE</p>
+        <introduction>
+            <organization id="vsp" refersTo="#vsp">
+                VISI SUD U PODGORICI
+            </organization>
+            , kao prvostepeni krivicni, po sudiji 
+            <party id="tabas" refersTo="#tabas" as="#judge">
+                Tabas Predragu
+            </party>
+            , kao pojedincu, uz ucesce namjestenika
+            <party id="novcic" refersTo="#novcic" as="#clerk">
+                Novcic Slobodanka
+            </party>
+            , kao zapisnicara, u krivicnom predmetu protiv optuzenog
+            <party id="kr" refersTo="#kr" as="#defendant">
+                K.R.
+            </party>
+            , koga brani
+            <party id="rm" refersTo="#rm" as="#defense">
+                R.M.
+            </party>
+            , advokat iz Niksica, po sluzbenoj duznosti
+            , zbog krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz
+            <ref href="/krivicni#art_300_para_1">
+                cl. 300 st. 1. Krivicnog zakonika Crne Gore
+            </ref>
+            , po optuznici
+            <organization id="vdt" refersTo="#vdt">
+                Viseg drzavnog tuzilastva u Podgorici
+            </organization>
+            Kt.br. 114/19 od 13.09.2019. godine, koju je na rocistu povodom odlucivanja o sporazumu o priznanju krivice zastupala
+            <party id="milic" refersTo="#milic" as="#prosecutor">
+                Suzana Milic
+            </party>
+            , Drzavni tuzilac u
+            <organization id="vdt" refersTo="#vdt">
+                Visem drzavnom tuzilastvu u Podgorici
+            </organization>
+            , nakon donesenih rjesenja o usvajanju sporazuma o priznanju krivice
+            , donio je datuma 07.04.2021. godine,
+        </introduction>
+        <p>
+            P R E S U D U
+        </p>
+        <background>
+            <party id="kr" refersTo="#kr" as="#defendant">
+                K.R.
+            </party>
+            , JMB ..., od oca S. i majke A., rodjene Đ., rodjen .... godine u P..., sa prebivalištem u P...-ul. P... put ...
+            , državljanin Crne Gore
+            , neoženjen, bez djece, završio srednju turističku školu
+            , nezaposlen, srednjeg imovnog stanja
+            , nalazio se u pritvoru od 05.07.2019. godine u 02,00 časova
+            , po rješenju Višeg suda u Podgorici Kri.br. 212/19 od 07.07.2019. godine do 07.04.2020. godine, osudjivan i to: presudom 
+            <organization id="vsp" refersTo="vsp">
+                Viseg suda u Podgorici,
+            </organization>
+            <ref href="/cg/verdict/k/2017-05-25/49">
+                K.br. 49/17 od 25.05.2017. godine
+            </ref>
+            zbog krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz 
+            <ref href="/krivicni#art_300_para_1">
+                cl. 300 st. 1. KZ Crne Gore
+            </ref>
+            , kojom je osudjen na kaznu zatvora u trajanju od 1 (jedne) godine i 6 (šest) mjeseci i presudom 
+            <organization id="vsp" refersTo="vsp">
+                Viseg suda u Podgorici,
+            </organization>
+            <ref href="/cg/verdict/k/2013-11-25/47">
+                K.br. 47/13 od 25.11.2013.
+            </ref>
+            , zbog krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz 
+            <ref href="/krivicni#art_300_para_1">
+                cl. 300 st. 1. KZ Crne Gore
+            </ref>
+            , kojom je osudjen na kaznu zatvora u trajanju od 1 (jedne) godine.
+        </background>
+
+        <decision>
+            <p>K R I V  J E</p>
+            <p>Zato sto je: </p>
+            <p>
+                Dana 04. i 05.07.2019. godine u Podgorici
+                , neovlašćeno držao radi prodaje 25,307 grama heroina
+                , supstancu proglašenu za opojnu drogu Pravilnikom o utvrdjivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga
+                <ref href="cg/act/sl_glasnik_cg/2018-11-09/18">
+                    (Sl. list CG br. 41/18 od 09.11.2018. godine)
+                </ref>
+                , iako je bio svjestan da postupa neovlašćeno i protivpravno, pa je to i htio
+                , tako što je u navedeno vrijeme, kao suvozač u vozilu marke "S...", reg.oznaka PG ..., kojim je upravljao P. I.
+                , ulicom... M..., neovlašćeno u rubu šortsa kojeg je imao na sebi
+                , držao radi prodaje navedenu opojnu drogu
+                , upakovanu u jednom ručno pravljenom zamotuljku od plastične kese
+                , koja droga je od njega i oduzeta od strane ovlašćenih policijskih službenika CB Podgorica,
+            </p>
+            <p>
+                čime je izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz 
+                <ref href="/krivicni#art_300_para_1">
+                    cl. 300 st. 1. KZ Crne Gore
+                </ref>
+            </p>
+            <p>
+                Pa ga je 
+                <organization id="vsp" refersTo="#vsp">
+                    sud
+                </organization>
+                 primjenom citiranih zakonskih odredbi
+                , te odredbi
+                <ref href="/krivicni#art_33">
+                    cl. 33.
+                </ref>
+                <ref href="/krivicni#art_34">
+                    34.
+                </ref>
+                <ref href="/krivicni#art_36">
+                    36.
+                </ref>
+                <ref href="/krivicni#art_42">
+                    42. st. 1.
+                </ref>
+                i
+                <ref href="/krivicni#art_51">
+                    cl. 51 krivicnog zakonika Crne Gore
+                </ref>
+                , te odredbi
+                <ref href="/krivicni#art_226">
+                    cl. 226,
+                </ref>
+                <ref href="/krivicni#art_229">
+                    229,
+                </ref>
+                <ref href="/krivicni#art_303">
+                    303
+                </ref>
+                i
+                <ref href="/krivicni#art_374">
+                    374 Zakonika o krivicnom postupku
+                </ref>
+            </p>
+            <p>
+                O S U D J U J E
+            </p>
+            <p>
+                Na kaznu zatvora u trajanju od 2 (dvije) godine, u koju kaznu mu se uračunava vrijeme provedeno u pritvoru od 05.07.2019. godine do 07.04.2020. godine.
+            
+            </p>
+            <p>
+                OBAVEZUJE SE optuženi da na ime troškova krivičnog postupka nastalih tokom istrage i tokom zaključenja sporazuma o priznanju krivice na ime paušala Višem državnom tužilaštvu u Podgorici, uplati iznos od 100,00 eura, na račun Vrhovnog državnog tužilaštva broj 832-1187-31, te na ime sudskog paušana Višem sudu u Podgorici na broj žiro računa 832-7113-04, uplati iznos od 100,00 eura, sve u roku od 15 dana od dana pravosnažnosti presude donijete na osnovu sporazuma o priznanju krivice, dok će o ostalim troškovima iz sporazuma, a koji se odnose na nagradu i nužne izdatke postavljenog mu branioca po službenoj dužnosti, sud odlučiti naknadno posebnim rješenjem po pribavljanju podataka o njihovoj visini.
+
+            </p>
+            <p>
+                Na osnovu 
+                <ref href="/krivicni#art_77_para_1">
+                    čl. 75 st. 1
+                </ref>
+                u vezi
+                <ref href="/krivicni#art_300_para_7">
+                    čl. 300 st. 7 Krivičnog zakonika Crne Gore
+                </ref>
+                , optuzenom se i z r i c e
+            </p>
+            <p>MJERA BEZBJEDNOSTI</p>
+            <p>ODUZIMANJE PREDMETA</p>
+            <p>
+                ODUZIMA SE 
+                : opojna droga heroin u količini od 25,307 grama
+                , koja se ima unistiti po pravosnaznosti presude donijete na osnovu sporazuma o priznanju krivice, kao predmet upotrebljen za izvrsenje krivicnog djela.
+            </p>
+        </decision>
+
+        <arguments>
+            <p>OBRAZLOZENJE</p>
+            <p>
+                Optužnicom Višeg Državnog tužilaštva u Podgorici Kt.br. 114/19 od 13.09.2019. godine, optuženom 
+                <party id="kr" refersTo="#kr" as="#defendant">
+                    K.R.
+                </party>
+                stavljeno je na teret izvršenje krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz 
+                <ref href="/krivicni#art_300_para_1">
+                    cl. 300 st. 1. Krivicnog zakonika Crne Gore
+                </ref>
+            </p>
+            <p>
+                Dana 26.03.2020. godine, Više Državno tužilaštvo dostavilo je sudu, zapisnik o pregovaranju, zapisnik i sporazum o priznanju krivice.
+
+            </p>
+            <p>
+                Na ročištu za razmatranje sporazuma, održanom dana 30.03.2020. godine, sud je pročitao dokaze predložene optužnicom i to: şlužbena zabilješka Uprave policije-CB Podgorica-Stanica policije za JRM Ku.br. 574/19 od 05.07.2019. godine, koju su sačinili M.D., S.L., Š.A. i M.D. i izvršio uvid u fotodokumetnaciju Uprave policije CB Podgorica broj 17/03-4-1454/1507 od 05.07.2019. godine, potvrda Uprave policije-CB Podgorica-Stanica policije za JRM Ku.br. 574/19 od 05.07.2019. godine, izvještaj o hemijskom vještačenju Forenzičkog centra Danilovgrad-Grupe za hemijska ispitivanja broj 2685/19 od 01.08.2019. godine i izvršio uvid u fotodokumentaciju koja je sastavni dio izvještaja, izvod iz kaznene evidencije Ministarstva pravde Crne Gore broj 05/2-72-14878/19 od 01.11.2019. godine, zapisnik o pregovaranju Kt.(sp)br. 49/20 od 26.03.2020. godine, zapisnik o priznanju krivice optuženog Kt.(sp)br. 49/20 od 26.03.2020. godine, sporazum o priznaju krivice optuženog Kt.(sp)br. 49/20 od 26.03.2020. godine.
+            
+            </p>
+            <p>
+                Iz sadržine pročitanih dokaza, na koje optuženi i njegov branilac nijesu imali primjedbi, sud zaključuje da je državni tužilac pružio dovoljno dokaza o krivici optuženog, te da je optuženi izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz čl. 300. st. 1. Krivičnog zakonika Crne Gore, na način, u vrijeme i na mjestu kako je to opisano izrekom ove presude, a nakon što je u svemu prihvatio sporazum o priznanju krivice.
+            
+            </p>
+            <p>
+                Odlučujući o visini kazne za optuženog iz sporazuma o priznanju krivice, zaključenog između stranaka, sud je našao da je predlog stranaka u vezi sa kaznom prihvatljiv. Ovo iz razloga što je po ocjeni suda kazna zatvora u trajanju od 2 (dvije) godine, srazmjerna stepenu krivice optuženog i težini počinjenog krivičnog djela, a posebno imajući u vidu priznanje optuženog za izvršeno krivično djelo, izraženo iskreno kajanje i prihvatanje krivice za izvršeno krivično djelo, što je dovelo do efikasnosti okončanja postupka, pa i pored činjenice da je optuženi višestruki specijalni povratnik u izvršenju krivičnog djela, sud nalazi, da će se tako odmjerenom kaznom ostvariti svrha kažnjavanja iz čl. 32. Krivičnog zakonika Crne Gore, u okviru opšte svrhe izricanja krivičnih sankcija iz čl. 4. st. 2. Krivičnog zakonika Crne Gore, da optuženi ubuduće ne vrši krivična djela.
+            
+            </p>
+            <p>
+                Shodno odredbi čl. 75. u vezi čl. 300. st. 7. Krivičnog zakonika Crne Gore, optuženom je izrečena i mjera bezbjednosti - oduzimanja predmeta, pa je od optuženog oduzeta opojna droga heroin u ukupnoj količini od 25,307 grama, a koja droga se ima uništiti po pravosnažnosti presude donijete na osnovu sporazuma o priznanju krivice
+            
+            </p>
+            <p>
+                Kako je optuženi oglašen krivim, sud ga je shodno čl. 226. i 229. Zakonika o krivičnom postupku, obavezao na plaćanje troškova krivičnog postupka i to: na ime paušala Višem državnom tužilaštvu u Podgorici iznos od 100,00€, te na ime sudskog paušana Višem sudu u Podgorici iznos od 100,00€, sve u roku od 15 dana od dana pravosnažnosti presude donijete na osnovu sporazuma o priznanju krivice, dok će o ostalim troškovima iz sporazuma o priznanju krivice, a koji se odnose na nagradu i nužne izdatke branioca po službenoj dužnosti, sud odlučiti naknadno posebnim rješenjem po pribavljanju podataka o njihovoj visini.
+            </p>
+        </arguments>
+    </judgmentBody>
+</akomaNtoso>
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 

@@ -1,0 +1,330 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+    <judgement>
+        <meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši sud u Podgorici
+					</FRBRauthor>
+					<FRBRdate date="2019-04-25">
+						2019-04-25
+					</FRBRdate>
+					<FRBRtitle>
+						K 67/2018
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vsp" href="/ontology/organization/VisiSud.Podgorica" showAs="Visi sud u Podgorici" />
+				<TLCOrganization eId="vdt" href="/ontology/organization/ViseDrzavnoTuzilastvo.Podgorica" showAs="Vise drzavno tuzilastvo" />
+                <TLCOrganization eId="ost" href="/ontology/organization/OsnovniSud.Cetinje" showAs="Osnovni sud u Cetinju" />
+                <TLCOrganization eId="osn" href="/ontology/organization/OsnovniSud.Niksic" showAs="Osnovni sud u Niksicu" />
+                <TLCOrganization eId="osk" href="/ontology/organization/OsnovniSud.Kotor" showAs="Osnovni sud u Kotoru" />
+                <TLCOrganization eId="ascg" href="/ontology/organization/ApelacioniSud.CG" showAs="Apelacioni sud Crne Gore" />
+                <TLCPerson eId="tabas" href="/ontology/person/tabas" showAs="Predrag Tabas" />
+                <TLCPerson eId="novicic" href="/ontology/person/novicic" showAs="Slobodanka Novicic" />
+                <TLCPerson eId="kp" href="/ontology/person/kp" showAs="K.P." />
+                <TLCPerson eId="km" href="/ontology/person/km" showAs="K.M." />
+                <TLCPerson eId="mj" href="/ontology/person/mj" showAs="Maja Jovanovic" />
+				<TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="defense" href="/ontology/role/defense" showAs="Defense" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+                <TLCPlace eId="podgorica" href="/ontology/place/podgorica" />
+			</references>
+		</meta>
+    </judgement>
+    <judgementBody>
+        <p>U IME CRNE GORE</p>
+        <introduction>
+            <organization id="vsp" refersTo="#vsp">
+                VISI SUD U PODGORICI
+            </organization>
+            , kao prvostepeni krivicni, po sudiji 
+            <party id="tabas" refersTo="#tabas" as="#judge">
+                Tabas Predragu
+            </party>, uz ucesce
+            <party id="novicic" refersTo="#novicic" as="#clerk">
+                Novicic Slobodnake
+            </party>
+            , kao zapisnicara, u krivicnom predmetu protiv optuzenog
+            <party id="kp" refersTo="#kp" as="#defendant">
+                K.P.
+            </party>
+            , zbog krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz 
+            <ref href="/krivicni#art_300_para_1">
+                cl. 300 st. 1. Krivicnog zakonika Crne Gore
+            </ref>
+            , koga brani
+            <party id="km" refersTo="#km" as="#defense">
+                K.M.
+            </party>
+            , advokat iz Podgorice po sluzbenoj duznosti, odlucujuci po optuznici
+            <organization id="vdt" refersTo="#vdt">
+                Viseg drzavnog tuzilastva u Podgorici
+            </organization>
+            Kt. br. 44/18 od 08.06.2018. godine, koju je na glavnom pretresu zastupala
+            <party id="mj" refersTo="#mj" as="#prosecutor">
+                Maja Jovanovic
+            </party>
+            - drzavni tuzilac u 
+            <organization id="vdt" refersTo="#vdt">
+                Visem drzavnom tuzilastvu u Podgorici
+            </organization>
+            , nakon odrzanog glavnog i javnog pretresa dana 25.04.2019. godine, u prisustvu optuzenog i njegovog branioca, donio je i istog dana javno objavio
+        </introduction>
+        <p>
+            P R E S U D U
+        </p>
+        <background>
+            Prema optuženom 
+            <party id="kp" refersTo="#kp" as ="#defendant">
+                K.P.
+            </party>
+            ,JMB ..., od oca Lj... i majke M., rodjene D., rodjen .... godine u N..., sa prebivalištem u N...-N... Ž... ..., 
+            državljanin Crne Gore, po zanimanju mašinbravar, nezaposlen, završio srednju mašinsku školu, lošeg imovnog stanja, 
+            osudjivan i to: presudom 
+            <organization id="osc" refersTo="#osc">
+                Osnovnog suda Cetinje
+            </organization>
+            <ref href="/cg/verdict/k/2003-10-20/79">
+                K.br. 79/03 od 20.10.2003. godine
+            </ref>
+            , zbog krivicnog djela ugrozavanje javnog saobracaja iz
+            <ref href="/krivicni/art_172_para_3">
+                cl. 172. st. 3. u vezi st. 1. iz KZ RCG
+            </ref>
+            , kojom mu je izrecena uslovna osuda 3 mjeseca zatvora, uslovno na 1 godinu, presudom 
+            <organization id="vsp" refersTo="vsp">
+                Viseg suda u Podgorici
+            </organization>
+            ,
+            <ref href="/cg/verdict/k/2005-10-19/201">
+                K.br. 201/2004 od 19.10.2005. godine
+            </ref>
+            , zbog krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz 
+            <ref href="/krivicni#art_300_para_1">
+                cl. 300 st. 1. KZ RCG
+            </ref>
+            i osudjen na kaznu zatvora u trajanju od 6 mjeseci, presudom
+            <organization id="vsp" refersTo="#vsp">
+                Viseg suda u Podgorici
+            </organization>
+            <ref href="/cg/verdict/k/2007-05-24/267">
+                K.br. 267/2005 od 24.05.2007. godine
+            </ref>
+            , zbog krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz
+            <ref href="/krivicni#art_300_para_1">
+                cl. 300 st. 1. KZ CG
+            </ref>
+            i osudjen na kaznu zatvora u trajanju od 2 godine i 4 mjeseca, presudom
+            <organization id="osk" refersTo="#osk">
+                Osnovnog suda Kotor
+            </organization>,
+            <ref href="/cg/verdict/k/2007-05-24/286">
+                K.br. 286/03 od 28.03.2006. godine
+            </ref>
+            , zbog krivicnog djela teska tjelesna povreda iz
+            <ref href="/krivicni#art_36_para_1">
+                cl. 36 st. 1. KZ RCG
+            </ref>
+            i nasilnicko ponasanje iz
+            <ref href="/krivicni#art_195_para_2">
+                cl. 195 st. 2. KZ RCG u vezi st. 1. KZ RCG
+            </ref>
+            i osudjen na kaznu zatvora u trajanju od 6 mjeseci, presudom
+            <organization id="vsp" refersTo="#vsp">
+                Viseg suda u Podgorici
+            </organization>
+            <ref href="/cg/verdict/k/2008-05-21/95">
+                K.br. 95/2008 od 21.05.2008. godine
+            </ref>
+            , zbog krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz
+            <ref href="/krivicni#art_300_para_1">
+                cl. 300 st. 1. KZ CG
+            </ref>
+            i osudjen na kaznu zatvora u trajanju od 2 godine i 9 mjeseci, presudom
+            <organization id="osn" refersTo="#osn">
+                Osnovnog suda Niksic
+            </organization>
+            <ref href="/cg/verdict/k/2012-12-05/962">
+                K.br. 962/12 od 05.12.2012. godine
+            </ref>
+            , zbog krivicnog djela kradja putem pomaganja iz
+            <ref href="/krivicni#art_239_para_1">
+                cl. 239 st. 1. KZ CG
+            </ref>
+            u vezi
+            <ref href="/krivicni#art_25">
+                čl. 25. KZ RCG
+            </ref>
+            i osudjen na kaznu zatvora u trajanju od 3 mjeseca, presudom
+            <organization id="osn" refersTo="#osn">
+                Osnovnog suda Niksic
+            </organization>
+            <ref href="/cg/verdict/k/2014-12-10/173">
+                K.br. 173/14 od 10.12.2014. godine
+            </ref>
+            , zbog krivicnog djela razbojnicka kradja iz
+            <ref href="/krivicni#art_241_para_1">
+                cl. 241 st. 6. KZ CG
+            </ref>
+            u vezi
+            <ref href="/krivicni#art_241_para_1">
+                st. 1. KZ CG
+            </ref>
+            <ref href="/krivicni#art_23">
+                čl. 23. KZ RCG
+            </ref>
+            i osudjen na kaznu zatvora u trajanju od 4 mjeseca, presudom
+            <organization id="osn" refersTo="#osn">
+                Osnovnog suda Niksic
+            </organization>
+            <ref href="/cg/verdict/k/2014-04-08/16">
+                K.br. 16/15 od 08.04.2015. godine
+            </ref>
+            , zbog krivicnog djela kradja iz
+            <ref href="/krivicni#art_239_para_1">
+                cl. 239 st. 1. KZ CG
+            </ref>
+            i osudjen na kaznu zatvora u trajanju od 3 mjeseca, presudom
+            <organization id="osn" refersTo="#osn">
+                Osnovnog suda Niksic
+            </organization>
+            <ref href="/cg/verdict/k/2015-04-09/571">
+                K.br. 571/14 od 09.04.2015. godine
+            </ref>
+            , zbog krivicnog djela teska kradja iz
+            <ref href="/krivicni#art_240_para_1_pt_1">
+                cl. 240 st. 1. tacka 1. KZ CG
+            </ref>
+            i osudjen na kaznu zatvora u trajanju od 1 godine i 2 mjeseca i presudom
+            <organization id="osn" refersTo="#osn">
+                Osnovnog suda Niksic
+            </organization>
+            <ref href="/cg/verdict/k/2016-01-25/172">
+                K.br. 172/15 od 25.01.2016. godine
+            </ref>
+            , zbog krivicnog djela teska kradja iz
+            <ref href="/krivicni#art_240_para_1_pt_1">
+                cl. 240 st. 1. tacka 1. KZ CG
+            </ref>
+            i osudjen na kaznu zatvora u trajanju od 1 godine i 4 mjeseca.
+        </background>
+        <decision>
+            <p>
+                Na osnovu
+                <ref href="/krivicni_postupak#art_372_para_1_pt_1">
+                    čl. 372. st. 1. tačka 1. Zakonika o krivičnom postupku
+                </ref>
+             </p>
+            <p>OPTUZBA SE ODBIJA</p>
+            <p>Da je:</p>
+            <p>
+                Dana 05.03.2018. godine, u Niksicu, neovlasceno radi prodaje drzao opojnu drogu - heroin i buprenorfin, supstance proglasene
+                za opojnu drogu Pravilnikom o utvrdjivanju spiska droga, psihotropnih supstanci i bilja koje se moze koristiti za proizvodnju droga
+                <ref href="cg/act/sl_glasnik_cg/2012-11-09/12">
+                    (Sl. list CG br. 56/12 od 09.11.2012. godine)
+                </ref>
+                , iako je bio svjestan da se radi o opojnoj drogi i da postupa neovlasceno i protivpravno, pa je to i htio, na nacin sto je kod 
+                sebe, dok se nalazio na mjestu vozaca u parkiranom putnickom motornom vozilu, marke B..., reg. oznaka PL ..., drzao neutvrdjenu
+                kolicinu heroina, koji je upakovan u jednoj PVC kesici, te dvije tablete buprenorfina, te kada je primjetio nailazak ovlascenih 
+                policijskih sluzbenika, navedeni heroin je prosuo po sjedistu vozaca, mjenjacu, volanu i zadjnjem sjedistu vozila, te po svojoj
+                trenerci i jakni, nakon cega su ovlasceni policijski sluzbenici izvrsili njegov licni pretres i pretres navedenog vozila, kojom
+                prilikom su kod okrivljenog u dzepu od farmerica pronasli i oduzeli dvije tablete buprenorfina, neto mase 0,111 grama i 0,110 
+                grama, te na zadnjem sjedistu vozila dio PVC kesice sa heroinom, neto mase 0.262 grama, dok su iz unutrasnjosti vozila sakupili
+                prosuti heroin, neto mase 1,388 grama,
+            </p>
+            <p>
+                Cime bi izvrsio krivicno djelo neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300_para_1">
+                    cl. 300 st. 1. Krivicnog zakonika Crne Gore
+                </ref>
+            </p>
+            <p>
+                Troskovi krivicnog postupka padaju na teret budzetskih sredstava suda
+            </p>
+        </decision>
+        <arguments>
+            <p>
+                Optuznicom 
+                <organization id="vdt" refersTo="#vdt">
+                    Viseg drzavnog tuzilastva u Podgorici
+                </organization>
+                <ref href="/cg/verdict/k/2018-06-08/44">
+                    Kt.br. 44/18 od 08.06.2018. godine
+                </ref>
+                , stavljeno je na teret optuzenom
+                <party id="kp" refersTo="#kp" as ="#defendant">
+                    K.P.
+                </party>
+                , izvrsenje krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz 
+                <ref href="/krivicni#art_300_para_1">
+                    cl. 300 st. 1. Krivicnog zakonika Crne Gore Krivicnog zakonika Crne Gore
+                </ref>
+            </p>
+            <p>
+                Na glavnom pretresu odrzanom dana 25.04.2019. godine, zastupnik optuzbe je u zavrsnoj rijeci izjavio da odustaje od optuznice protiv
+                optuzenog
+                <party id="kp" refersTo="#kp" as ="#defendant">
+                    K.P.
+                </party>
+                , izvrsenje krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz 
+                <ref href="/krivicni#art_300_para_1">
+                    cl. 300 st. 1. Krivicnog zakonika Crne Gore Krivicnog zakonika Crne Gore
+                </ref>
+            </p>
+            <p>
+                Imajuci u vidu navedeno, odnosno cinjenicu, da je 
+                <organization id="vdt" refersTo="#vdt">
+                    Vise drzavno tuzilastvo u Podgorici
+                </organization>
+                , odustalo od optuznice podignute protiv optuzenog
+                <party id="kp" refersTo="#kp" as ="#defendant">
+                    K.P.
+                </party>
+                , za krivicno djelo neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz 
+                <ref href="/krivicni#art_300_para_1">
+                    cl. 300 st. 1. Krivicnog zakonika Crne Gore Krivicnog zakonika Crne Gore
+                </ref>
+                , 
+                <organization id="vsp" refersTo="#vsp">
+                    sud
+                </organization>
+                se nije upustao u meritorno odlucivanje, vec je shodno 
+                <ref href="/krivicni_postupak#art_372_para_1_pt_1">
+                    čl. 372. st. 1. tačka 1. Zakonika o krivičnom postupku
+                </ref>
+                , donio presudu kojom se optuzba odbija
+            </p>
+            <p>
+                O troskovima postupka odluceno je shodno odredbi
+                <ref href="/krivicni_postupak#art_230_para_1">
+                    cl. 230. st. 1. Zakonika o krivicnom postupku
+                </ref>
+            </p>
+            <p>
+                Sa izlozenog, odluceno je kao u izreci presude
+            </p>
+        </arguments>
+    </judgementBody>
+    <conclusion>
+        <p>PRAVNA POUKA:</p>
+        <p>
+            Protiv ove presude dozvoljena je zalba u roku od 15 dana od dana prijema pisanog otpravka iste,
+            <organization id="ascg" refersTo="ascg">
+                Apelacionom sudu crne gore
+            </organization>
+            , a preko
+            <organization id="vsp" refersTo="#vsp">
+                ovog suda
+            </organization>
+        </p>
+    </conclusion>
+</akomaNtoso>

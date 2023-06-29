@@ -1,0 +1,291 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+        <judgement>
+        <meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši sud u Podgorici
+					</FRBRauthor>
+					<FRBRdate date="2013-10-11">
+						2013-10-11
+					</FRBRdate>
+					<FRBRtitle>
+						K 47/2013
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vsp" href="/ontology/organization/VisiSud.Podgorica" showAs="Visi sud u Podgorici" />
+				<TLCOrganization eId="vdt" href="/ontology/organization/ViseDrzavnoTuzilastvo.Podgorica" showAs="Vise drzavno tuzilastvo" />
+                <TLCOrganization eId="ost" href="/ontology/organization/OsnovniSud.Cetinje" showAs="Osnovni sud u Cetinju" />
+                <TLCOrganization eId="osn" href="/ontology/organization/OsnovniSud.Niksic" showAs="Osnovni sud u Niksicu" />
+                <TLCOrganization eId="osk" href="/ontology/organization/OsnovniSud.Kotor" showAs="Osnovni sud u Kotoru" />
+                <TLCOrganization eId="ascg" href="/ontology/organization/ApelacioniSud.CG" showAs="Apelacioni sud Crne Gore" />
+                <TLCPerson eId="jovic" href="/ontology/person/jovic" showAs="Dragoje Jovic" />
+                <TLCPerson eId="cupara" href="/ontology/person/cupara" showAs="Mile Cupara" />
+                <TLCPerson eId="kr" href="/ontology/person/kr" showAs="K.R." />
+                <TLCPerson eId="bd" href="/ontology/person/bd" showAs="B.D." />
+                <TLCPerson eId="Jovicevic" href="/ontology/person/jovicevic" showAs="Sanja Jovicevic" />
+				<TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="defense" href="/ontology/role/defense" showAs="Defense" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+                <TLCPlace eId="podgorica" href="/ontology/place/podgorica" />
+			</references>
+		</meta>
+    </judgement>
+    <judgmentBody>
+        <p>U IME CRNE GORE</p>
+        <introduction>
+            <organization id="vsp" refersTo="#vsp">
+                VISI SUD U PODGORICI
+            </organization>
+            , kao prvostepeni krivicni, po sudiji 
+            <party id="jovic" refersTo="#jovic" as="#judge">
+                Dragoju Jovicu
+            </party>
+            , kao pojedincu, uz ucesce namjestenika
+            <party id="cupara" refersTo="#cupara" as="#clerk">
+                Mile Cupara
+            </party>
+            , kao zapisnicara, u krivicnom predmetu protiv optuzenog
+            <party id="kr" refersTo="#kr" as="#defendant">
+                K.R.
+            </party>
+            , zbog krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz
+            <ref href="/krivicni#art_300_para_1">
+                cl. 300 st. 1. Krivicnog zakonika Crne Gore
+            </ref>
+            , nakon odrzanog glavnog i javnog pretresa dana 08.10.2013. godine
+            , kome su prisustvovali zastupnik optuznice
+            <party id="jovicevic" refersTo="#jovicevic" as="#prosecutor">
+                Sanja Jovicevic
+            </party>
+            , zamjenik 
+            <organization id="vdt" refersTo="#vdt">
+                Viseg drzavnog tuzilastva u Podgorici
+            </organization>
+            , optuzeni
+            <party id="kr" refersTo="#kr" as="#defendant">
+                K.R.
+            </party>
+            i njegov branilac
+            <party id="bd" refersTo="#bd" as="#defense">
+                B.D.
+            </party>
+            , advokat iz Podgorice, po sluzbenoj duznosti
+            , donio je datuma 11.10.2013. godine i javno objavio,
+        </introduction>
+        <p>
+            P R E S U D U
+        </p>
+        <background>
+            Optuzeni
+            <party id="kr" refersTo="#kr" as="#defendant">
+                K.R.
+            </party>
+            , JMB ..., od oca S. i majke A., rodjene Đ., rodjen .... godine u P..., sa prebivalištem u P...-ul. P... put ...
+            , državljanin Crne Gore
+            , neoženjen, bez djece, završio srednju turističku školu
+            , nezaposlen, loseg imovnog stanja
+            , neosudjivan
+        </background>
+
+        <decision>
+            <p>K R I V  J E</p>
+            <p>Zato sto je: </p>
+            <p>
+                Dana 05.03.2013. godine u P.
+                , neovlašćeno držao radi dalje prodaje opojnu drogu marihuanu 
+                - supstancu proglašenu za opojnu drogu Pravilnikom o utvrdjivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga 
+                <ref href="cg/act/sl_glasnik_cg/2012-11-09/12">
+                    (Sl. list CG br. 56/12 od 09.11.2012. godine)
+                </ref> 
+                , iako je bio svjestan da postupa neovlašćeno i protivpravno pa je to i htio
+                , na način što je na javnom mjestu, u ul. .. m. u P.
+                , ispred zgrade u kojoj ima iznajmljen stan
+                , u ruci držao radi dalje prodaje opojnu drogu marihuanu zapakovanu u tri zamotuljka od aluminijumske folije
+                , ukupne mase 10,35 grama
+                , koja je kod okrivljenog pronadjena i oduzeta od strane ovlašćenih policijskih službenika nakon njegovog izvršenog ličnog pretresa
+                , dok je istog dana pretresom njegovog iznajmljenog stana u ul. .. m.
+                , pronadjena opojna droga marihuana koja se nalazila u dnevnoj sobi i to na fotelji zapakovana u jedan veći pvc zamotuljak, mase 17,99 grama
+                , a zatim u plakaru u istoj sobi zapakovana u dvije veće pvc kese bijele boje sa natpisom "L." i "V." ukupne mase 915,42 grama
+                , a na polici i digitalna vaga marke "B." namijenjena preciznom mjerenju
+                , koja opojna droga, kao i predmetna vaga su oduzete od strane ovlašćenih službenika Uprave policije - PJ Podgorica, a pronadjena opojna droga je od strane okrivljenog bila namijenjena daljoj neovlašćenoj prodaji,
+            </p>
+            <p>
+                Cime je izvrsio krivicno djelo neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300_para_1">
+                    cl. 300 st. 1. Krivicnog zakonika Crne Gore
+                </ref>
+            </p>
+            <p>
+                Pa ga 
+                <organization id="vsp" refersTo="#vsp">
+                    sud
+                </organization>
+                primjenom citiranog zakonskog propisa
+                , te odredbi
+                <ref href="/krivicni#art_4_para_36">
+                    cl. 36
+                </ref>
+                <ref href="/krivicni#art_4_para_42">
+                    42.
+                </ref>
+                <ref href="/krivicni#art_4_para_42">
+                    45.
+                </ref>
+                i
+                <ref href="/krivicni#art_374">
+                    cl. 374 Zakonika o krivicnom postupku
+                </ref>
+            </p>
+            <p>
+                O S U D J U J E
+            </p>
+            <p>
+                Na kaznu zatvora u trajanju od 1 (jedne) godine, u koju kaznu mu se uračunava vrijeme provedeno u pritvoru od 05.03.2013. godine do 02.04.2013. godine
+            
+            </p>
+            <p>
+                Na osnovu 
+                <ref href="/krivicni#art_77_para_1">
+                    čl. 75 st. 1
+                </ref>
+                u vezi
+                <ref href="/krivicni#art_300_para_7">
+                    čl. 300 st. 7 Krivičnog zakonika Crne Gore
+                </ref>
+                , optuzenom se i z r i c e
+            </p>
+            <p>MJERA BEZBJEDNOSTI</p>
+            <p>ODUZIMANJE PREDMETA</p>
+            <p>
+                ODUZIMA SE 
+                : opojna droga marihuana u količini od 943,76g grama
+                , koja se ima unistiti po pravosnaznosti presude.
+            </p>
+            <p>
+                Obavezuje se optuženi da na ime troškova krivičnog postupka, uplati novčani iznos od 181.50€ i iznos od 181.50€ na ime sudskog pausala, u roku od 15 dana po pravosnaznosti presude.
+            </p>
+        </decision>
+
+        <arguments>
+            <p>
+                Optužnicom Višeg Državnog tužilaštva u Podgorici Kt.br. 31/13 od 01.04.2012. godine, optuženom K. R.u stavljeno je na teret izvršenje krivičnog djela neovlašćena proizvodnja, držanje I stavljanje u promet opojnih droga 
+                <ref href="/krivicni#art_303_para_1">
+                    cl. 303 st. 1. Zakonika o krivičnom postupku
+                </ref>
+                u vezi 
+                <ref href="/krivicni#art_25">
+                    cl. 25. Krivicnog zakonika Crne Gore
+                </ref>
+            
+            </p>
+            <p>
+                Sud je u dokaznom postupku neposredno saslušao vještaka medicinske struke psihijatra dr Ž.G. koji je branio svoj pisani nalaz i mišljenje od 25.07.2013. godine, pročitao iskaz svjedoka B.V., zapisnik o pretresanju lica UP PJ Podgorica Ku.br.158/2013 od 05.03.2013.godine, zapisnik o pretresanju stana i drugih prostorija UP PJ Podgorica Ku.br.158/13 od 05.03.2013. godine na ime K.R., četiri potvrde o privremeno oduzetim predmetima UP PJ Podgorica Ku. br.158/13 od 05.03.2013. godine na ime K.R., potvrdu o vraćanju predmeta UP PJ Podgorica Ku. br. 158/2-13 od 05.03.2013. godine na ime B.V., izvještaj o hemijskom vještačenju Forenzičkog centra Danilovgrad broj 726/13, izvod iz kaznene evidencije UP PJ Podgorica br.29-245/13-5145/2-894 od 20.03.2013. godine na ime K.R., te izvrišio uvid u fotodokumentaciju koja čini sastavni dio izvještaja o vještačenju br.726-13 od 21.03.2013. godine.
+
+
+            </p>
+            <p>
+                Optuženi K.R. u svojoj odbrani, koju je po prvi put iznio na glavnom pretresu, nije sporio da su mu dana 05.03.2013. godine policijski službenici oduzeli opojnu drogu marihuanu, koju je prethodne noći kupio od njemu nepoznatog lica, za iznos koji je trebao da isplati nakon njene prodaje. Upravo je tog dana, na osnovu prethodnog dogovora , htio ispred stana u kome živi, u Ul. .. m. u P., da jednoj osobi proda tri zamotuljka u kojima se nalazila marihuana, ali je ta kupoprodaja spriječena intervencijom tri policijska službenika, koji su se nalazili ispred ulaza zgrade. Oni su mu iz ruke oduzeli te zamotuljke i nešto kasnije izvršili pretres stana u kome živi, kojom prilikom su u dnevnoj sobi, u fotelji našli jedan veći pvc zamotuljak, dok su u plakaru pronašli dvije veće pvc kese u kojima se nalazila marihuana, kao i vagu koja je služila za njeno precizno mjerenje. On je posebno naglasio, da je novcem koji bi zaradio od te prodaje htio da plati stanarinu i nabavi novu količinu za svoje potrebe, jer je zavisnik od te vrste opojne droge 10-tak godina. Nakon zaposlenja, kada je napunio 19-20 godina, počeo je konzumirati pet grama dnevno i sav novac bi trošio za nabavku marihuane, dok je prije 2-3 godine, započeo i sa konzumiranjem heroina, tako što je u početku ušmrkavanjem uzimao pola grama dnevno i kasnije po jedan gram, sve dok mu, unazad godinu dana, nije ponestalo novca. U to vrijeme, u kome nije konzumirao drogu, osjećao je bolove u koljenima i kičmi, mučila ga je nesanica i povremeno je dobijao groznicu, pa je nakon puštanja na slobodu od 02.04.2013. godine, zbog porodičnih problema i smrti roditelja, nastavio sa uzimanjem marihuane i heroina u manjim količinama. Iako je osjećao potrebu za liječenjem i nekom vrstom pomoći, nikada se nije javljao u neku zdravstvenu ustanovu radi pregleda.
+
+            </p>
+            <p>
+                Svjedok B.V. je u svom iskazu naveo da ga je njegov dugogodišnji prijatelj K. M. zamolio da se angažuje oko iznajmljivanja njegovog stana tako da je on u ,,T. oglasima ostavio svoj broj …., i prije nekih 4-5 mjeseci primio je poziv od lica K.R. sa kojim se dogovorio da mu izda stan za 180 eura mjesečno. Dodaje da je K. račune uredno plaćao, ali sa njim nije imao bliži kontakt niti je znao čim se bavi, a posebno ne zna ništa u vezi pronadjene droge.
+
+            
+            </p>
+            <p>
+                Iz zapisnika o pretresanju lica UP PJ Podgorica Ku.br.158/2013 od 05.03.2013.godine proizilazi da su službenici Uprave Policije u Podgorici, B. S.P.C. izvršili pretres lica K. R. kojom prilikom su u rukama pomenutog pronadjena tri zamotuljka od aluminijske folije u kojima se nalazila tamno zelena materija biljnog porijekla za koju se pretpostavljalo da je opojna droga marihuana.
+
+            
+            </p>
+            <p>
+                Iz zapisnika o pretresanju stana i drugih prostorija UP PJ Podgorica Ku.br.158/13 od 05.03.2013.godine proizilazi da su službenici Uprave policije PJ Podgorica uz prisustvo svjedoka, izvršili pretres stana br.11 u ulici .. m., zgradi ,,Z.V., koji koristi lice K.R., prilikom kojeg su u dnevnoj sobi na fotelji pronašli jedan veći zamotuljak, u plakaru u dnevnoj sobi pronadjene su dvije veće pvc kese bijele boje sa natpisima ,,L. i ,,V. , u kojima se nalazi tamno zelena biljna materija za koju se pretpostavlja da je opojna droga marihuana, na polici u korpi je pronadjena jedna plastična kutija valjkastog oblika u kojoj se nalazi veći broj sjemenki za koju se pretpostavlja da potiču od opojne droge marhiuane, jedna digitalna vaga za precizno mjerenje marke ,,B. kao i dvije rolne aluminijske i pvc folije.
+
+            
+            </p>
+            <p>
+                Iz četiri potvrde o privremeno oduzetim predmetima UP PJ Podgorica Ku.br.158/13 od 05.03.2013. godine na ime K. R., proizilazi da su od njega oduzeta tri ručno pravljena zamotuljka od alu.folije u kojima se nalazi tamno-zelena biljna materija za koju se pretpostavlja da je opojna droga marihuana, jedan mobilni telefon marke “S.” GT 1050 IMEI …. sa “M.” karticom broja …., jedan veći pvc zamotuljak sa sadržajem biljne materije tamno zelene boje za koju se sumnja da je opojna droga marihuana, dvije veće pvc kese bijele boje sa natpisima ,,L. i ,,V., u kojima se nalazi tamno zelena biljna materija za koju se sumnja da je opojna droga marihuana, jedna digitalna vaga bijele boje marke ,”B.”, jedna rolna aluminijske folije, jedna rolna plastične folije, jedno pakovanje pvc kesa za zamrzivač, jedna plastična kutija valjkastog oblika u kojoj se nalazi veći broj sjemenki za koje se pretpostavlja da potiču od opojne droga marihuana i jedan veći ključ i dva manja od stana. Sve potvrde su uredno potpisane od strane optuženog i bez primjedbi.
+
+            
+            </p>
+            <p>
+                Iz potvrde o vraćanju predmeta UP PJ Podgorica Ku.br. 158/2-13 od 05.03.2013 godine na ime B.V. proizilazi da su pomenutom vraćeni jedan veći ključ i dva manja od stana.
+
+            
+            </p>   
+            <p>
+                Iz izvještaja o hemijskom vještačenju broj 726/13 Forenzičkog centra u Danilovgradu proizilazi da su na analizu dostavljeni (1) tri ručno pravljena zamotuljka od al. folije, sa sadržajem sasušene biljne materije tamno zelene boje, karakterističnog opojnog mirisa, neto masa m=3,03g, m=3,54g i m=3,78g; (2) jedan ručno pravljeni zamotuljak od plastične kese sa sadržajem biljne materije tamno zelene boje, karakterističnog opojnog mirisa, neto mase m=17,99g; (3) dva ručno pravljena zamotuljka od plastičnih kesa, sa sadržajem sasušene biljne materije tamno zelene boje, karakterističnog opojnog mirisa, neto masa m=431,43g i m=483,99g; (4) jedna plastična kutija u kojoj se nalazi 246 sjemenki, (5) jedna vaga marke „B.“; (6) više plastičnih kesa i (7) jedna rolna alu. folije, kao i jedna rolna plastične folije.
+
+            </p>
+            <p>
+                Uvidom u fotodokumentaciju koja čini sastavni dio izvještaja o vještačenju br.726-13 od 21.03.2013. godine vidi se na strani jedan, jasan prikaz oduzetih predmeta koji su dostavljeni na analizu, na strani dva bliži izgled 3 zamotuljka alu.folije sa biljnom materijom tamno zelene boje, kao i na strani tri skupljene i rasute sjemenke koje su oduzete preteresom stana.
+
+ 
+
+                Nesporno je da su navedeni uzorci pronadjeni pretresom optuženog, kao i stana u kome živi, na mjestima koja su bliže opisana u zapisnicima o pretresanju lica i pretresanju stana i drugih prostorija, koji su izvršeni na zakonit način od strane policijskih službenika Uprave policije PJ Podgorica, i poslovno zavedeni pod brojem Ku:158/2013. Navedene činjenice, kao i zakonitost izvršenog pretresa, nijesu osporavane od strane optuženog, dok je na osnovu izvještaja o vještačenju nesumnjivo utvrdjeno, uz primjenu metoda tankoslojne hromatografije (TLC) i LC/MS, da dostavljeni biljni materijal pod brojem 1, 2 i 3 potiče od iste biljke čiji botanični naziv Cannabis L Sativa (poznatiji kao konoplja – marihuana), kao i da sadrži tetrahidrokanabinol (THC) u koncentaciji iznad 0,2%. Nadalje je iz tog izvještaja utvrdjeno, da uzorak pod rednim brojem 5 jedna vaga marke „B.“ sadrži tetrahidrokanabinol – THC i da sjemenke potiču od biljke Cannabis, ali da se sjeme Cannabisa ne nalazi u Pravilniku o utvrdjivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga („Sl. list CG“ br. 56/2012), niti Forenzički centar ima uslova za uzgoj biljke iz sjemenke u cilju provjere koncentracije THC. Na kraju je u mišljenju navedeno, da uzorci pod rednim brojem 6, 7 i 8 ne sadrže tragove opojnih droga u granicama detekcije primjenjivane metode. Dakle, označenim metodama je nesumnjivo utvrdjeno da samo dostavljeni uzorci pod rednim brojem 1, 2 i 3 sadrže tetrahidrokanabinol (THC) u koncentraciji iznad 0,2% i da su konoplja i THC supstance koje djeluju na centralni nervni sistem, izazivaju stanje zavisnosti i nalaze se u Pravilniku o utvrdjivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga („Sl. list CG“ br. 56/2012).
+
+            </p>
+            <p>
+                Kako je sud optuženog oglasio krivim, to ga je, na osnovu čl. 229 u vezi čl. 226 Zakonika o krivičnom postupku, obavezao na plaćanje troškova krivičnog postupka u iznosu od (181,50€) koji se tiču vještačenja po vještaku medicinske struke dr G.Ž., kao i paušala u iznosu od 150,00 €, koji je odmjeren obzirom na trajanje i složenost postupka, te imovno stanje optuženog, u roku od 15 dana po pravosnažnosti presude.
+
+            </p>
+
+            <p>
+                Sa izloženog, a shodno odredbi 
+                <ref href="/krivicni#art_303_para_1">
+                    cl. 303 st. 1. Zakonika o krivičnom postupku
+                </ref> 
+                i 
+                <ref href="/krivicni#art_303_para_2">
+                    2
+                </ref> 
+                i
+                <ref href="/krivicni_postupak#art374">
+                    cl. 374 Zakonika o krivičnom postupku
+                </ref> 374 Zakonika o krivičnom postupku, odlučeno je kao u izreci presude.
+            </p>
+        </arguments>
+    </judgmentBody>
+    <conclusions>
+        <p>PRAVNA POUKA:</p>
+        <p>
+            Protiv ove presude može se izjaviti žalba Apelacionom sudu CG u roku od 15 dana od dana prijema prepisa, a preko ovog suda.
+        </p>
+    </conclusions>
+</akomaNtoso>
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 

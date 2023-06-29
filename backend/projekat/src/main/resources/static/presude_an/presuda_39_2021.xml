@@ -1,0 +1,375 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <judgement>
+        <meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši sud u Podgorici
+					</FRBRauthor>
+					<FRBRdate date="2019-04-25">
+						2021-10-18
+					</FRBRdate>
+					<FRBRtitle>
+						K 39/2021
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vsp" href="/ontology/organization/VisiSud.Podgorica" showAs="Visi sud u Podgorici" />
+				<TLCOrganization eId="vdt" href="/ontology/organization/ViseDrzavnoTuzilastvo.Podgorica" showAs="Vise drzavno tuzilastvo" />
+                <TLCOrganization eId="ost" href="/ontology/organization/OsnovniSud.Cetinje" showAs="Osnovni sud u Cetinju" />
+                <TLCOrganization eId="osn" href="/ontology/organization/OsnovniSud.Niksic" showAs="Osnovni sud u Niksicu" />
+                <TLCOrganization eId="osk" href="/ontology/organization/OsnovniSud.Kotor" showAs="Osnovni sud u Kotoru" />
+                <TLCOrganization eId="ascg" href="/ontology/organization/ApelacioniSud.CG" showAs="Apelacioni sud Crne Gore" />
+                <TLCPerson eId="mostrokol" href="/ontology/person/mostrokol" showAs="Vesna Mostrokol" />
+                <TLCPerson eId="rakovic" href="/ontology/person/rakovic" showAs="Anka Rakovic" />
+                <TLCPerson eId="zma" href="/ontology/person/zma" showAs="Z.M.A." />
+                <TLCPerson eId="da" href="/ontology/person/da" showAs="D.A." />
+                <TLCPerson eId="tb" href="/ontology/person/tb" showAs="Tanja Bozovic" />
+                <TLCPerson eId="sljukic" href="/ontology/person/sljukic" showAs="Ivan Sljukic" />
+                <TLCPerson eId="mitric" href="/ontology/person/mitric" showAs="Dragan Mitric" />
+                <TLCPerson eId="lekic" href="/ontology/person/lekic" showAs="Damir Lekic" />
+				<TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="defense" href="/ontology/role/defense" showAs="Defense" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+                <TLCPlace eId="podgorica" href="/ontology/place/podgorica" />
+			</references>
+		</meta>
+    </judgement>
+
+    <judgementBody>
+        <p>U IME CRNE GORE</p>
+        <introduction>
+            <organization id="vsp" refersTo="#vsp">
+                VISI SUD U PODGORICI
+            </organization>
+            , kao prvostepeni krivicni, po sudiji 
+            <party id="mostrokol" refersTo="#mostrokol" as="#judge">
+                Vesni Mostrokol
+            </party>
+            , kao pojedincu, uz ucesce namjestenika
+            <party id="rakovic" refersTo="#rakovic" as="#clerk">
+                Anke Rakovic
+            </party>
+            , kao zapisnicara, u krivicnom predmetu protiv optuzenog
+            <party id="zma" refersTo="#zma" as="#defendant">
+                Z.M.A.
+            </party>
+            iz Niksica, kojeg Brane
+            <party id="sljukic" refersTo="#sljukic" as="#defense">
+                Ivan Sljukic
+            </party> i
+            <party id="mitric" refersTo="#mitric" as="#defense">
+                Dragan Mitric
+            </party>
+            , advokati iz Niksica, zbog krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz
+            <ref href="/krivicni#art_300_para_1">
+                cl. 300 st. 1. Krivicnog zakonika Crne Gore
+            </ref>
+            i optuzenog
+            <party id="da" refersTo="#da" as="#defendant">
+                D.A.
+            </party>
+            iz Niksica, kojeg brani
+            <party id="lekic" refersTo="#lekic" as="#defense">
+                Damir Lekic
+            </party>
+            , advokat iz Podgorice
+            , zbog krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga putem pomaganja iz
+            <ref href="/krivicni#art_300_para_1">
+                cl. 300 st. 1. Krivicnog zakonika Crne Gore
+            </ref>
+            u vezi
+            <ref href="/krivicni#art_25">
+                cl. 25. Krivicnog zakonika Crne Gore
+            </ref>
+            , po optuznici
+            <organization id="vdt" refersTo="#vdt">
+                Viseg drzavnog tuzilastva u Podgorici
+            </organization>
+            Kt.br. 17/21 od 23.03.2021. godine, koju je na rocistu povodom odlucivanja o sporazumu o priznanju krivice zastupala
+            <party id="bozovic" refersTo="#bozovic" as="#prosecutor">
+                Tanja Bozovic
+            </party>
+            , Drzavni tuzilac u
+            <organization id="vdt" refersTo="#vdt">
+                Visem drzavnom tuzilastvu u Podgorici
+            </organization>
+            , nakon donesenih rjesenja o usvajanju sporazuma o priznanju krivice
+            , donio je dana 18.10.2021. godine,
+        </introduction>
+        <p>
+            P R E S U D U
+        </p>
+        <background>
+            <p>Optuzeni: </p>
+            <p>
+                1.
+                <party id="zma" refersTo="#zma" as="#defendant">
+                    Z.M.A.
+                </party>
+                , JMB ..., od Oca N. i majke M., rodjene K., rodjen ..., godine u ... - Republika Srbija, sa prebivalistem u Niksicu, ul. ...
+                , drzavljanin Crne Gore, zavrsio srednju ugostiteljsku skolu
+                , loseg imovnog stanja, nezaposlen, neozenjen, bez djece
+                , osudjivan presudom
+                <organization id="osn" refersTo="#osn">
+                    Osnovnog suda Niksic
+                </organization>
+                <ref href="/cg/verdict/k/2020-07-06/134">
+                    K.br. 134/20 od 06.07.2020. godine
+                </ref>
+                zbog krivicnog djela nepostupanje po zdravstvenim propisima za suzbijanje opasne zarazne bolesti iz
+                <ref href="/krivicni#art_287">
+                    cl. 287 
+                </ref>
+                , 45 dana zatvora uslovno na jednu godinu
+                , u pritvoru od 31.01.2021. godine do 20.07.2021. godine
+            </p>
+            <p>
+                2.
+                <party id="da" refersTo="#da" as="#defendant">
+                    D.A.
+                </party>
+                , JMB ..., od Oca D. i majke L., rodjene C., rodjen ... godine u Niksicu, gdje je i nastanjen, ...
+                , drzavljanin Crne Gore
+                , po zanimanju rukovaoc gradjevinskih masina, nezaposlen, neozenjen, bez djece
+                , zavrsio srednju masinsku skolu, crednjeg imovnog stanja
+                , ranije neosudjivan
+                , u pritvoru od 31.01.2021. godine do 20.07.2021. godine
+            </p>
+        </background>
+        <decision>
+            <p>K R I V I  S U</p>
+            <p>Zato sto su:</p>
+            <p>
+                Optuzeni
+                <party id="zma" refersTo="#zma" as="#defendant">
+                    Z.M.A.
+                </party>
+                , dana 30.01.2021. godine, u Baru na regionalnom putu G. - Virpazar, neovlasceno radi prodaje prenosio opojnu drogu konoplju (marihuanu)
+                , supstancu proglasenu za opojnu drogu Pravilnikom o utvrdjivanju spiska droga, psihotropnih supstanci i bilja koje se moze koristiti za proizvodnju droga
+                <ref href="cg/act/sl_glasnik_cg/2018-11-09/18">
+                    (Sl. list CG br. 41/18 od 09.11.2018. godine)
+                </ref>
+                , iako je bio svjestan da postupa neovlasceno i protivpravno, pa je to i htio
+                , na nacin sto je u vozilu marke "P.", reg. oznaka PG ES ..., kojim je upravljao
+                , prenosio radi dalje prodaje opojnu drogu marihuanu
+                , upakovanu u 30 vecih pvc pakovanja
+                , ukupne mase 152.835 kg, koja opojna droga se nalazila u zadnjem dijelu vozila i ispred sjedista suvozaca
+                , a koju je prethodno preuzeo u mjestu Virpazar i uputio se u pravcu Podgorice
+                , gdje je po prethodnom dogovoru trebao da preda opojnu drogu marihuanu NN licu
+                , koju opojnu drogu koja u sebi sadrzi tetrahidrokanabinol (THC), u koncentraciji iznad 0,2%
+                , su policijski sluzbenici CB-a Bar pronasli i oduzeli prilikom kontrole i pretresa vozila istog dana, oko 20.45 casova, u selu G.
+            </p>
+            <p>
+                , dok je optuzeni 
+                <party id="da" refersTo="#da" as="#defendant">
+                    D.A.
+                </party>
+                , dana 30.01.2021. godine
+                , umisljajno pomogao optuzenom 
+                <party id="zma" refersTo="#zma" as="#defendant">
+                    Z.M.A. -u
+                </party>
+                , a po prethodnom dogovoru sa istim
+                , u izvrsenju krivicnog djela neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300_para_1">
+                    cl. 300 st. 1. Krivicnog zakonika Crne Gore
+                </ref>
+                u vezi
+                <ref href="/krivicni#art_25">
+                    cl. 25. Krivicnog zakonika Crne Gore
+                </ref>
+            </p>
+            <p>
+                - cime su izvrsili
+                , i to optuzeni
+                <party id="zma" refersTo="#zma" as="#defendant">
+                    Z.M.A.
+                </party>
+                krivicno djelo neovlascena proizvodnja, drzanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300_para_1">
+                    cl. 300 st. 1. Krivicnog zakonika Crne Gore
+                </ref>
+                , a optuzeni
+                <party id="da" refersTo="#da" as="#defendant">
+                    D.A.
+                </party>
+                krivicno djelo proizvodnje, drzanje i stavljanje u promet opojnih droga putem pomaganja iz
+                <ref href="/krivicni#art_300_para_1">
+                    cl. 300 st. 1. Krivicnog zakonika Crne Gore
+                </ref>
+                u vezi
+                <ref href="/krivicni#art_25">
+                    cl. 25. Krivicnog zakonika Crne Gore
+                </ref>
+            </p>
+            <p>
+                Pa ih 
+                <organization id="vsp" refersTo="#vsp">
+                    sud
+                </organization>
+                primjenom citiranih zakonskih odredbi
+                , te odredbi
+                <ref href="/krivicni#art_4_para_2">
+                    cl. 4. st. 2,
+                </ref>
+                <ref href="/krivicni#art_4_para_5">
+                    5
+                </ref>
+                <ref href="/krivicni#art_4_para_13">
+                    13
+                </ref>
+                <ref href="/krivicni#art_4_para_5">
+                    15
+                </ref>
+                <ref href="/krivicni#art_4_para_13">
+                    32
+                </ref>
+                <ref href="/krivicni#art_4_para_36">
+                    36
+                </ref>
+                <ref href="/krivicni#art_4_para_42">
+                    42
+                </ref>
+                i
+                <ref href="/krivicni#art_4_para_51">
+                    51 krivicnog zakonika Crne Gore
+                </ref>
+                , au odnosu na optuzenog
+                <party id="da" refersTo="#da" as="#defendant">
+                    D.A.
+                </party>
+                i primjenom odredbi
+                <ref href="/krivicni#art_39">
+                    cl. 39,
+                </ref>
+                <ref href="/krivicni#art_45">
+                    45,
+                </ref>
+                <ref href="/krivicni#art_46">
+                    46 Krivicnog zakonika Crne Gore
+                </ref>
+                , te odredbi
+                <ref href="/krivicni#art_226">
+                    cl. 226,
+                </ref>
+                <ref href="/krivicni#art_229">
+                    229,
+                </ref>
+                <ref href="/krivicni#art_303">
+                    303
+                </ref>
+                i
+                <ref href="/krivicni#art_374">
+                    374 Zakonika o krivicnom postupku
+                </ref>
+            </p>
+            <p>
+                O S U D J U J E
+            </p>
+            <p>
+                Oputzenog
+                <party id="zma" refersTo="#zma" as="#defendant">
+                    Z.M.A.
+                </party>
+                na kaznu zatvora u trajanju od 2 (dvije) godine, u koju ce se uracunati vrijeme provedeno u pritvoru od 30.01.2021. godine, do 20.07.2021. godine
+            </p>
+            <p>
+                Optuzenog
+                <party id="da" refersTo="#da" as="#defendant">
+                    D.A.
+                </party>
+                na kaznu zatvora u trajanju od 10 (deset) mjeseci, u koju ce se uracunati vrijeme provedeno u pritvoru od 30.01.2021. godine, do 20.07.2021. godine.
+            </p>
+            <p>
+                Optuzenom
+                <party id="da" refersTo="#da" as="#defendant">
+                    D.A.
+                </party>
+                se, kao sporedna kazna
+                IZRICE
+                novcana kazna
+                , u iznosu od 5.000,00 (pet hiljada) eura
+                , koju je duzan platiti u roku od 3 mjeseca po pravosnaznosti presude na racun Budzeta Crne Gore
+                broj 832-7113-04
+                , a ukoliko novcanu kaznu ne plati u navedenom roku
+                , ista ce se zamjeniti kaznom zatvora, tako sto ce za svakih zapocetih 25,00 eura (dvadesetpet eura) novcane kazne odrediti jedan dan zatvora
+                , s tim da kazna zatvora ne moze biti duza od sest mjeseci
+            </p>
+        </decision>
+
+        <arguments>
+            <p>
+                Optužnicom Višeg Državnog tužilaštva u Podgorici Kt.br. 17/21 od 23.03.2021. godin, optuženom Z. M.u stavljeno je na teret izvršenje krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz čl. 300 st. 1 Krivičnog zakonika Crne Gore (KZ CG), a optuženom D. A.i krivično djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga putem pomaganja iz <ref href="/krivicni#art_303_para_1">
+                    cl. 303 st. 1. Zakonika o krivičnom postupku
+                </ref>
+                u vezi <ref href="/krivicni#art_25">
+                    cl. 25. Krivicnog zakonika Crne Gore
+                </ref>
+            </p>
+            <p>
+                Dana 18.05.2021. godine, za optuženog D. A.u, a dana 14.10.2021. godine, za optuženog Z. M.a, zastupnik optužbe je dostavio sudu sporazume o priznanju krivice, zapisnike o pregovaranju i zapisnike o priznanju krivice optuženih.
+            </p>
+            <p>
+                Na ročištima za razmatranje sporazuma, održanim dana 18.10.2021. godine, zastupnik optužbe je izjavio da su branioci i optuženi predložili da se zaključe sporazumi o priznanju krivice, što je od strane VDT-a prihvaćeno, nakon čega se pristupilo pregovaranju, o čemu su sačinjeni zapisnici o pregovaranju, zapisnici o saslušanju optuženih i njihovo priznanje krivice, kao i sporazumi o priznanju krivice.
+            </p>
+            <p>
+                Iz sadržine zapisnika o pregovaranju, zapisnika o saslušanju optuženih i sporazuma o priznanju krivice, proizilazi da su zastupnik optužbe i optuženi saglasni da Viši sud u Podgorici optuženog Z. M.a, za krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz čl. 300 st. 1 KZ CG, osudi na kaznu zatvora u trajanju od 2 godine, optuženog D. A.u, zbog krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga putem pomaganja iz čl. 300 st. 1u vezi čl. 25 KZ CG, stavljeno im na teret optužnicom VDT u Podgorici Kt.br.17/21 od 23.03.2021. godine, na kaznu zatvora u trajanju od 10 mjeseci, u koje će im uračunati vrijeme provedeno u pritvoru od 30.01.2021. godine, do 20.07.2021. godine, da se optuženom D. A.i, kao sporedna kazna, izrekne novčana kazna u iznosu od 5.000 €, koju je dužan platiti u roku od 3 mjeseca po pravosnažnosti presude na račun Budžeta Crne Gore broj 832-7113-04, a ukoliko novčanu kaznu ne plati u navedenom roku, ista će se zamijeniti kaznom zatvora, tako što će se za svaki započetih dvadesetpet eura novčane kazne odrediti jedan dan zatvora, s tim da kazna zatvora ne može biti duža od šest mjeseci zatvora, da se optuženom Z. M.u izrekne mjera bezbjednosti oduzimanja predmeta i to opojne droge marihuane u ukupnoj količini od 152,835 kg, koja se ima uništiti po pravosnažnosti presude, i da optuženi na ime troškova krivičnog postupka uplate novčane iznose od po 145,75 € na račun Budžeta CG, a na ime paušala, novčane iznose od po 50,00 €, na žiro račun Vrhovnog državnog tužilaštva i Budžeta CG, sve u roku od 15 dana po pravosnažnosti presude, pod prijetnjom prinudnog izvršenja.
+            </p>
+            <p>
+                Optuženi i njihovi branioci su izjavili da pomenuti sporazume jesu njihovi sporazumi i da od istih nijesu odustali.  
+            </p>
+            <p>
+                Iz sadržine dokaza koji se nalaze u spisima predmeta i koji su predloženi optužnicom: službene zabilješke Uprave policije CB Bar od 30.01.2021. godine; potvrde o privremeno oduzetim predmetima Uprave policije CB Bar od 30.01.2021. godine na ime Z. M.a; potvrde o privremeno oduzetim predmetima Uprave policije CB Bar od 30.01.2021. godine na ime D. A.e; izvještaja o hemijskom vještačenju br. .../21 od 17.02.2021. godine sa paratećom fotodokumentacijom; nalaza i mišljenja sudskog vještaka za oblasti digitalnih dokaza Savić Balše od 19.03.2021. godine; medicinske dokumentacije na ime D. D.a i izvoda iz kaznene evidencije na ime optuženih Ministarstva pravde, ljudskih i manjinskih prava CG od 17.03.2021. godine, sud zaključuje da je državni tužilac pružio dovoljno dokaza o krivici optuženih Z. M.a i D. A.e, kojim dokazima je potvrdjeno njihovo priznanje, te da je optuženi Z. M. izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz čl. 300 st. 1 KZ CG, a optuženi D. A.a krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga putem pomaganja iz čl. 300 st. 1 u vezi čl. 25 KZ CG, na način, u vrijeme i na mjestu kako je to opisano izrekom ove presude, a nakon što je u svemu prihvatio sporazume o priznanju krivice.
+            </p>
+            <p>
+                Odlučujući o visini kazne za optužene iz sporazuma o priznanju krivice zaključenog izmedju stranaka, sud je našao da je predlog stranaka u vezi sa kaznama prihvatljiv, jer na strani optuženih nije bilo otežavajućih okolnosti, dok kao olakšavajuće okolnosti na strani optuženih stoje njihove lične prilike koje se ogledaju u tome da se radi o mladim osobama, pa je optuženi Z. u vrijeme izvršenja krivičnog djela imao 21 godinu, a optuženi D. 25 godina, da su nezaposleni, raniji život optuženog D. A.e, koji se ogleda u tome da je neosuđivan, njihovo držanje nakon izvršenog krivičnog djela koje se ogleda u tome da su izrazili žaljenje i kajanje zbog učinjenog, jačinu ugrožavanja ili povrede zaštićenog dobra, koji se ogleda u vrsti kriminalne djelatnosti (152,835 kg opojne droge marihuane), a za optuženog D. A.u kvalitet radnje koju je kritičnom prilikom preduzeo prilikom izvršenja krivičnog djela koje mu se stavlja na teret, a koje je izvršio putem pomaganja, i u kojem slučaju zakon predviđa da se može blaže kazniti, pobude zbog kojih je krivično djelo izvršeno, koje se ogledaju u tome da mu je ocu, u pomenutom periodu, dijagnostikovan kancer pluća, što proizilazi iz medicinske dokumentacije koju je priložio, te da su potpunim i iskrenim priznanjem doprinijeli da se krivični postupak efikasnije i brže okonča, a koje okolnosti, kada je u pitanju optuženi D. A.a, predstavljaju naročito olakšavajuće, zbog kojih je optuženom D. A.i, trebalo izreći kazne ispod granice propisane zakonom u trajanju od 10 mjeseci, a kao sporednu kaznu i novčanu kaznu u iznosu od 5.000 €, koju je dužan da uplati u roku od 3 mjeseca po pravosnažnosti presude, dok je optuženom Z. M.u, cijeneći količinu kriminalne djelatnosti (152,835 kg). izrekao kaznu zatvora u trajanju od 2 godine, a koje su srazmjerne stepenu krivice optuženih i težini počinjenog krivičnog djela, i sa istima će se postići svrha kažnjavanja iz čl. 32 KZ CG, da optuženi ubuduće ne vrše krivična djela, u okviru opšte svrhe izricanja krivičnih sankcija iz čl. 4 st. 2 KZ CG.
+
+            </p>
+            <p>
+                Sud nije cijenio kao otežavajuću okolnost činjenicu koja proizilazi iz izvoda iz kaznene evidencije optuženog Z. M.a, da je isti osuđivan presudom K.br. 134/20 od 06.07.2020. godine, zbog krivičnog djela nepostupanje po zdravstvenim propisima za suzbijanje opasne zarazne bolesti iz čl. 287 KZ-a CG, jer se u konkretnom slučaju ne radi o istom i istovrsnom krivičnom djelu, pa imajući u vidu okolnosti pod kojima je pomenuto krivično djelo izvršeno (tadašnja a i sadašnja epidemiološka situacija u zemlji i svijetu), kao takva nije mogla uticati na visinu izrečene kazne.
+            
+            </p>
+            <p>
+                Shodno odredbi čl. 51 KZ-a CG, sud je optuženima u izrečene kazne zatvora uračunao i vrijeme provedeno u pritvoru od 30.01.2021. godine do 20.07.2021. godine.
+            
+            </p>
+            <p>
+                Shodno čl. 300 st. 7 u vezi čl. 75 KZ CG sud je od optuženog Z. M.a oduzeo 152,835 kg opojne droge marihuane koja se ima uništiti po pravosnažnosti presude, imajući u vidu da se radi o predmetima za koje zakon predvidja obavezno oduzimanje, kako je to navedeno u sporazumu.
+            
+            </p>
+            <p>
+                Kako su optuženi oglašeni krivim, sud ih je shodno čl. 226. i 229. Zakonika o krivičnom postupku, obavezao na trškove krivčnog postupka koji se odnose na nagradu vještaku iz oblasti digitalnih dokaza Savić Balši u iznosu od 275,00 € (po 145,75 €), i paušal u iznosima od po 50,00 eura, koji je odmjeren shodno imovinskim prilikama optuženih, kao i dužini trajanja postupka, sve u roku od 15 dana po pravosnažnosti presude pod prijetnjom prinudnog izvršenja, kako je to navedeno i u samim sporazumima koji su stranke i branilac zaključili.
+            
+            </p>
+            <p>
+                Sa izloženog, a shodno odredbi 
+                <ref href="/krivicni#art_303_para_1">
+                    cl. 303 st. 1. Zakonika o krivičnom postupku
+                </ref> 
+                i 
+                <ref href="/krivicni#art_303_para_2">
+                    2
+                </ref> 
+                i
+                <ref href="/krivicni_postupak#art374">
+                    cl. 374 Zakonika o krivičnom postupku
+                </ref> 374 Zakonika o krivičnom postupku, odlučeno je kao u izreci presude.
+            </p>
+        </arguments>
+    </judgementBody>
+
+    <conclusion>
+        <p>
+            Protiv ove presude nije dozvoljena žalba.
+        </p>
+    </conclusion>
+</akomaNtoso> 
