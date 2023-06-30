@@ -92,7 +92,7 @@
 			a da mu je prebivalište na adresi S... ..., gdje se nalazi porodična kuća,
 			državljanin Crne Gore, neoženjen, turistički tehničar, nezaposlen, 
 			lošeg imovnog stanja, ranije neosudjivan, ne vodi se drugi krivični postupak.
-            
+		</background>
         <decision>
 			<p> KRIV JE </p>
             <p>Zato sto je:</p>
@@ -201,7 +201,7 @@
 			</p>
 			<p>MJERA BEZBJEDNOSTI</p>
 			<p>ODUZIMANJE PREDMETA</p>
-			</p> I to: od optuženog 
+			<p> I to: od optuženog
 				 <party id="si" refersTo="#si" as ="#defendant">
 					S.I.
 				</party> 

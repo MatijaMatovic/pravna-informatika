@@ -91,7 +91,7 @@
 			sa prebivalištem u D.-Ć. ..., državljanin Crne Gore,
 			završio osnovnu školu, vanredno pohadja mašinsku školu, 
 			srednjeg imovnog stanja, srednjeg imovnog stanja, neoženjen, pismen, neosudjivan.
-            
+        </background>
         <decision>
 			<p> KRIV JE </p>
             <p>Zato sto je:</p>
@@ -194,7 +194,7 @@
 			</p>
 			<p>MJERA BEZBJEDNOSTI</p>
 			<p>ODUZIMANJE PREDMETA</p>
-			</p> I to: od optuženog 
+			<p> I to: od optuženog
 				 <party id="pn" refersTo="#pn" as ="#defendant">
 					P.N.
 				</party> 

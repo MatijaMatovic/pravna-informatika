@@ -91,7 +91,7 @@
 			rodjen .... godine u K..., sa prebivalištem u B...-ul. S... Š... bb,
 			državljanin Crne Gore, neoženjen, završio srednju trgovinsku školu,
 			trgovac, zaposlen kao magacioner u marketu "M...",  neosudjivan.
-            
+		</background>
         <decision>
 			<p> KRIV JE </p>
             <p>Zato sto je:</p>
@@ -199,7 +199,7 @@
 			</p>
 			<p>MJERA BEZBJEDNOSTI</p>
 			<p>ODUZIMANJE PREDMETA</p>
-			</p> I to: od optuženog 
+			<p> I to: od optuženog
 				 <party id="nm" refersTo="#nm" as ="#defendant">
 					N.M.
 				</party> 

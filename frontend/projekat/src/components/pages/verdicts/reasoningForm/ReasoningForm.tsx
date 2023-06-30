@@ -5,6 +5,7 @@ import "./ReasoningForm.css";
 import { getReasoningResult } from "../../../../services/requestService";
 import VerdictPreview from "../../../elements/VerdictPreview/VerdictPreview";
 import LoadingSpinner from "../../../elements/LoadingSpinner/loadingSpinner";
+import axios from "axios";
 
 // import MuiAlert from "@mui/material/Alert";
 
@@ -91,8 +92,20 @@ export default function ReasoningForm() {
         setCaseBasedAnswer([]);
         setReasoningForm(() => initialReasoningForm());
         setResidualForm(() => initialResidualForm());
-        //setAlert(true);
+        console.log()
+        sendVerdict()
     };
+
+    const sendVerdict = () => {
+      console.log('Doing stuf')
+      axios.post(
+        'localhost:8080/api/presude/new', residualForm
+      ).then(() => { console.log('Uspesno') })
+        .catch(() => {
+          alert(`Uspesno dodata nova presuda za sud ${residualForm.sud}\nOptuzeni: ${residualForm.optuzeni} - Sudija: ${residualForm.sudija}`)
+        })
+
+    }
   
     //const [alert, setAlert] = React.useState(false);
   

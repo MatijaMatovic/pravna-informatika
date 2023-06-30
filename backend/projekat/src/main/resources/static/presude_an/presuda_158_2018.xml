@@ -91,7 +91,7 @@
 			rodjene U., rodjen .... godine u P..., stalno nastanjen u B..., naselje Š...-ulica Š... broj ..., pismen,
 			završio srednju školu, privatnik, oženjen, bez djece, srednjeg imovnog stanja, 
 			državljanina Crne Gore, neosudjivan.
-            
+        </background>
         <decision>
 			<p> KRIV JE </p>
             <p>Zato sto je:</p>
@@ -191,7 +191,7 @@
 			</p>
 			<p>MJERA BEZBJEDNOSTI</p>
 			<p>ODUZIMANJE PREDMETA</p>
-			</p> I to: od optuženog 
+			<p> I to: od optuženog
 				 <party id="va" refersTo="#va" as ="#defendant">
 					V.A.
 				</party> 
