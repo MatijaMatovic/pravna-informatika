@@ -5,11 +5,11 @@
         xmlns:lc="http://informatika.ftn.uns.ac.rs/legal-case.rdf#">
     <lc:case rdf:about="http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01">
         <lc:name>case 01</lc:name>
-        <lc:prodaje>no</lc:prodaje>
+        <lc:prodaje>yes</lc:prodaje>
         <lc:proizvodi>no</lc:proizvodi>
         <lc:posreduje>no</lc:posreduje>
         <lc:poseduje>no</lc:poseduje>
-        <lc:usao_u_zemlju>no</lc:usao_u_zemlju>
+        <lc:usao_u_zemlju>yes</lc:usao_u_zemlju>
         <lc:organizuje_mrezu>no</lc:organizuje_mrezu>
         <lc:prodaje_ugrozenim>no</lc:prodaje_ugrozenim>
         <lc:is_sluzbeno_lice>no</lc:is_sluzbeno_lice>

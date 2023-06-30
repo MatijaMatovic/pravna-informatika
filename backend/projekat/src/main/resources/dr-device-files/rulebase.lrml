@@ -1,121 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lrml:LegalRuleML xmlns:lrml="http://docs.oasis-open.org/legalruleml/ns/v1.0/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legalruleml/ns/v1.0/ xsd-compact/lrml-compact.xsd" xmlns:ruleml="http://ruleml.org/spec">
 	<lrml:Statements>
-		<lrml:PrescriptiveStatement key="ps_cl239">
-			<ruleml:Rule key=":rule_ps_cl239" closure="universal" strength="defeasible">
+		<lrml:PrescriptiveStatement key="ps_art_300_para_1">
+			<ruleml:Rule key=":rule_ps_art_300_para_1" closure="universal" strength="defeasible">
 				<ruleml:if>
-					<ruleml:And>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:stolenFunds"/>
+					<ruleml:Or>
+                        <ruleml:Atom>
+							<ruleml:Rel iri="lc:prodaje"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Var type="stolenFunds">Value</ruleml:Var>
 						</ruleml:Atom>
 						<ruleml:Atom>
-							<ruleml:Expr>
-								<ruleml:Fun>&lt;=</ruleml:Fun>
-								<ruleml:Var>Value</ruleml:Var>
-								<ruleml:Ind>3000</ruleml:Ind>
-							</ruleml:Expr>
+							<ruleml:Rel iri="lc:proizvodi"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
 						</ruleml:Atom>
-					</ruleml:And>
+                        <ruleml:Atom>
+							<ruleml:Rel iri="lc:poseduje"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+                        <ruleml:Atom>
+							<ruleml:Rel iri="lc:posreduje"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Or>
 				</ruleml:if>
 				<ruleml:then>
 					<ruleml:Atom>
-						<ruleml:Rel>is_theft</ruleml:Rel>
+						<ruleml:Rel>stavljanje_u_promet</ruleml:Rel>
 						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
 					</ruleml:Atom>
 				</ruleml:then>
 			</ruleml:Rule>
 		</lrml:PrescriptiveStatement>
-		<lrml:PrescriptiveStatement key="ps_cl240_lv1_1">
-			<ruleml:Rule key=":rule_cl240_lv1_1" closure="universal" strength="defeasible">
+
+        <lrml:PrescriptiveStatement key="ps_art_300_para_2">
+			<ruleml:Rule key=":rule_ps_art_300_para_2" closure="universal" strength="defeasible">
 				<ruleml:if>
 					<ruleml:And>
 						<ruleml:Atom>
-							<ruleml:Rel iri="lc:violent"/>
+							<ruleml:Rel iri="lc:poseduje"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+						</ruleml:Atom>
+                        <ruleml:Atom>
+							<ruleml:Rel iri="lc:usao_u_zemlju"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
 						</ruleml:Atom>
 					</ruleml:And>
 				</ruleml:if>
 				<ruleml:then>
 					<ruleml:Atom>
-						<ruleml:Rel>is_aggravated_theft_lv1</ruleml:Rel>
+						<ruleml:Rel>krijumcarenje</ruleml:Rel>
 						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
 					</ruleml:Atom>
 				</ruleml:then>
 			</ruleml:Rule>
 		</lrml:PrescriptiveStatement>
-		<lrml:PrescriptiveStatement key="ps_cl240_lv1_2">
-			<ruleml:Rule key=":rule_cl240_lv1_2" closure="universal" strength="defeasible">
+
+        <lrml:PrescriptiveStatement key="ps_art_300_para_2_vs_para_1">
+			<ruleml:Rule key=":ps_art_300_para_2_vs_para_1" closure="universal" strength="defeasible">
 				<ruleml:if>
 					<ruleml:And>
 						<ruleml:Atom>
-							<ruleml:Rel iri="lc:premeditation"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
-						</ruleml:Atom>
-					</ruleml:And>
-				</ruleml:if>
-				<ruleml:then>
-					<ruleml:Atom>
-						<ruleml:Rel>is_aggravated_theft_lv1</ruleml:Rel>
-						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
-					</ruleml:Atom>
-				</ruleml:then>
-			</ruleml:Rule>
-		</lrml:PrescriptiveStatement>
-		<lrml:PrescriptiveStatement key="ps_cl240_lv1_3">
-			<ruleml:Rule key=":rule_cl240_lv1_3" closure="universal" strength="defeasible">
-				<ruleml:if>
-					<ruleml:And>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:disaster"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
-						</ruleml:Atom>
-					</ruleml:And>
-				</ruleml:if>
-				<ruleml:then>
-					<ruleml:Atom>
-						<ruleml:Rel>is_aggravated_theft_lv1</ruleml:Rel>
-						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
-					</ruleml:Atom>
-				</ruleml:then>
-			</ruleml:Rule>
-		</lrml:PrescriptiveStatement>
-		<lrml:PrescriptiveStatement key="ps_cl240_lv1_4">
-			<ruleml:Rule key=":rule_cl240_lv1_4" closure="universal" strength="defeasible">
-				<ruleml:if>
-					<ruleml:And>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:stolenFunds"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Var type="stolenFunds">Value</ruleml:Var>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Expr>
-								<ruleml:Fun>&gt;</ruleml:Fun>
-								<ruleml:Var>Value</ruleml:Var>
-								<ruleml:Ind>3000</ruleml:Ind>
-							</ruleml:Expr>
-						</ruleml:Atom>
-					</ruleml:And>
-				</ruleml:if>
-				<ruleml:then>
-					<ruleml:Atom>
-						<ruleml:Rel>is_aggravated_theft_lv1</ruleml:Rel>
-						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
-					</ruleml:Atom>
-				</ruleml:then>
-			</ruleml:Rule>
-		</lrml:PrescriptiveStatement>
-		<lrml:PrescriptiveStatement key="ps_cl240_vs_cl239">
-			<ruleml:Rule key=":rule_cl240_vs_cl239" closure="universal" strength="defeasible">
-				<ruleml:if>
-					<ruleml:And>
-						<ruleml:Atom>
-							<ruleml:Rel>is_aggravated_theft_lv1</ruleml:Rel>
+							<ruleml:Rel>krijumcarenje</ruleml:Rel>
 							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
 						</ruleml:Atom>
 					</ruleml:And>
@@ -123,53 +68,7 @@
 				<ruleml:then>
 					<ruleml:Negation>
 						<ruleml:Atom>
-							<ruleml:Rel>is_theft</ruleml:Rel>
-							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
-						</ruleml:Atom>
-					</ruleml:Negation>
-				</ruleml:then>
-			</ruleml:Rule>
-		</lrml:PrescriptiveStatement>
-		<lrml:PrescriptiveStatement key="ps_cl240_lv2">
-			<ruleml:Rule key=":rule_cl240_lv2" closure="universal" strength="defeasible">
-				<ruleml:if>
-					<ruleml:And>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:stolenFunds"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Var type="stolenFunds">Value</ruleml:Var>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Expr>
-								<ruleml:Fun>&gt;</ruleml:Fun>
-								<ruleml:Var>Value</ruleml:Var>
-								<ruleml:Ind>30000</ruleml:Ind>
-							</ruleml:Expr>
-						</ruleml:Atom>
-					</ruleml:And>
-				</ruleml:if>
-				<ruleml:then>
-					<ruleml:Atom>
-						<ruleml:Rel>is_aggravated_theft_lv2</ruleml:Rel>
-						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
-					</ruleml:Atom>
-				</ruleml:then>
-			</ruleml:Rule>
-		</lrml:PrescriptiveStatement>
-		<lrml:PrescriptiveStatement key="ps_cl240_lv2_vs_lv1">
-			<ruleml:Rule key=":rule_cl240_lv2_vs_lv1" closure="universal" strength="defeasible">
-				<ruleml:if>
-					<ruleml:And>
-						<ruleml:Atom>
-							<ruleml:Rel>is_aggravated_theft_lv2</ruleml:Rel>
-							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
-						</ruleml:Atom>
-					</ruleml:And>
-				</ruleml:if>
-				<ruleml:then>
-					<ruleml:Negation>
-						<ruleml:Atom>
-							<ruleml:Rel>is_aggravated_theft_lv1</ruleml:Rel>
+							<ruleml:Rel>stavljanje_u_promet</ruleml:Rel>
 							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
 						</ruleml:Atom>
 					</ruleml:Negation>
@@ -177,40 +76,255 @@
 			</ruleml:Rule>
 		</lrml:PrescriptiveStatement>
 
-		<lrml:PenaltyStatement key="pen1">
-			<lrml:SuborderList>
-				<lrml:Obligation>
+        <lrml:PrescriptiveStatement key="ps_art_300_para_3">
+			<ruleml:Rule key=":rule_ps_art_300_para_3" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:organizuje_mrezu"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
 					<ruleml:Atom>
-						<ruleml:Rel iri=":max_imprisonment"/>
-						<ruleml:Var>Years</ruleml:Var>
-						<ruleml:Ind>3</ruleml:Ind>
+						<ruleml:Rel>organizovana_trgovina</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
 					</ruleml:Atom>
-				</lrml:Obligation>
-			</lrml:SuborderList>
-		</lrml:PenaltyStatement>
-		<lrml:PenaltyStatement key="pen2">
-			<lrml:SuborderList>
-				<lrml:Obligation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+        <lrml:PrescriptiveStatement key="ps_art_300_para_4a">
+			<ruleml:Rule key=":rule_ps_art_300_para_4a" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
 						<ruleml:Atom>
-							<ruleml:Rel iri=":min_imprisonment"/>
-							<ruleml:Var>Years</ruleml:Var>
-							<ruleml:Ind>1</ruleml:Ind>
+							<ruleml:Rel iri="lc:prodaje_ugrozenim"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
 						</ruleml:Atom>
-				</lrml:Obligation>
-			</lrml:SuborderList>
-		</lrml:PenaltyStatement>
-		<lrml:PenaltyStatement key="pen3">
-			<lrml:SuborderList>
-				<lrml:Obligation>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>teza_trgovina_drogom</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+        <lrml:PrescriptiveStatement key="ps_art_300_para_4b">
+			<ruleml:Rule key=":rule_ps_art_300_para_4b" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
 						<ruleml:Atom>
-							<ruleml:Rel iri=":max_imprisonment"/>
-							<ruleml:Var>Years</ruleml:Var>
-							<ruleml:Ind>8</ruleml:Ind>
+							<ruleml:Rel iri="lc:prodaje"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
 						</ruleml:Atom>
-				</lrml:Obligation>
-			</lrml:SuborderList>
-		</lrml:PenaltyStatement>
-		<lrml:PenaltyStatement key="pen4">
+                        <ruleml:Atom>
+							<ruleml:Rel iri="lc:is_sluzbeno_lice"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>teza_trgovina_drogom</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+        <lrml:PrescriptiveStatement key="ps_art_300_para_4_vs_para_1">
+			<ruleml:Rule key=":ps_art_300_para_4_vs_para_1" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel>teza_trgovina_drogom</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>stavljanje_u_promet</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+        <lrml:PrescriptiveStatement key="ps_art_300_para_5">
+			<ruleml:Rule key=":rule_ps_art_300_para_5" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+                        <ruleml:Or>
+                            <ruleml:Atom>
+                                <ruleml:Rel>stavljanje_u_promet</ruleml:Rel>
+                                <ruleml:Var type=":defendant">Defendant</ruleml:Var>
+                            </ruleml:Atom>
+                            <ruleml:Atom>
+                                <ruleml:Rel>teza_trgovina_drogom</ruleml:Rel>
+                                <ruleml:Var type=":defendant">Defendant</ruleml:Var>
+                            </ruleml:Atom>
+                            <ruleml:Atom>
+                                <ruleml:Rel>organizovana_trgovina</ruleml:Rel>
+                                <ruleml:Var type=":defendant">Defendant</ruleml:Var>
+                            </ruleml:Atom>
+                            <ruleml:Atom>
+                                <ruleml:Rel>krijumcarenje</ruleml:Rel>
+                                <ruleml:Var type=":defendant">Defendant</ruleml:Var>
+                            </ruleml:Atom>
+                        </ruleml:Or>
+                        <ruleml:Atom>
+							<ruleml:Rel iri="lc:drukao"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>drukanje</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+        <lrml:PrescriptiveStatement key="ps_art_300_para_5_vs_para_1">
+			<ruleml:Rule key=":ps_art_300_para_5_vs_para_1" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel>drukanje</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>stavljanje_u_promet</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+        <lrml:PrescriptiveStatement key="ps_art_300_para_5_vs_para_2">
+			<ruleml:Rule key=":ps_art_300_para_5_vs_para_2" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel>drukanje</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>krijumcarenje</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+        <lrml:PrescriptiveStatement key="ps_art_300_para_5_vs_para_3">
+			<ruleml:Rule key=":ps_art_300_para_5_vs_para_3" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel>drukanje</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>organizovana_trgovina</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+        <lrml:PrescriptiveStatement key="ps_art_300_para_5_vs_para_4">
+			<ruleml:Rule key=":ps_art_300_para_5_vs_para_4" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel>drukanje</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>teza_trgovina_drogom</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+        <lrml:PrescriptiveStatement key="ps_art_300_para_6">
+			<ruleml:Rule key=":ps_art_300_para_6" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:Or>
+						<ruleml:Atom>
+							<ruleml:Rel iri = "lc:obezbedjuje_materijal"/>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+                        <ruleml:Atom>
+							<ruleml:Rel iri = "lc:obezbedjuje_supstancu"/>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Or>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>pospesivanje_trgovine</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+        <lrml:PrescriptiveStatement key="ps_art_300_para_7">
+			<ruleml:Rule key=":ps_art_300_para_7" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri = "lc:prisustvo_supstanci"/>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>unistavanje_supstanci</ruleml:Rel>
+						<ruleml:Var type=":substance">Substance</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+
+
+
+		<lrml:PenaltyStatement key="pen1">
 			<lrml:SuborderList>
 				<lrml:Obligation>
 					<ruleml:Atom>
@@ -221,82 +335,204 @@
 				</lrml:Obligation>
 			</lrml:SuborderList>
 		</lrml:PenaltyStatement>
-		<lrml:PenaltyStatement key="pen5">
+		<lrml:PenaltyStatement key="pen2">
 			<lrml:SuborderList>
 				<lrml:Obligation>
-					<ruleml:Atom>
-						<ruleml:Rel iri=":max_imprisonment"/>
-						<ruleml:Var>Years</ruleml:Var>
-						<ruleml:Ind>10</ruleml:Ind>
-					</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>10</ruleml:Ind>
+						</ruleml:Atom>
 				</lrml:Obligation>
 			</lrml:SuborderList>
 		</lrml:PenaltyStatement>
 
+        <lrml:PenaltyStatement key="pen3">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+					<ruleml:Atom>
+						<ruleml:Rel iri=":min_imprisonment"/>
+						<ruleml:Var>Years</ruleml:Var>
+						<ruleml:Ind>2</ruleml:Ind>
+					</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen4">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>12</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+
+        <lrml:PenaltyStatement key="pen5">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+					<ruleml:Atom>
+						<ruleml:Rel iri=":min_imprisonment"/>
+						<ruleml:Var>Years</ruleml:Var>
+						<ruleml:Ind>3</ruleml:Ind>
+					</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen6">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>15</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+
+        <lrml:PenaltyStatement key="pen7">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+					<ruleml:Atom>
+						<ruleml:Rel iri=":min_imprisonment"/>
+						<ruleml:Var>Years</ruleml:Var>
+						<ruleml:Ind>3</ruleml:Ind>
+					</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen8">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>15</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+
+        <lrml:PenaltyStatement key="pen9">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+					<ruleml:Atom>
+						<ruleml:Rel iri=":min_imprisonment"/>
+						<ruleml:Var>Years</ruleml:Var>
+						<ruleml:Ind>0</ruleml:Ind>
+					</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen10">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>0</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+
+        <lrml:PenaltyStatement key="pen11">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+					<ruleml:Atom>
+						<ruleml:Rel iri=":min_imprisonment"/>
+						<ruleml:Var>Months</ruleml:Var>
+						<ruleml:Ind>6</ruleml:Ind>
+					</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen12">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>5</ruleml:Ind>
+						</ruleml:Atom>
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+
+
 		<lrml:ReparationStatement>
 			<lrml:Reparation>
 				<lrml:appliesPenalty keyref="#pen1"/>
-				<lrml:toPrescriptiveStatement keyref="#ps_cl239"/>
+				<lrml:toPrescriptiveStatement keyref="#ps_art_300_para_1"/>
 			</lrml:Reparation>
 		</lrml:ReparationStatement>
 		<lrml:ReparationStatement>
 			<lrml:Reparation>
 				<lrml:appliesPenalty keyref="#pen2"/>
-				<lrml:toPrescriptiveStatement keyref="#ps_cl240_lv1_1"/>
+				<lrml:toPrescriptiveStatement keyref="#ps_art_300_para_1"/>
 			</lrml:Reparation>
 		</lrml:ReparationStatement>
 		<lrml:ReparationStatement>
 			<lrml:Reparation>
 				<lrml:appliesPenalty keyref="#pen3"/>
-				<lrml:toPrescriptiveStatement keyref="#ps_cl240_lv1_1"/>
-			</lrml:Reparation>
-		</lrml:ReparationStatement>
-		<lrml:ReparationStatement>
-			<lrml:Reparation>
-				<lrml:appliesPenalty keyref="#pen2"/>
-				<lrml:toPrescriptiveStatement keyref="#ps_cl240_lv1_2"/>
-			</lrml:Reparation>
-		</lrml:ReparationStatement>
-		<lrml:ReparationStatement>
-			<lrml:Reparation>
-				<lrml:appliesPenalty keyref="#pen3"/>
-				<lrml:toPrescriptiveStatement keyref="#ps_cl240_lv1_2"/>
-			</lrml:Reparation>
-		</lrml:ReparationStatement>
-		<lrml:ReparationStatement>
-			<lrml:Reparation>
-				<lrml:appliesPenalty keyref="#pen2"/>
-				<lrml:toPrescriptiveStatement keyref="#ps_cl240_lv1_3"/>
-			</lrml:Reparation>
-		</lrml:ReparationStatement>
-		<lrml:ReparationStatement>
-			<lrml:Reparation>
-				<lrml:appliesPenalty keyref="#pen3"/>
-				<lrml:toPrescriptiveStatement keyref="#ps_cl240_lv1_3"/>
-			</lrml:Reparation>
-		</lrml:ReparationStatement>
-		<lrml:ReparationStatement>
-			<lrml:Reparation>
-				<lrml:appliesPenalty keyref="#pen2"/>
-				<lrml:toPrescriptiveStatement keyref="#ps_cl240_lv1_4"/>
-			</lrml:Reparation>
-		</lrml:ReparationStatement>
-		<lrml:ReparationStatement>
-			<lrml:Reparation>
-				<lrml:appliesPenalty keyref="#pen3"/>
-				<lrml:toPrescriptiveStatement keyref="#ps_cl240_lv1_4"/>
+				<lrml:toPrescriptiveStatement keyref="#ps_art_300_para_2"/>
 			</lrml:Reparation>
 		</lrml:ReparationStatement>
 		<lrml:ReparationStatement>
 			<lrml:Reparation>
 				<lrml:appliesPenalty keyref="#pen4"/>
-				<lrml:toPrescriptiveStatement keyref="#ps_cl240_lv2"/>
+				<lrml:toPrescriptiveStatement keyref="#ps_art_300_para_2"/>
 			</lrml:Reparation>
 		</lrml:ReparationStatement>
 		<lrml:ReparationStatement>
 			<lrml:Reparation>
 				<lrml:appliesPenalty keyref="#pen5"/>
-				<lrml:toPrescriptiveStatement keyref="#ps_cl240_lv2"/>
+				<lrml:toPrescriptiveStatement keyref="#ps_art_300_para_3"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen6"/>
+				<lrml:toPrescriptiveStatement keyref="#ps_art_300_para_3"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen7"/>
+				<lrml:toPrescriptiveStatement keyref="#ps_art_300_para_4"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen8"/>
+				<lrml:toPrescriptiveStatement keyref="#ps_art_300_para_4"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen9"/>
+				<lrml:toPrescriptiveStatement keyref="#ps_art_300_para_5"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen10"/>
+				<lrml:toPrescriptiveStatement keyref="#ps_art_300_para_5"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen11"/>
+				<lrml:toPrescriptiveStatement keyref="#ps_art_300_para_6"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+        <lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen12"/>
+				<lrml:toPrescriptiveStatement keyref="#ps_art_300_para_6"/>
 			</lrml:Reparation>
 		</lrml:ReparationStatement>
 
